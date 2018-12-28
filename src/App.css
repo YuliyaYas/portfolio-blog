@@ -1,1 +1,45 @@
 /* reused styles */
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/HelveticaNeue.ttc');
+}
+
+body{
+  background-color: white;
+  font-family: Helvetica;
+  color: #2b4a67;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-1 {
+  float: left;
+  width: 30%;
+}
+
+.column-2 {
+  float: left;
+  width: 70%;
+}
+
+#logo{
+  width: 14%;
+}
+
+#about{
+  float: right;
+}
+
+#home-img{
+  width: 100%;
+}

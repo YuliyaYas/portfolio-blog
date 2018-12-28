@@ -3,6 +3,8 @@ import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import Home from '../src/components/Home.js';
 import About from '../src/components/About.js';
+import Paintings from '../src/components/Paintings.js';
+import Illustrations from '../src/components/Illustrations.js';
 import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
 
@@ -16,8 +18,8 @@ class App extends Component {
           <div className="column-1">
           <a href="/"><img id="logo" src={require("./imgs/logo.png")} /></a>
             <div id="menu">
-              <h4>PAINTINGS<i className="arrow right"></i></h4>
-              <h4>ILLUSTRATIONS<i className="arrow right"></i></h4>
+              <h4><a href="/paintings">PAINTINGS<i className="arrow right"></i></a></h4>
+              <h4><a href="/illustrations">ILLUSTRATIONS<i className="arrow right"></i></a></h4>
               <h4>DRAWINGS<i className="arrow right"></i></h4>
               <h4>PRINTMAKING<i className="arrow right"></i></h4>
               <h4>SCULPTURES</h4>
@@ -32,6 +34,8 @@ class App extends Component {
           <div className="column-2">
             <Switch>
               <Route path={`/contact`} component={ () => <Contact/>} />
+              <Route path={`/paintings`} component={ () => <Paintings/>} />
+              <Route path={`/illustrations`} component={ () => <Illustrations/>} />
               <Route path={`/about`} component={ () => <About/>} />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>

@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import Home from '../src/components/Home.js';
 import About from '../src/components/About.js';
+import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
 
 
@@ -24,12 +25,13 @@ class App extends Component {
             </div>
             <div id="contact">
               <h4 id="about"><a href="/about">ABOUT</a></h4>
-              <h4>CONTACT</h4>
-              <h4>INSTAGRAM</h4>
+              <h4><a href="/contact">CONTACT</a></h4>
+              <a href="https://www.instagram.com/yuliyas.art/" target="_blank"><h4>INSTAGRAM</h4></a>
             </div>
           </div>
           <div className="column-2">
             <Switch>
+              <Route path={`/contact`} component={ () => <Contact/>} />
               <Route path={`/about`} component={ () => <About/>} />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>

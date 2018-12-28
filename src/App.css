@@ -19,6 +19,11 @@ i {
   padding: 3px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -83,4 +88,17 @@ i {
    color: #2b4a67;
    text-align: center;
    height: 50px;
+}
+
+#about{
+  margin-top: 100px;
+  padding-right: 50px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+#profile-pic{
+  width: 40%;
+  float: left;
+  margin-right: 10px;
 }

@@ -13,7 +13,7 @@ class App extends Component {
       <div className="content">
         <div className="row">
           <div className="column-1">
-          <a href="/"><img id="logo" src={require("/Users/yuliya.yasenetska/personal/portfolio/src/imgs/logo.png")} /></a>
+          <a href="/"><img id="logo" src={require("./imgs/logo.png")} /></a>
             <div id="menu">
               <h4>PAINTINGS<i className="arrow right"></i></h4>
               <h4>ILLUSTRATIONS<i className="arrow right"></i></h4>

@@ -5,7 +5,7 @@ const Contact = () =>  {
       return(
         <div id="contact-form">
           <center>
-          <h3>HAVE ANY QUESTIONS?</h3>
+          <b><h3>HAVE ANY QUESTIONS?</h3></b>
           <p>Fill out the form below and we will get back asap. </p>
           </center>
           <iframe height="497"

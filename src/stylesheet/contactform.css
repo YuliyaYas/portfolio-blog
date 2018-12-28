@@ -20,13 +20,14 @@ input#Field7 {
 }
 
 input#saveForm {
-    width: 100px;
-    height: 30px;
-    color: white;
-    background-color: #2b4a67;
-    border-radius: 5px;
-    margin: 0 auto;
-    display: block;
+  width: 175px;
+  height: 40px;
+  color: white;
+  background-color: #2b4a67;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 20px;
+  display: block;
 }
 
 li#fo1li3.focused, li#fo1li5.focused, li#fo1li7.focused, li#fo1li4.focused {

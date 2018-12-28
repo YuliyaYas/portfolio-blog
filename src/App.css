@@ -9,11 +9,25 @@ body{
   background-color: white;
   font-family: Helvetica;
   color: #2b4a67;
+  height: 100%;
+}
+
+i {
+  border: solid #2b4a67;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin: 0px 0px 1px 3px;
 }
 
 .content{
-  width: 80%;
-  margin: 0 auto;
+  width: 95%;
+  margin-left: 6%;
 }
 
 .row:after {
@@ -24,7 +38,7 @@ body{
 
 .column-1 {
   float: left;
-  width: 30%;
+  width: 29%;
 }
 
 .column-2 {
@@ -32,14 +46,41 @@ body{
   width: 70%;
 }
 
-#logo{
-  width: 14%;
+#header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
-#about{
-  float: right;
+#logo{
+  width: 60%;
 }
+
+/* #about{
+  float: right;
+  margin: 10px 0px 10px 0px;
+} */
 
 #home-img{
   width: 100%;
+}
+
+#menu{
+  /* position: relative; */
+  margin-top: 55px;
+}
+
+#contact{
+  margin-top: 240px;
+}
+
+#footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: #2b4a67;
+   text-align: center;
+   height: 50px;
 }

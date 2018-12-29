@@ -26,7 +26,7 @@ class App extends Component {
               <h4><a href="/illustrations">ILLUSTRATIONS<i className="arrow right"></i></a></h4>
               <h4><a href="/drawings">DRAWINGS<i className="arrow right"></i></a></h4>
               <h4><a href="/printmaking">PRINTMAKING<i className="arrow right"></i></a></h4>
-              <h4><a href="/sculptures">SCULPTURES</a></h4>
+              <h4><a href="/sculptures">SCULPTURES<i className="arrow right"></i></a></h4>
               <h4><a href="/photography">PHOTOGRAPHY<i className="arrow right"></i></a></h4>
             </div>
             <div id="contact">

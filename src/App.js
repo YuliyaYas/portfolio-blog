@@ -8,6 +8,7 @@ import Illustrations from '../src/components/Illustrations.js';
 import Printmaking from '../src/components/Printmaking.js';
 import Sculptures from '../src/components/Sculptures.js';
 import Photography from '../src/components/Photography.js';
+import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
 
@@ -23,7 +24,7 @@ class App extends Component {
             <div id="menu">
               <h4><a href="/paintings">PAINTINGS<i className="arrow right"></i></a></h4>
               <h4><a href="/illustrations">ILLUSTRATIONS<i className="arrow right"></i></a></h4>
-              <h4>DRAWINGS<i className="arrow right"></i></h4>
+              <h4><a href="/drawings">DRAWINGS<i className="arrow right"></i></a></h4>
               <h4><a href="/printmaking">PRINTMAKING<i className="arrow right"></i></a></h4>
               <h4><a href="/sculptures">SCULPTURES</a></h4>
               <h4><a href="/photography">PHOTOGRAPHY<i className="arrow right"></i></a></h4>
@@ -42,6 +43,7 @@ class App extends Component {
               <Route path={`/printmaking`} component={ () => <Printmaking/>} />
               <Route path={`/sculptures`} component={ () => <Sculptures/>} />
               <Route path={`/photography`} component={ () => <Photography/>} />
+              <Route path={`/drawings`} component={ () => <Drawings/>} />
               <Route path={`/about`} component={ () => <About/>} />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>

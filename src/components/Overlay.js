@@ -5,13 +5,15 @@ import '../stylesheet/Overlay.css';
 const Overlay1 = (props) => {
   return(
     <div className="base" >
+    {console.log("url", props.info.url)}
       <div className="shroud overlay-scroll">
         <div className="overlay-popup">
           <a href="#" className="close" onClick={props.handleCloseClick}/>
-          <p>SNAILITY</p>
-          <img id="overlay-img" src={require("../imgs/paintings/Snaility.jpg")}/>
-          <i><p className="title">20x20inches, acrylic on wood</p></i>
-          <p className="desc">The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point</p>
+          {console.log(props.info)}
+          <p className="all-caps">{props.info.name}</p>
+          {props.info.url ? <img id="overlay-img" src={require(`../imgs/paintings/${props.info.url}`)}/> : "" }
+          <i><p className="title">{props.info.specs}</p></i>
+          <p className="desc">{props.info.description}</p>
         </div>
       </div>
     </div>

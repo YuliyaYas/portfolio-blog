@@ -2,11 +2,99 @@
     {
       "id": 0,
       "name": "Abstract-Anomaly",
-      "description": "lallallala"
+      "description": "lallallala",
+      "url": "Abstract-Anomaly.jpg",
+      "specs": ""
     },
     {
       "id": 1,
       "name": "Chamille",
-      "description": "lallallala"
+      "description": "lallallala",
+      "url": "Chamille.jpg",
+      "specs": ""
+    },
+    {
+      "id": 2,
+      "name": "City-on-clouds",
+      "description": "lallallala",
+      "url": "City-on-clouds.jpg",
+      "specs": ""
+    },
+    {
+      "id": 3,
+      "name": "dou-color-Abstract",
+      "description": "lallallala",
+      "url": "dou-color-Abstract.jpg",
+      "specs": ""
+    },
+    {
+      "id": 4,
+      "name": "Dreamworld",
+      "description": "lallallala",
+      "url": "Dreamworld.jpg",
+      "specs": ""
+    },
+    {
+      "id": 5,
+      "name": "Flamity",
+      "description": "lallallala",
+      "url": "Flamity.png",
+      "specs": ""
+    },
+    {
+      "id": 6,
+      "name": "FullGlass",
+      "description": "lallallala",
+      "url": "FullGlass.jpg",
+      "specs": ""
+    },
+    {
+      "id": 7,
+      "name": "Octo",
+      "description": "lallallala",
+      "url": "Octo.png",
+      "specs": ""
+    },
+    {
+      "id": 8,
+      "name": "Snaility",
+      "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point",
+      "url": "Snaility.jpg",
+      "specs": "20x20inches, acrylic on wood"
+    },
+    {
+      "id": 9,
+      "name": "Tale",
+      "description": "lallallala",
+      "url": "Tale.jpg",
+      "specs": ""
+    },
+    {
+      "id": 10,
+      "name": "Master Copy of Louisa Matthiasdottir's work",
+      "description": "lallallala",
+      "url": "Master-copy-of-Louisa-Matthiasdottirs-work.jpg",
+      "specs": ""
+    },
+    {
+      "id": 10,
+      "name": "Tree1",
+      "description": "lallallala",
+      "url": "Tree1.jpg",
+      "specs": ""
+    },
+    {
+      "id": 11,
+      "name": "TurtleVille",
+      "description": "lallallala",
+      "url": "TurtleVille.jpg",
+      "specs": ""
+    },
+    {
+      "id": 12,
+      "name": "World's Energy",
+      "description": "lallallala",
+      "url": "WorldsEnergy.jpg",
+      "specs": ""
     }
   ]

@@ -18,19 +18,22 @@ class App extends Component {
   constructor(){
     super()
     this.state = {
-      closed: true
+      closed: true,
+      name: '',
+      info: []
     }
   }
 
-  handleImgClick = (e) => {
+  handlePaintingClick = (e) => {
       let title = e.target.title;
-      this.setState({closed: false})
-
+      this.setState({closed: false, name: e.target.title}, () => {
+          let info = paintingsData.filter((img, i) => img.name === this.state.name)[0];
+          this.setState({info});
+      });
   }
 
   handleCloseClick = (e) => {
-      console.log("clicked");
-      this.setState({closed: true})
+      this.setState({closed: true});
   }
 
 
@@ -58,7 +61,7 @@ class App extends Component {
           <div className="column-2">
             <Switch>
               <Route path={`/contact`} component={ () => <Contact/>} />
-              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} handleImgClick={this.handleImgClick} handleCloseClick={this.handleCloseClick}/>} />
+              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} handlePaintingClick={this.handlePaintingClick} handleCloseClick={this.handleCloseClick}/>} />
               <Route path={`/illustrations`} component={ () => <Illustrations/>} />
               <Route path={`/printmaking`} component={ () => <Printmaking/>} />
               <Route path={`/sculptures`} component={ () => <Sculptures/>} />

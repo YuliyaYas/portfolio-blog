@@ -116,3 +116,25 @@
   #overlay-img{
     width: 100%;
   }
+
+  .box {
+    position: relative;
+  }
+.left-arrow,
+.right-arrow {
+    width: 100px;
+    height: 60px;
+    display: block;
+    top: 50%;
+    margin-top: -30px; /* img height/2 */
+    position: absolute;
+}
+.left-arrow {
+    left: -30px;
+    opacity: 0.6;
+    transform: rotate(-180deg);
+}
+.right-arrow {
+    right: -30px;
+    opacity: 0.6;
+}

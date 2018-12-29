@@ -4,9 +4,9 @@ import '../stylesheet/Gallery.css';
 
 const Illustrations = () =>  {
       return(
-        <div class="gallery">
-          <div class="row-grid">
-            <div class="column-grid">
+        <div className="gallery">
+          <div className="row-grid">
+            <div className="column-grid">
               <img src={require("../imgs/illustrations/atom.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/baloon1.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/birds-view.png")} style={{width:'100%'}} />
@@ -17,7 +17,7 @@ const Illustrations = () =>  {
               <img src={require("../imgs/illustrations/snaility1.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/dinosaur.jpg")} style={{width:'100%'}} />
             </div>
-            <div class="column-grid">
+            <div className="column-grid">
               <img src={require("../imgs/illustrations/Burger-.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/camel.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/chameleon.jpg")} style={{width:'100%'}} />
@@ -26,7 +26,7 @@ const Illustrations = () =>  {
               <img src={require("../imgs/illustrations/houses-wine.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/Pattern.png")} style={{width:'100%'}} />
             </div>
-            <div class="column-grid">
+            <div className="column-grid">
               <img src={require("../imgs/illustrations/City-on-the-hill.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/colibri.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/crab.jpg")} style={{width:'100%'}} />
@@ -37,7 +37,7 @@ const Illustrations = () =>  {
               <img src={require("../imgs/illustrations/townhouse_insta.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/sunflower.jpg")} style={{width:'100%'}} />
             </div>
-            <div class="column-grid">
+            <div className="column-grid">
               <img src={require("../imgs/illustrations/dirigible.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/fish2.jpg")} style={{width:'100%'}} />
               <img src={require("../imgs/illustrations/flamingo.jpg")} style={{width:'100%'}} />

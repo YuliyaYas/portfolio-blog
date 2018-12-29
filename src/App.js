@@ -5,6 +5,7 @@ import Home from '../src/components/Home.js';
 import About from '../src/components/About.js';
 import Paintings from '../src/components/Paintings.js';
 import Illustrations from '../src/components/Illustrations.js';
+import Printmaking from '../src/components/Printmaking.js';
 import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
 
@@ -21,7 +22,7 @@ class App extends Component {
               <h4><a href="/paintings">PAINTINGS<i className="arrow right"></i></a></h4>
               <h4><a href="/illustrations">ILLUSTRATIONS<i className="arrow right"></i></a></h4>
               <h4>DRAWINGS<i className="arrow right"></i></h4>
-              <h4>PRINTMAKING<i className="arrow right"></i></h4>
+              <h4><a href="/printmaking">PRINTMAKING<i className="arrow right"></i></a></h4>
               <h4>SCULPTURES</h4>
               <h4>PHOTOGRAPHY<i className="arrow right"></i></h4>
             </div>
@@ -36,6 +37,7 @@ class App extends Component {
               <Route path={`/contact`} component={ () => <Contact/>} />
               <Route path={`/paintings`} component={ () => <Paintings/>} />
               <Route path={`/illustrations`} component={ () => <Illustrations/>} />
+              <Route path={`/printmaking`} component={ () => <Printmaking/>} />
               <Route path={`/about`} component={ () => <About/>} />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>

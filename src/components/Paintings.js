@@ -6,7 +6,12 @@ import '../stylesheet/Gallery.css';
 const Paintings = (props) =>  {
       return(
         <div className="gallery">
-          <Overlay />
+        {props.closed===true
+        ?
+        ""
+        :
+        <Overlay handleCloseClick={props.handleCloseClick}/>
+        }
           <p>Click on image to read more about the work</p>
           <div className="row-grid">
             <div className="column-grid">

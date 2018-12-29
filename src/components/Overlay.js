@@ -2,13 +2,12 @@ import React from 'react';
 import '../stylesheet/Overlay.css';
 
 
-const Overlay1 = () => {
-  // console.log("in overay", props.allFilteredLocations);
+const Overlay1 = (props) => {
   return(
     <div className="base" >
       <div className="shroud overlay-scroll">
         <div className="overlay-popup">
-          <a href="#" className="close" />
+          <a href="#" className="close" onClick={props.handleCloseClick}/>
           <p>SNAILITY</p>
           <img id="overlay-img" src={require("../imgs/paintings/Snaility.jpg")}/>
           <i><p className="title">20x20inches, acrylic on wood</p></i>

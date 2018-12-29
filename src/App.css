@@ -12,7 +12,7 @@ body{
   height: 100%;
 }
 
-i {
+#menu i {
   border: solid #2b4a67;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -44,11 +44,19 @@ a {
 .column-1 {
   float: left;
   width: 29%;
+  position: fixed;
 }
 
 .column-2 {
   float: left;
   width: 70%;
+  margin-left: 29%;
+}
+
+.title{
+  text-align: center;
+  line-height: 10px;
+  font-size: 14px;
 }
 
 #header{

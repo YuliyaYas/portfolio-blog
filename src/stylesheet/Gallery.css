@@ -40,3 +40,7 @@
     max-width: 100%;
   }
 }
+
+.gallery p{
+  text-align: center;
+}

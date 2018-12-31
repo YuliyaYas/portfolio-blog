@@ -12,6 +12,11 @@ import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
 import paintingsData from '../src/data/paintings.json';
+import drawingsData from '../src/data/drawings.json';
+import illustrationsData from '../src/data/illustrations.json';
+import printmakingData from '../src/data/printmaking.json';
+import sculpturesData from '../src/data/sculptures.json';
+import photographyData from '../src/data/photography.json';
 
 
 class App extends Component {
@@ -21,7 +26,8 @@ class App extends Component {
       closed: true,
       name: '',
       info: [],
-      currentGallery: []
+      currentGallery: [],
+      galleryType: ''
     }
   }
 
@@ -29,10 +35,20 @@ class App extends Component {
       const title = e.target.title;
       const galleryType = e.target.name;
       let currentGallery = '';
-      if (galleryType === "painting"){
+      if (galleryType === "paintings"){
         currentGallery = paintingsData;
+      } else if (galleryType === "illustrations"){
+        currentGallery = illustrationsData;
+      } else if (galleryType === "drawings"){
+        currentGallery = drawingsData;
+      } else if (galleryType === "sculptures"){
+        currentGallery = sculpturesData;
+      } else if (galleryType === "printmaking"){
+        currentGallery = printmakingData;
+      } else if (galleryType === "photography"){
+        currentGallery = photographyData;
       }
-      this.setState({closed: false, name: e.target.title, currentGallery}, () => {
+      this.setState({closed: false, name: e.target.title, currentGallery, galleryType}, () => {
           let info = this.state.currentGallery.filter((img, i) => img.name === this.state.name)[0];
           this.setState({info});
       });
@@ -88,12 +104,12 @@ class App extends Component {
           <div className="column-2">
             <Switch>
               <Route path={`/contact`} component={ () => <Contact/>} />
-              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-              <Route path={`/illustrations`} component={ () => <Illustrations closed={this.state.closed} info={this.state.info} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/printmaking`} component={ () => <Printmaking/>} />
-              <Route path={`/sculptures`} component={ () => <Sculptures/>} />
-              <Route path={`/photography`} component={ () => <Photography/>} />
-              <Route path={`/drawings`} component={ () => <Drawings/>} />
+              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
+              <Route path={`/drawings`} component={ () => <Drawings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} drawingsData={drawingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/illustrations`} component={ () => <Illustrations closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} illustrationsData={illustrationsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/printmaking`} component={ () => <Printmaking closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/sculptures`} component={ () => <Sculptures closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} sculpturesData={sculpturesData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/photography`} component={ () => <Photography closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} photographyData={photographyData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               <Route path={`/about`} component={ () => <About/>} />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>

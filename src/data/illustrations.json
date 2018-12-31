@@ -8,275 +8,261 @@
     },
     {
       "id": 1,
-      "name": "Baloon",
-      "description": "frala",
-      "url": "baloon1.jpg",
-      "specs": ""
-    },
-    {
-      "id": 2,
-      "name": "Bird's View",
-      "description": "frala",
-      "url": "birds-view.png",
-      "specs": ""
-    },
-    {
-      "id": 3,
       "name": "BlackBerry",
       "description": "frala",
       "url": "blackberry.jpg",
       "specs": ""
     },
     {
-      "id": 4,
-      "name": "",
+      "id": 2,
+      "name": "Colibri",
       "description": "frala",
-      "url": "",
+      "url": "colibri.jpg",
+      "specs": ""
+    },
+    {
+      "id": 3,
+      "name": "Bird's View",
+      "description": "frala",
+      "url": "birds-view.png",
+      "specs": ""
+    },
+    {
+      "id": 4,
+      "name": "House Plant",
+      "description": "frala",
+      "url": "houseplant.png",
       "specs": ""
     },
     {
       "id": 5,
-      "name": "",
+      "name": "Train",
       "description": "frala",
-      "url": "",
+      "url": "Train1.jpg",
       "specs": ""
     },
     {
       "id": 6,
-      "name": "",
+      "name": "ShellVille",
       "description": "frala",
-      "url": "",
+      "url": "shelville1.jpg",
       "specs": ""
     },
     {
       "id": 7,
-      "name": "",
+      "name": "burger",
       "description": "frala",
-      "url": "",
+      "url": "Burger-.jpg",
       "specs": ""
     },
     {
       "id": 8,
-      "name": "",
+      "name": "Dino",
       "description": "frala",
-      "url": "",
+      "url": "dinosaur.jpg",
       "specs": ""
     },
     {
       "id": 9,
-      "name": "",
+      "name": "Gyraff",
       "description": "frala",
-      "url": "",
+      "url": "gyraff2.jpg",
       "specs": ""
     },
     {
       "id": 10,
-      "name": "",
+      "name": "Flamingo",
       "description": "frala",
-      "url": "",
+      "url": "flamingo.jpg",
       "specs": ""
     },
     {
       "id": 11,
-      "name": "",
+      "name": "Camel",
       "description": "frala",
-      "url": "",
+      "url": "camel.jpg",
       "specs": ""
     },
     {
       "id": 12,
-      "name": "",
+      "name": "Heart",
       "description": "frala",
-      "url": "",
+      "url": "heart3.jpg",
       "specs": ""
     },
     {
       "id": 13,
-      "name": "",
+      "name": "Chameleon",
       "description": "frala",
-      "url": "",
+      "url": "chameleon.jpg",
       "specs": ""
     },
     {
       "id": 14,
-      "name": "",
+      "name": "House Growth",
       "description": "frala",
-      "url": "",
+      "url": "housegrowth.png",
       "specs": ""
     },
     {
       "id": 15,
-      "name": "",
+      "name": "House Vines",
       "description": "frala",
-      "url": "",
+      "url": "houses-wine.jpg",
       "specs": ""
     },
     {
       "id": 16,
-      "name": "",
+      "name": "Crab",
       "description": "frala",
-      "url": "",
+      "url": "crab.jpg",
       "specs": ""
     },
     {
       "id": 17,
-      "name": "",
+      "name": "Houses Yard",
       "description": "frala",
-      "url": "",
+      "url": "houses-yard.jpg",
       "specs": ""
     },
     {
       "id": 18,
-      "name": "",
+      "name": "Pattern",
       "description": "frala",
-      "url": "",
+      "url": "Pattern.png",
       "specs": ""
     },
     {
       "id": 19,
-      "name": "",
+      "name": "CIty On the hill",
       "description": "frala",
-      "url": "",
+      "url": "City-on-the-hill.jpg",
       "specs": ""
     },
     {
       "id": 20,
-      "name": "",
+      "name": "sunflower",
       "description": "frala",
-      "url": "",
+      "url": "sunflower.jpg",
       "specs": ""
     },
     {
       "id": 21,
-      "name": "",
+      "name": "turtle",
       "description": "frala",
-      "url": "",
+      "url": "turtle2.jpg",
       "specs": ""
     },
     {
       "id": 22,
-      "name": "",
+      "name": "Jellyfish",
       "description": "frala",
-      "url": "",
+      "url": "jellyfish.jpg",
       "specs": ""
     },
     {
       "id": 23,
-      "name": "",
+      "name": "Deer",
       "description": "frala",
-      "url": "",
+      "url": "deer.png",
       "specs": ""
     },
     {
       "id": 24,
-      "name": "",
+      "name": "Saturn",
       "description": "frala",
-      "url": "",
+      "url": "saturn1.jpg",
       "specs": ""
     },
     {
       "id": 25,
-      "name": "",
+      "name": "Housing project",
       "description": "frala",
-      "url": "",
+      "url": "Housing-projects.jpg",
       "specs": ""
     },
     {
       "id": 26,
-      "name": "",
+      "name": "Flo city",
       "description": "frala",
-      "url": "",
+      "url": "Flo-city.jpg",
       "specs": ""
     },
     {
       "id": 27,
-      "name": "",
+      "name": "Townhouse",
       "description": "frala",
-      "url": "",
+      "url": "townhouse_insta.jpg",
       "specs": ""
     },
     {
       "id": 28,
-      "name": "",
+      "name": "Lemur",
       "description": "frala",
-      "url": "",
+      "url": "Lemur.jpg",
       "specs": ""
     },
     {
       "id": 29,
-      "name": "",
+      "name": "Orchids",
       "description": "frala",
-      "url": "",
+      "url": "orchids.png",
       "specs": ""
     },
     {
       "id": 30,
-      "name": "",
+      "name": "Snaility",
       "description": "frala",
-      "url": "",
+      "url": "snaility1.jpg",
       "specs": ""
     },
     {
       "id": 31,
-      "name": "",
+      "name": "Mushrooms",
       "description": "frala",
-      "url": "",
+      "url": "Mushrooms.jpg",
       "specs": ""
     },
     {
       "id": 32,
-      "name": "",
+      "name": "Octopus",
       "description": "frala",
-      "url": "",
+      "url": "octopus4.jpg",
       "specs": ""
     },
     {
       "id": 33,
-      "name": "",
+      "name": "Dirigible",
       "description": "frala",
-      "url": "",
+      "url": "dirigible.jpg",
       "specs": ""
     },
     {
       "id": 34,
-      "name": "",
+      "name": "Fish",
       "description": "frala",
-      "url": "",
+      "url": "fish2.jpg",
       "specs": ""
     },
     {
       "id": 35,
-      "name": "",
+      "name": "shell",
       "description": "frala",
-      "url": "",
+      "url": "shell1.jpg",
       "specs": ""
     },
     {
       "id": 36,
-      "name": "",
+      "name": "goat",
       "description": "frala",
-      "url": "",
+      "url": "goat.jpg",
       "specs": ""
     },
     {
       "id": 37,
-      "name": "",
+      "name": "baloon",
       "description": "frala",
-      "url": "",
-      "specs": ""
-    },
-    {
-      "id": 38,
-      "name": "",
-      "description": "frala",
-      "url": "",
-      "specs": ""
-    },
-    {
-      "id": 39,
-      "name": "",
-      "description": "frala",
-      "url": "",
+      "url": "baloon1.jpg",
       "specs": ""
     }
   ]

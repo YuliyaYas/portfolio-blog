@@ -122,21 +122,23 @@
   }
 .left-arrow,
 .right-arrow {
-    width: 60px;
-    height: 60px;
-    display: block;
-    top: 50%;
-    margin-top: -30px; /* img height/2 */
-    position: absolute;
+  width: 60px;
+  height: 60px;
+  display: block;
+  top: 50%;
+  margin-top: -30px; /* img height/2 */
+  position: absolute;
 }
 .left-arrow {
-    left: -13px;
-    opacity: 0.6;
-    transform: rotate(-180deg);
+  left: 28%;
+  opacity: 0.6;
+  transform: rotate(-180deg);
+  position: fixed;
 }
 .right-arrow {
-    right: -13px;
-    opacity: 0.6;
+  left: 94.5%;
+  opacity: 0.6;
+  position: fixed;
 }
 
 .right-arrow:hover, .left-arrow:hover {

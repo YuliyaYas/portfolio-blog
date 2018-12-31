@@ -122,7 +122,7 @@
   }
 .left-arrow,
 .right-arrow {
-    width: 100px;
+    width: 60px;
     height: 60px;
     display: block;
     top: 50%;
@@ -130,11 +130,15 @@
     position: absolute;
 }
 .left-arrow {
-    left: -30px;
+    left: -13px;
     opacity: 0.6;
     transform: rotate(-180deg);
 }
 .right-arrow {
-    right: -30px;
+    right: -13px;
     opacity: 0.6;
+}
+
+.right-arrow:hover, .left-arrow:hover {
+  opacity: 1;
 }

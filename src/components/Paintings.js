@@ -10,7 +10,7 @@ const Paintings = (props) =>  {
         ?
         ""
         :
-        <Overlay info={props.info} handleCloseClick={props.handleCloseClick}/>
+        <Overlay info={props.info} handleArrowClick={props.handleArrowClick} handleCloseClick={props.handleCloseClick}/>
         }
           <p>Click on image to read more about the work</p>
           <div className="row-grid">
@@ -32,7 +32,7 @@ const Paintings = (props) =>  {
             </div>
             <div className="column-grid">
               <img src={require("../imgs/paintings/Master-copy-of-Louisa-Matthiasdottirs-work.jpg")} title="Master Copy of Louisa Matthiasdottir's work" style={{width:'100%'}} onClick={props.handlePaintingClick}/>
-              <img src={require("../imgs/paintings/Tree1.jpg")} title="Tree1" style={{width:'100%'}} />
+              <img src={require("../imgs/paintings/Tree1.jpg")} title="Tree1" style={{width:'100%'}} onClick={props.handlePaintingClick}/>
               <img src={require("../imgs/paintings/TurtleVille.jpg")} title="TurtleVille" style={{width:'100%'}} onClick={props.handlePaintingClick}/>
               <img src={require("../imgs/paintings/WorldsEnergy.jpg")} title="World's Energy" style={{width:'100%'}} onClick={props.handlePaintingClick}/>
             </div>

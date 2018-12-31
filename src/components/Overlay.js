@@ -7,8 +7,8 @@ const Overlay1 = (props) => {
     <div className="base" >
       <div className="shroud overlay-scroll box">
         <div className="overlay-popup">
-          <img class="left-arrow" src="https://image.flaticon.com/icons/svg/60/60758.svg" alt="green" />
-          <img class="right-arrow" src="https://image.flaticon.com/icons/svg/60/60758.svg" alt="red" />
+          <img className="left-arrow" src="https://www.freeiconspng.com/uploads/white-arrow-transparent-png-22.png" alt="left" onClick={props.handleArrowClick}/>
+          <img className="right-arrow" src="https://www.freeiconspng.com/uploads/white-arrow-transparent-png-22.png" alt="right" onClick={props.handleArrowClick}/>
           <p className="close" onClick={props.handleCloseClick}/>
           <p className="all-caps">{props.info.name}</p>
           {props.info.url ? <img id="overlay-img" src={require(`../imgs/paintings/${props.info.url}`)}/> : "" }

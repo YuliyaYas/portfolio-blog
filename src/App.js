@@ -20,16 +20,38 @@ class App extends Component {
     this.state = {
       closed: true,
       name: '',
-      info: []
+      info: [],
+      currentGallery: []
     }
   }
 
   handlePaintingClick = (e) => {
       let title = e.target.title;
-      this.setState({closed: false, name: e.target.title}, () => {
-          let info = paintingsData.filter((img, i) => img.name === this.state.name)[0];
+      this.setState({closed: false, name: e.target.title, currentGallery: paintingsData}, () => {
+          let info = this.state.currentGallery.filter((img, i) => img.name === this.state.name)[0];
           this.setState({info});
       });
+  }
+
+  handleArrowClick = (e) => {
+    const arrow = e.target.alt;
+    const cur_id = this.state.info.id;
+    const first = this.state.currentGallery[0];
+    const length = this.state.currentGallery.length-1;
+
+    if (arrow === "left" && cur_id === 0){
+      const next = this.state.currentGallery[length];
+      this.setState({info: next})
+    } else if (arrow === "right" && cur_id === length){
+      const next =this.state.currentGallery[0];
+      this.setState({info: next})
+    } else if (arrow === "right"){
+      const next =this.state.currentGallery[cur_id+1];
+      this.setState({info: next})
+    } else if (arrow === "left"){
+      const prev =this.state.currentGallery[cur_id-1];
+      this.setState({info: prev})
+    }
   }
 
   handleCloseClick = (e) => {
@@ -61,7 +83,7 @@ class App extends Component {
           <div className="column-2">
             <Switch>
               <Route path={`/contact`} component={ () => <Contact/>} />
-              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} handlePaintingClick={this.handlePaintingClick} handleCloseClick={this.handleCloseClick}/>} />
+              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} handleArrowClick={this.handleArrowClick} handlePaintingClick={this.handlePaintingClick} handleCloseClick={this.handleCloseClick}/>} />
               <Route path={`/illustrations`} component={ () => <Illustrations/>} />
               <Route path={`/printmaking`} component={ () => <Printmaking/>} />
               <Route path={`/sculptures`} component={ () => <Sculptures/>} />
@@ -75,7 +97,6 @@ class App extends Component {
         </div>
       </div>
 
-        <Footer />
       </div>
     );
   }

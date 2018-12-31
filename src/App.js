@@ -11,7 +11,7 @@ import Photography from '../src/components/Photography.js';
 import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
-import paintingsData from '/Users/yuliya.yasenetska/personal/portfolio/src/data/paintings.json';
+import paintingsData from '../src/data/paintings.json';
 
 
 class App extends Component {
@@ -25,9 +25,14 @@ class App extends Component {
     }
   }
 
-  handlePaintingClick = (e) => {
-      let title = e.target.title;
-      this.setState({closed: false, name: e.target.title, currentGallery: paintingsData}, () => {
+  handleImageClick = (e) => {
+      const title = e.target.title;
+      const galleryType = e.target.name;
+      let currentGallery = '';
+      if (galleryType === "painting"){
+        currentGallery = paintingsData;
+      }
+      this.setState({closed: false, name: e.target.title, currentGallery}, () => {
           let info = this.state.currentGallery.filter((img, i) => img.name === this.state.name)[0];
           this.setState({info});
       });
@@ -83,8 +88,8 @@ class App extends Component {
           <div className="column-2">
             <Switch>
               <Route path={`/contact`} component={ () => <Contact/>} />
-              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} handleArrowClick={this.handleArrowClick} handlePaintingClick={this.handlePaintingClick} handleCloseClick={this.handleCloseClick}/>} />
-              <Route path={`/illustrations`} component={ () => <Illustrations/>} />
+              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
+              <Route path={`/illustrations`} component={ () => <Illustrations closed={this.state.closed} info={this.state.info} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               <Route path={`/printmaking`} component={ () => <Printmaking/>} />
               <Route path={`/sculptures`} component={ () => <Sculptures/>} />
               <Route path={`/photography`} component={ () => <Photography/>} />

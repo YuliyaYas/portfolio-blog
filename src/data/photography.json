@@ -1,128 +1,121 @@
 [
     {
       "id": 0,
-      "name": "",
+      "name": "1",
       "description": "",
-      "url": "",
+      "url": "1.jpg",
       "specs": ""
     },
     {
       "id": 1,
-      "name": "",
+      "name": "5",
       "description": "",
-      "url": "",
+      "url": "5.png",
       "specs": ""
     },
     {
       "id": 2,
-      "name": "",
+      "name": "9",
       "description": "",
-      "url": "",
+      "url": "9.png",
       "specs": ""
     },
     {
       "id": 3,
-      "name": "",
+      "name": "13",
       "description": "",
-      "url": "",
+      "url": "13.png",
       "specs": ""
     },
     {
       "id": 4,
-      "name": "",
+      "name": "17",
       "description": "",
-      "url": "",
+      "url": "17.png",
       "specs": ""
     },
     {
       "id": 5,
-      "name": "",
+      "name": "2",
       "description": "",
-      "url": "",
+      "url": "2.png",
       "specs": ""
     },
     {
       "id": 6,
-      "name": "",
+      "name": "16",
       "description": "",
-      "url": "",
+      "url": "16.png",
       "specs": ""
     },
     {
       "id": 7,
-      "name": "",
+      "name": "10",
       "description": "",
-      "url": "",
+      "url": "10.png",
       "specs": ""
     },
     {
       "id": 8,
-      "name": "",
+      "name": "14",
       "description": "",
-      "url": "",
+      "url": "14.png",
       "specs": ""
     },
     {
       "id": 9,
-      "name": "",
+      "name": "3",
       "description": "",
-      "url": "",
+      "url": "3.png",
       "specs": ""
     },
     {
       "id": 10,
-      "name": "",
+      "name": "7",
       "description": "",
-      "url": "",
+      "url": "7.png",
       "specs": ""
     },
     {
       "id": 11,
-      "name": "",
+      "name": "11",
       "description": "",
-      "url": "",
+      "url": "11.png",
       "specs": ""
     },
     {
       "id": 12,
-      "name": "",
+      "name": "15",
       "description": "",
-      "url": "",
+      "url": "15.png",
       "specs": ""
     },
     {
       "id": 13,
-      "name": "",
+      "name": "4",
       "description": "",
-      "url": "",
+      "url": "4.png",
       "specs": ""
     },
     {
       "id": 14,
-      "name": "",
+      "name": "8",
       "description": "",
-      "url": "",
+      "url": "8.png",
       "specs": ""
     },
     {
       "id": 15,
-      "name": "",
+      "name": "6",
       "description": "",
-      "url": "",
+      "url": "6.png",
       "specs": ""
     },
     {
       "id": 16,
-      "name": "",
+      "name": "12",
       "description": "",
-      "url": "",
-      "specs": ""
-    },
-    {
-      "id": 17,
-      "name": "",
-      "description": "",
-      "url": "",
+      "url": "12.png",
       "specs": ""
     }
   ]

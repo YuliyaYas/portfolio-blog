@@ -10,7 +10,6 @@ import Sculptures from '../src/components/Sculptures.js';
 import Photography from '../src/components/Photography.js';
 import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
-import Footer from '../src/components/Footer.js';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';

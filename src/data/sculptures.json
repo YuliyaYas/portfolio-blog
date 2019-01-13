@@ -2,7 +2,7 @@
     {
       "id": 0,
       "name": "Berry",
-      "description": "lallallala",
+      "description": "",
       "url": "berry.png",
       "specs": ""
     },
@@ -16,14 +16,14 @@
     {
       "id": 2,
       "name": "Face",
-      "description": "lallallala",
+      "description": "",
       "url": "face.png",
       "specs": ""
     },
     {
       "id": 3,
       "name": "vase",
-      "description": "lallallala",
+      "description": "",
       "url": "vase.jpg",
       "specs": ""
     }

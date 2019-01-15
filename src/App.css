@@ -96,6 +96,14 @@ a {
     display: none;
   }
 
+  #home-img{
+    padding-top: 42px;
+  }
+
+  .desc{
+    margin-top: 26px;
+  }
+
   /* humburger menu start */
 /* header */
 

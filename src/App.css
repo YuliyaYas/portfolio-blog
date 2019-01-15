@@ -41,16 +41,158 @@ a {
   clear: both;
 }
 
-.column-1 {
-  float: left;
-  width: 29%;
+@media (min-width: 601px) {
+  .column-1 {
+    float: left;
+    width: 29%;
+    position: fixed;
+  }
+
+  .column-2 {
+    float: left;
+    width: 70%;
+    margin-left: 29%;
+  }
+  #logo-mobile{
+    display:none;
+  }
+  .header-menu {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .column-1 {
+    display:none;
+    position: fixed;
+  }
+
+  .column-2 {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #logo-mobile{
+    width: 35%;
+    float: left;
+  }
+
+  .click{
+    display: none;
+  }
+
+  /* humburger menu start */
+/* header */
+
+.header-menu {
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
+  width: 100%;
+  z-index: 3;
+  margin: 0;
 }
 
-.column-2 {
-  float: left;
-  width: 70%;
-  margin-left: 29%;
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.header-menu li a {
+  display: block;
+  padding: 15px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+  border-top: 1px solid #dedbdb;
+}
+
+.header-menu li a:hover,
+.header-menu .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+/* menu */
+
+.header-menu .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header-menu .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 20px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header-menu .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header-menu .menu-icon .navicon:before,
+.header-menu .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header-menu .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header-menu .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header-menu .menu-btn {
+  display: none;
+}
+
+.header-menu .menu-btn:checked ~ .menu {
+  max-height: 2140px;
+}
+
+.header-menu .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header-menu .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header-menu .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header-menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header-menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+
+  /* humburger menu end */
 }
 
 .title{
@@ -69,10 +211,6 @@ a {
   width: 60%;
 }
 
-/* #about{
-  float: right;
-  margin: 10px 0px 10px 0px;
-} */
 
 #home-img{
   width: 100%;

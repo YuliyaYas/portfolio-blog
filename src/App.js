@@ -63,13 +63,13 @@ class App extends Component {
       const next = this.state.currentGallery[length];
       this.setState({info: next})
     } else if (arrow === "right" && cur_id === length){
-      const next =this.state.currentGallery[0];
+      const next = this.state.currentGallery[0];
       this.setState({info: next})
     } else if (arrow === "right"){
       const next =this.state.currentGallery[cur_id+1];
       this.setState({info: next})
     } else if (arrow === "left"){
-      const prev =this.state.currentGallery[cur_id-1];
+      const prev = this.state.currentGallery[cur_id-1];
       this.setState({info: prev})
     }
   }
@@ -83,6 +83,24 @@ class App extends Component {
     return (
       <div>
       <div className="content">
+      <a href="/"><img id="logo-mobile" src={require("./imgs/logo.png")} /></a>
+      <div className="header-menu">
+        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <label className="menu-icon" for="menu-btn"><span className="navicon"></span></label>
+        <ul className="menu">
+        <li><a href="/">HOME<i className="arrow right"></i></a></li>
+        <li><a href="/paintings">PAINTINGS<i className="arrow right"></i></a></li>
+        <li><a href="/illustrations">ILLUSTRATIONS<i className="arrow right"></i></a></li>
+        <li><a href="/drawings">DRAWINGS<i className="arrow right"></i></a></li>
+        <li><a href="/printmaking">PRINTMAKING<i className="arrow right"></i></a></li>
+        <li><a href="/sculptures">SCULPTURES<i className="arrow right"></i></a></li>
+        <li><a href="/photography">PHOTOGRAPHY<i className="arrow right"></i></a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+        <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank">INSTAGRAM</a></li>
+        </ul>
+      </div>
+
         <div className="row">
           <div className="column-1">
           <a href="/"><img id="logo" src={require("./imgs/logo.png")} /></a>

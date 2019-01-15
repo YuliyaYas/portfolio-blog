@@ -12,7 +12,7 @@ const Illustrations = (props) =>  {
         :
         <Overlay info={props.info} galleryType={props.galleryType} handleArrowClick={props.handleArrowClick} handleCloseClick={props.handleCloseClick}/>
         }
-        <p>Click on image to read more about the work</p>
+        <p className="click">Click on image to read more about the work</p>
           <div className="row-grid">
             <div className="column-grid">
               <img src={require("../imgs/illustrations/atom.jpg")} title={props.illustrationsData[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} />

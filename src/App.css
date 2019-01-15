@@ -104,6 +104,11 @@ a {
     margin-top: 26px;
   }
 
+  #about{
+    margin-top: 0px !important;
+    padding: 50px 15px 0px 15px !important;
+  }
+
   /* humburger menu start */
 /* header */
 

@@ -162,7 +162,7 @@ a {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 30px;
 }
 
 .header-menu .menu-icon .navicon:before,
@@ -177,11 +177,11 @@ a {
 }
 
 .header-menu .menu-icon .navicon:before {
-  top: 5px;
+  top: 7px;
 }
 
 .header-menu .menu-icon .navicon:after {
-  top: -5px;
+  top: -7px;
 }
 
 /* menu btn */

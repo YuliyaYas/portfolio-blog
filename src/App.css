@@ -109,6 +109,11 @@ a {
     padding: 50px 15px 0px 15px !important;
   }
 
+  #profile-pic {
+    width: 100% !important;
+    margin: 10px 0px 20px 0px !important;
+  }
+
   /* humburger menu start */
 /* header */
 

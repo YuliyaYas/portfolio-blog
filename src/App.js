@@ -83,10 +83,10 @@ class App extends Component {
     return (
       <div>
       <div className="content">
-      <a href="/"><img id="logo-mobile" src={require("./imgs/logo.png")} /></a>
+      <a href="/" id="z"><img id="logo-mobile" src={require("./imgs/logo.png")} /></a>
       <div className="header-menu">
         <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label className="menu-icon" for="menu-btn"><span className="navicon"></span></label>
+        <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
         <ul className="menu">
         <li><a href="/">HOME<i className="arrow right"></i></a></li>
         <li><a href="/paintings">PAINTINGS<i className="arrow right"></i></a></li>

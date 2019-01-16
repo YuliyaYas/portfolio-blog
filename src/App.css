@@ -12,7 +12,7 @@ body{
   height: 100%;
 }
 
-#menu i {
+#menu i, #menu-1 i {
   border: solid #2b4a67;
   border-width: 0 3px 3px 0;
   display: inline-block;

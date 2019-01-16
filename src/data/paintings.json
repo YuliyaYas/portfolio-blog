@@ -1,10 +1,10 @@
 [
     {
       "id": 0,
-      "name": "TurtleVille",
-      "description": "",
+      "name": "World-Bearing",
+      "description": "A famous Hindu myth about the World Turtle carrying four elephants carrying the Earth is widely known among us. But its nice sometimes to step back and let go the imagination. Just let the turtle flow in the blue abyss of playful colors, carrying our lives on the top of her back. Tortoise carries its millennial wisdom, and we might want to learn a trick or two from her.",
       "url": "TurtleVille.jpg",
-      "specs": ""
+      "specs": "36x24inches, oil on canvas"
     },
     {
       "id": 1,
@@ -36,10 +36,10 @@
     },
     {
       "id": 5,
-      "name": "Flamity",
-      "description": "",
+      "name": "Head Up",
+      "description": "It doesn’t matter if you stand on one leg or both. It doesn’t matter if you wear pink, blue or black. Just be yourself and you’ll always stand out as long as you keep your head up. ",
       "url": "Flamity.png",
-      "specs": ""
+      "specs": "18x18inches, acrylic on wood"
     },
     {
       "id": 6,
@@ -50,10 +50,10 @@
     },
     {
       "id": 7,
-      "name": "Octo",
-      "description": "",
+      "name": "Octoville",
+      "description": "Adapting to the environment is not the easiest thing. Fitting into something new, changing shapes and colors quickly, like octopus do, is a great skill to have. While doing so, lets be smart about staying true to ourselves. Don’t let any enemy of the world-sea scare us. But if someone do - spray some ink on them and move on. ",
       "url": "Octo.png",
-      "specs": ""
+      "specs": "30x30inches, acrylic on wood"
     },
     {
       "id": 8,
@@ -65,16 +65,16 @@
     {
       "id": 9,
       "name": "Tale",
-      "description": "A gift, I painted for an amazing photographer, ocean ambassador and a mermaid Kristin Hettermann. ukrainianKristin strives to share positive stories, document the earth and its cultures, inspire people to explore, encourage the balance of mind-body-spirit through holistic life practices, and raise awareness for important causes, particularly the protection and restoration of the world’s oceans.",
+      "description": "A gift, I painted for an amazing photographer, ocean ambassador and a mermaid Kristin Hettermann. Kristin strives to share positive stories, document the earth and its cultures, inspire people to explore, encourage the balance of mind-body-spirit through holistic life practices, and raise awareness for important causes, particularly the protection and restoration of the world’s oceans.",
       "url": "Tale.jpg",
-      "specs": ""
+      "specs": "10x16inches, acrylic on canvas"
     },
     {
       "id": 10,
       "name": "World's Energy",
-      "description": "",
+      "description": "We are often caught in the whirl of life, forgetting about colorful beauty of small details that surround us. Be grateful for what you have - your health, your loved ones and yourself. Spreading energy from my atomic world to yours.",
       "url": "WorldsEnergy.jpg",
-      "specs": ""
+      "specs": "18x18inches, acrylic on wood"
     },
     {
       "id": 11,
@@ -85,15 +85,15 @@
     },
     {
       "id": 12,
-      "name": "TurtleVille",
+      "name": "Tree",
       "description": "",
       "url": "Tree1.jpg",
       "specs": ""
     },
     {
       "id": 13,
-      "name": "World's Energy",
-      "description": "We are often caught in the whirl of life, forgetting about colorful beauty of small details that surround us. Be grateful for what you have - your health, your loved ones and yourself. Spreading energy from my atomic world to yours",
+      "name": "Anomaly",
+      "description": "",
       "url": "Abstract-Anomaly.jpg",
       "specs": ""
     }

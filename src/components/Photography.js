@@ -14,32 +14,31 @@ const Photography = (props) =>  {
         }
           <div className="row-grid">
             <div className="column-grid">
-              <img src={require("../imgs/photography/1.jpg")} title={props.photographyData[0].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/5.png")} title={props.photographyData[1].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/9.png")} title={props.photographyData[2].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/13.png")} title={props.photographyData[3].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/17.png")} title={props.photographyData[4].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/norway-1.jpg")} title={props.photographyData[0].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/alcatraz.jpg")} title={props.photographyData[1].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/norway-5.jpg")} title={props.photographyData[10].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/skeleton.png")} title={props.photographyData[2].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/chicago.jpg")} title={props.photographyData[3].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
             <div className="column-grid">
-              <img src={require("../imgs/photography/2.png")} title={props.photographyData[5].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/16.png")} title={props.photographyData[6].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/10.png")} title={props.photographyData[7].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/14.png")} title={props.photographyData[8].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/mohonk.jpg")} title={props.photographyData[5].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/whitney.jpg")} title={props.photographyData[6].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/chicago_1.jpg")} title={props.photographyData[7].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/chicago_wheel.jpg")} title={props.photographyData[8].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
             <div className="column-grid">
-              <img src={require("../imgs/photography/3.png")} title={props.photographyData[9].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/7.png")} title={props.photographyData[10].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/11.png")} title={props.photographyData[11].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/15.png")} title={props.photographyData[12].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/norway-7.jpg")} title={props.photographyData[9].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/montreal.jpg")} title={props.photographyData[4].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/chicago_4.jpg")} title={props.photographyData[11].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/dome.jpg")} title={props.photographyData[12].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
             <div className="column-grid">
-              <img src={require("../imgs/photography/4.png")} title={props.photographyData[13].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/8.png")} title={props.photographyData[14].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/6.png")} title={props.photographyData[15].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
-              <img src={require("../imgs/photography/12.png")} title={props.photographyData[16].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/fullton.png")} title={props.photographyData[14].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/sanfran-1.jpg")} title={props.photographyData[15].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/photography/fullton_up.png")} title={props.photographyData[16].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
           </div>

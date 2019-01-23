@@ -1,94 +1,94 @@
 [
     {
       "id": 0,
-      "name": "1",
+      "name": "Silence",
       "description": "",
-      "url": "1.jpg",
-      "specs": ""
+      "url": "norway-1.jpg",
+      "specs": "location: Norway"
     },
     {
       "id": 1,
-      "name": "5",
+      "name": "Look Up",
       "description": "",
-      "url": "5.png",
-      "specs": ""
+      "url": "alcatraz.jpg",
+      "specs": "location: Alcatraz Island, San Francisco, USA"
     },
     {
       "id": 2,
-      "name": "9",
+      "name": "Skeleton",
       "description": "",
-      "url": "9.png",
-      "specs": ""
+      "url": "skeleton.png",
+      "specs": "location: New York City, USA"
     },
     {
       "id": 3,
-      "name": "13",
+      "name": "Curves",
       "description": "",
-      "url": "13.png",
-      "specs": ""
+      "url": "chicago.jpg",
+      "specs": "location: Chicago, USA"
     },
     {
       "id": 4,
-      "name": "17",
+      "name": "In Between",
       "description": "",
-      "url": "17.png",
-      "specs": ""
+      "url": "montreal.jpg",
+      "specs": "location: Montreal, Canada"
     },
     {
       "id": 5,
-      "name": "2",
+      "name": "Way Out",
       "description": "",
-      "url": "2.png",
-      "specs": ""
+      "url": "mohonk.jpg",
+      "specs": "location: Mohonk Mountain House, New Paltz, USA"
     },
     {
       "id": 6,
-      "name": "16",
+      "name": "Blues",
       "description": "",
-      "url": "16.png",
-      "specs": ""
+      "url": "whitney.jpg",
+      "specs": "location: Whitney Museum, New York City, USA"
     },
     {
       "id": 7,
-      "name": "10",
+      "name": "Into Deep",
       "description": "",
-      "url": "10.png",
-      "specs": ""
+      "url": "chicago_1.jpg",
+      "specs": "location: Chicago, USA"
     },
     {
       "id": 8,
-      "name": "14",
+      "name": "Wheeling around",
       "description": "",
-      "url": "14.png",
-      "specs": ""
+      "url": "chicago_wheel.jpg",
+      "specs": "location: Chicago, USA"
     },
     {
       "id": 9,
-      "name": "3",
+      "name": "Cold",
       "description": "",
-      "url": "3.png",
-      "specs": ""
+      "url": "norway-7.jpg",
+      "specs": "location: Gudvangen Fjord, Norway"
     },
     {
       "id": 10,
-      "name": "7",
+      "name": "Reflection",
       "description": "",
-      "url": "7.png",
-      "specs": ""
+      "url": "norway-5.jpg",
+      "specs": "location: Gudvangen Fjord, Norway"
     },
     {
       "id": 11,
-      "name": "11",
+      "name": "Infinity",
       "description": "",
-      "url": "11.png",
-      "specs": ""
+      "url": "chicago_4.jpg",
+      "specs": "location: Chicago, USA"
     },
     {
       "id": 12,
-      "name": "15",
+      "name": "Dome",
       "description": "",
-      "url": "15.png",
-      "specs": ""
+      "url": "dome.jpg",
+      "specs": "location: Montreal, Canada"
     },
     {
       "id": 13,
@@ -99,23 +99,23 @@
     },
     {
       "id": 14,
-      "name": "8",
+      "name": "Up",
       "description": "",
-      "url": "8.png",
-      "specs": ""
+      "url": "fullton.png",
+      "specs": "location: New York City, USA"
     },
     {
       "id": 15,
-      "name": "6",
+      "name": "Rain",
       "description": "",
-      "url": "6.png",
-      "specs": ""
+      "url": "sanfran-1.jpg",
+      "specs": "location: San Francisco, USA"
     },
     {
       "id": 16,
-      "name": "12",
+      "name": "Above",
       "description": "",
-      "url": "12.png",
-      "specs": ""
+      "url": "fullton_up.png",
+      "specs": "location: New York City, USA"
     }
   ]

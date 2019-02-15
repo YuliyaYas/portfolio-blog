@@ -100,9 +100,6 @@ a {
     padding-top: 42px;
   }
 
-  .desc{
-    margin-top: 26px;
-  }
 
   #about{
     margin-top: 0px !important;
@@ -230,6 +227,25 @@ a {
   text-align: center;
   line-height: 10px;
   font-size: 14px;
+}
+@media (min-width: 480px) {
+  .desc-home{
+    width: 98%;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 8px;
+    float: left;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 480px) {
+  .desc-home{
+    width: 98%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-top: 62px;
+    margin-bottom: -22px;
+  }
 }
 
 #header{

@@ -16,7 +16,16 @@ import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
+var slugify = require('slugify')
 
+var allData = [{
+    'paintings': paintingsData,
+    'drawings': drawingsData,
+    'illustrations': illustrationsData,
+    'printmaking': printmakingData,
+    'sculptures': sculpturesData,
+    'photography': photographyData
+  }];
 
 class App extends Component {
   constructor(){
@@ -27,6 +36,22 @@ class App extends Component {
       info: [],
       currentGallery: [],
       galleryType: ''
+    }
+  }
+
+  componentDidMount(){
+    var path = this.props.history.location.pathname.split("/").filter(Boolean);
+    if(path.length > 1){
+      var galleryType = path[0];
+      var artworkName = path[1].split('-').join(' ');
+      this.setState({closed: false, galleryType, }, () => {
+        var galleryData = allData[0][`${this.state.galleryType}`];
+        let info = galleryData.filter((img, i) => img.name === artworkName)[0];
+        console.log(artworkName)
+        this.setState({info, name: artworkName, currentGallery: galleryData})
+      });
+
+
     }
   }
 
@@ -49,7 +74,7 @@ class App extends Component {
       }
       this.setState({closed: false, name: e.target.title, currentGallery, galleryType}, () => {
           let info = this.state.currentGallery.filter((img, i) => img.name === this.state.name)[0];
-          this.setState({info});
+          this.setState({info}, () => this.props.history.push(`/${galleryType}/${slugify(title)}`));
       });
   }
 
@@ -58,19 +83,27 @@ class App extends Component {
     const cur_id = this.state.info.id;
     const first = this.state.currentGallery[0];
     const length = this.state.currentGallery.length-1;
-
     if (arrow === "left" && cur_id === 0){
       const next = this.state.currentGallery[length];
-      this.setState({info: next})
+      this.setState({info: next}, () => {
+        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+      });
     } else if (arrow === "right" && cur_id === length){
       const next = this.state.currentGallery[0];
-      this.setState({info: next})
+      this.setState({info: next}, () => {
+        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+      });
     } else if (arrow === "right"){
       const next =this.state.currentGallery[cur_id+1];
-      this.setState({info: next})
+      console.log('yo g', this.state.currentGallery[length])
+      this.setState({info: next}, () => {
+        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+      });
     } else if (arrow === "left"){
       const prev = this.state.currentGallery[cur_id-1];
-      this.setState({info: prev})
+      this.setState({info: prev}, () => {
+        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+      });
     }
   }
 
@@ -105,7 +138,7 @@ class App extends Component {
           <div className="column-1">
           <a href="/"><img id="logo" src={require("./imgs/logo.png")} /></a>
             <div id="menu">
-              <h4><a href="/paintings">PAINTINGS<i className="right"></i></a></h4>
+              <h4><a href="/paintings/">PAINTINGS<i className="right"></i></a></h4>
               <h4><a href="/illustrations">ILLUSTRATIONS<i className="right"></i></a></h4>
               <h4><a href="/drawings">DRAWINGS<i className="right"></i></a></h4>
               <h4><a href="/printmaking">PRINTMAKING<i className="right"></i></a></h4>
@@ -113,7 +146,8 @@ class App extends Component {
               <h4><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></h4>
             </div>
             <div id="contact">
-              <h4 id="about"><a href="/about">ABOUT</a></h4>
+              <h4 id="about"><a href="/">HOME</a></h4>
+              <h4 ><a href="/about">ABOUT</a></h4>
               <h4><a href="/contact">CONTACT</a></h4>
               <a href="https://www.instagram.com/yuliyas.art/" target="_blank"><h4>INSTAGRAM</h4></a>
             </div>
@@ -121,7 +155,7 @@ class App extends Component {
           <div className="column-2">
             <Switch>
               <Route path={`/contact`} component={ () => <Contact/>} />
-              <Route path={`/paintings`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
+              <Route path={`/paintings/`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
               <Route path={`/drawings`} component={ () => <Drawings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} drawingsData={drawingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               <Route path={`/illustrations`} component={ () => <Illustrations closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} illustrationsData={illustrationsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               <Route path={`/printmaking`} component={ () => <Printmaking closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />

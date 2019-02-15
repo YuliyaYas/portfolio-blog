@@ -10,7 +10,7 @@ const Photography = (props) =>  {
         ?
         ""
         :
-        <Overlay info={props.info} galleryType={props.galleryType} handleArrowClick={props.handleArrowClick} handleCloseClick={props.handleCloseClick}/>
+        <a href="/careers/yo"><Overlay info={props.info} galleryType={props.galleryType} handleArrowClick={props.handleArrowClick} handleCloseClick={props.handleCloseClick}/></a>
         }
           <div className="row-grid">
             <div className="column-grid">

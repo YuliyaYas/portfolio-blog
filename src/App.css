@@ -228,23 +228,18 @@ a {
   line-height: 10px;
   font-size: 14px;
 }
-@media (min-width: 480px) {
-  .desc-home{
-    width: 98%;
-    margin: 0 auto;
-    line-height: 25px;
-    margin-top: 8px;
-    float: left;
-    margin-bottom: 25px;
+
+@media (max-width: 480px) {
+  #home-img{
+    width: 100%;
   }
 }
-@media (max-width: 480px) {
-  .desc-home{
-    width: 98%;
+@media (min-width: 480px) {
+  #home-img{
+    width: 70%;
+    padding-top: 8px;
+    display: block;
     margin: 0 auto;
-    line-height: 25px;
-    padding-top: 62px;
-    margin-bottom: -22px;
   }
 }
 
@@ -256,11 +251,6 @@ a {
 
 #logo{
   width: 60%;
-}
-
-
-#home-img{
-  width: 100%;
 }
 
 #menu{

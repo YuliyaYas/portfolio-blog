@@ -116,7 +116,7 @@ class App extends Component {
     return (
       <div>
       <div className="content">
-      <a href="/" id="z"><img id="logo-mobile" src={require("./imgs/logo.png")} /></a>
+      <a href="/" id="z"><img id="logo-mobile" src={require("./imgs/logo_yy.png")} /></a>
       <div className="header-menu">
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>

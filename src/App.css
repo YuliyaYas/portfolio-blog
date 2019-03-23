@@ -81,10 +81,11 @@ a {
   }
 
   #logo-mobile{
-    width: 35%;
+    width: 22%;
     float: left;
     z-index: 10;
     position: fixed;
+    margin-left: 10px;
   }
 
   .click{

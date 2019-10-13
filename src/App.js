@@ -30,13 +30,6 @@ var allData = [{
     'photography': photographyData
   }];
 
-  // client.getEntries().then(function (entries) {
-  //   entries.items.forEach(function (entry) {
-  //     if(entry.fields) {
-  //       console.log(entry.fields)
-  //     }
-  //   })
-  // })
 
 class App extends Component {
   constructor(){
@@ -46,11 +39,15 @@ class App extends Component {
       name: '',
       info: [],
       currentGallery: [],
-      galleryType: ''
+      galleryType: '',
+      contact: {},
+      about: {}
     }
   }
 
   componentDidMount(){
+
+    // TODO: WTF if this, refactor Yuliya 
     var path = this.props.history.location.pathname.split("/").filter(Boolean);
     if(path.length > 1){
       var galleryType = path[0];
@@ -58,12 +55,23 @@ class App extends Component {
       this.setState({closed: false, galleryType, }, () => {
         var galleryData = allData[0][`${this.state.galleryType}`];
         let info = galleryData.filter((img, i) => img.name === artworkName)[0];
-        console.log(artworkName)
         this.setState({info, name: artworkName, currentGallery: galleryData})
       });
-
-
     }
+    
+  //  getting entries from Contentful and assignig them to specific page
+  // TODO: find a better way of exporting/assigning pages
+    client.getEntries().then(entries => {
+      entries.items.forEach(entry => {
+        if(entry.fields) {
+          const title = entry.fields.pageTitle;
+          if (title === 'contact'){this.setState({contact: entry.fields})};
+          if (title === 'about') {this.setState({about: entry.fields})};
+
+        }
+      })
+    })
+
   }
 
   handleImageClick = (e) => {
@@ -106,7 +114,6 @@ class App extends Component {
       });
     } else if (arrow === "right"){
       const next =this.state.currentGallery[cur_id+1];
-      console.log('yo g', this.state.currentGallery[length])
       this.setState({info: next}, () => {
         this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
       });
@@ -124,7 +131,12 @@ class App extends Component {
 
 
   render() {
-    return (
+    const { closed, 
+            galleryType, 
+            contact, 
+            about
+          } = this.state
+      return (
       <div>
       <div className="content">
       <a href="/" id="z"><img id="logo-mobile" src={require("./imgs/logo_yy.png")} /></a>
@@ -165,14 +177,14 @@ class App extends Component {
           </div>
           <div className="column-2">
             <Switch>
-              <Route path={`/contact`} component={ () => <Contact/>} />
-              <Route path={`/paintings/`} component={ () => <Paintings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-              <Route path={`/drawings`} component={ () => <Drawings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} drawingsData={drawingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/illustrations`} component={ () => <Illustrations closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} illustrationsData={illustrationsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/printmaking`} component={ () => <Printmaking closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/sculptures`} component={ () => <Sculptures closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} sculpturesData={sculpturesData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/photography`} component={ () => <Photography closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} photographyData={photographyData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/about`} component={ () => <About/>} />
+              <Route path={`/contact`} component={ () => <Contact title={contact.title} subtitle={contact.subtitle}/>} />
+              <Route path={`/paintings/`} component={ () => <Paintings closed={closed} info={this.state.info} galleryType={galleryType} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
+              <Route path={`/drawings`} component={ () => <Drawings closed={closed} info={this.state.info} galleryType={galleryType} drawingsData={drawingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/illustrations`} component={ () => <Illustrations closed={closed} info={this.state.info} galleryType={galleryType} illustrationsData={illustrationsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/printmaking`} component={ () => <Printmaking closed={closed} info={this.state.info} galleryType={galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/sculptures`} component={ () => <Sculptures closed={closed} info={this.state.info} galleryType={galleryType} sculpturesData={sculpturesData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/photography`} component={ () => <Photography closed={closed} info={this.state.info} galleryType={galleryType} photographyData={photographyData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/about`} component={ () => <About /> } />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>
 

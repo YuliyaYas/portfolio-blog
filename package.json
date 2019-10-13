@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "contentful": "^7.10.0",
+    "html-react-parser": "^0.9.1",
     "nvm": "0.0.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",

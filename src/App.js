@@ -136,6 +136,7 @@ class App extends Component {
             contact, 
             about
           } = this.state
+
       return (
       <div>
       <div className="content">
@@ -184,7 +185,7 @@ class App extends Component {
               <Route path={`/printmaking`} component={ () => <Printmaking closed={closed} info={this.state.info} galleryType={galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               <Route path={`/sculptures`} component={ () => <Sculptures closed={closed} info={this.state.info} galleryType={galleryType} sculpturesData={sculpturesData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               <Route path={`/photography`} component={ () => <Photography closed={closed} info={this.state.info} galleryType={galleryType} photographyData={photographyData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
-              <Route path={`/about`} component={ () => <About /> } />
+              <Route path={`/about`} component={ () => <About about = {about}/> } />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>
 

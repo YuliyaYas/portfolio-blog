@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
-import Home from '../src/components/Home.js';
-import About from '../src/components/About.js';
-import Paintings from '../src/components/Paintings.js';
-import Illustrations from '../src/components/Illustrations.js';
-import Printmaking from '../src/components/Printmaking.js';
-import Sculptures from '../src/components/Sculptures.js';
-import Photography from '../src/components/Photography.js';
-import Drawings from '../src/components/Drawings.js';
-import Contact from '../src/components/Contact.js';
+import Home from '../src/components/Home';
+import About from '../src/components/About';
+import Paintings from '../src/components/Paintings';
+import Illustrations from '../src/components/Illustrations';
+import Printmaking from '../src/components/Printmaking';
+import Sculptures from '../src/components/Sculptures';
+import Photography from '../src/components/Photography';
+import Drawings from '../src/components/Drawings';
+import Contact from '../src/components/Contact';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
-var slugify = require('slugify')
+import {client} from './Contentful';
 
+var contentful = require('contentful');
+
+var slugify = require('slugify');
 var allData = [{
     'paintings': paintingsData,
     'drawings': drawingsData,
@@ -26,6 +29,14 @@ var allData = [{
     'sculptures': sculpturesData,
     'photography': photographyData
   }];
+
+  // client.getEntries().then(function (entries) {
+  //   entries.items.forEach(function (entry) {
+  //     if(entry.fields) {
+  //       console.log(entry.fields)
+  //     }
+  //   })
+  // })
 
 class App extends Component {
   constructor(){

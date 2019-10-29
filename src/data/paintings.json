@@ -95,6 +95,48 @@
       "name": "Anomaly",
       "description": "",
       "url": "Abstract-Anomaly.jpg",
-      "specs": ""
+      "specs": "oil on canvas"
+    },
+    {
+      "id":14,
+      "name": "Grace",
+      "description": "",
+      "url": "Grace.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":15,
+      "name": "Growth",
+      "description": "",
+      "url": "Growth.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":16,
+      "name": "Hope",
+      "description": "",
+      "url": "Hope.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":17,
+      "name": "Up",
+      "description": "",
+      "url": "Up.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":18,
+      "name": "Saturn",
+      "description": "",
+      "url": "Saturn.jpg",
+      "specs": "20x24inches, acrylic on wood"
+    },
+    {
+      "id":19,
+      "name": "Sun-Earth",
+      "description": "",
+      "url": "Sun-Earth.jpg",
+      "specs": "16x16inches, acrylic on wood"
     }
   ]

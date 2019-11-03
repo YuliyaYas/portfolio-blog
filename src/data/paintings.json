@@ -22,17 +22,17 @@
     },
     {
       "id": 3,
-      "name": "dou color Abstract",
+      "name": "duo color Abstract",
       "description": "Two color study created during undergrad in fine arts. It means nothing more than shapes and colors, open to all interpretations",
       "url": "dou-color-Abstract.jpg",
-      "specs": ""
+      "specs": "oil on cotton canvas"
     },
     {
       "id": 4,
       "name": "Dreamworld",
       "description": "",
       "url": "Dreamworld.jpg",
-      "specs": ""
+      "specs": "24x30, oil on cotton canvas"
     },
     {
       "id": 5,
@@ -46,7 +46,7 @@
       "name": "FullGlass",
       "description": "",
       "url": "FullGlass.jpg",
-      "specs": ""
+      "specs": "24x36inches, acrylic"
     },
     {
       "id": 7,
@@ -95,7 +95,7 @@
       "name": "Anomaly",
       "description": "",
       "url": "Abstract-Anomaly.jpg",
-      "specs": "oil on canvas"
+      "specs": "oil on cotton canvas"
     },
     {
       "id":14,
@@ -107,14 +107,14 @@
     {
       "id":15,
       "name": "Growth",
-      "description": "",
+      "description": "Growth only occurs in the sate of discomfort. Keep on growing",
       "url": "Growth.jpg",
       "specs": "11x14inches, acrylic on wood"
     },
     {
       "id":16,
       "name": "Hope",
-      "description": "",
+      "description": "We didn’t get to choose where life planted us. It is our choice, however, how well we bloom",
       "url": "Hope.jpg",
       "specs": "11x14inches, acrylic on wood"
     },
@@ -134,9 +134,9 @@
     },
     {
       "id":19,
-      "name": "Sun-Earth",
-      "description": "",
-      "url": "Sun-Earth.jpg",
+      "name": "Sun earth",
+      "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside of you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
+      "url": "Sun-earth.jpg",
       "specs": "16x16inches, acrylic on wood"
     }
   ]

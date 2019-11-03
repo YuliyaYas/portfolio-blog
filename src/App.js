@@ -47,7 +47,7 @@ class App extends Component {
       this.setState({closed: false, galleryType, }, () => {
         var galleryData = allData[0][`${this.state.galleryType}`];
         let info = galleryData.filter((img, i) => img.name === artworkName)[0];
-        console.log(artworkName)
+        
         this.setState({info, name: artworkName, currentGallery: galleryData})
       });
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../stylesheet/Overlay.css';
 
-
 const Overlay1 = (props) => {
   return(
     <div className="base" >

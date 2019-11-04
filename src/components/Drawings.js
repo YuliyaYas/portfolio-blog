@@ -2,7 +2,6 @@ import React from 'react';
 import Overlay from './Overlay';
 import '../stylesheet/Gallery.css';
 
-
 const Drawings = (props) =>  {
   const data = props.drawingsData;
       return(
@@ -43,7 +42,6 @@ const Drawings = (props) =>  {
             {
               ['32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43'].map((i, count)=>{
               return <img key={count} src={require(`../imgs/drawings/${data[i].url}`)} title={data[0].name} name="drawings" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/>
-              
             })
             }
             </div>

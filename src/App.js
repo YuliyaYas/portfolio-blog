@@ -95,7 +95,6 @@ class App extends Component {
       });
     } else if (arrow === "right"){
       const next =this.state.currentGallery[cur_id+1];
-      console.log('yo g', this.state.currentGallery[length])
       this.setState({info: next}, () => {
         this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
       });

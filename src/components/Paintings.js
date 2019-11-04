@@ -26,8 +26,7 @@ const Paintings = (props) =>  {
             <div className="column-grid">
             {
            ['15', '4', '5', '6'].map((i, count)=>{
-             return <div key={i}><img src={require(`../imgs/paintings/${props.paintingsData[i].url}`)} title={props.paintingsData[i].name} style={{width:'100%'}} name="paintings" alt={props.paintingsData[i].name} onClick={props.handleImageClick}/><div className="mobile-info"><p className="all-caps">{props.paintingsData[i].name}</p><i><p className="title">{props.paintingsData[i].specs}</p></i><p className="desc">{props.paintingsData[i].description}</p><hr /></div></div>
-             
+             return <div key={i}><img src={require(`../imgs/paintings/${data[i].url}`)} title={data[i].name} style={{width:'100%'}} name="paintings" alt={data[i].name} onClick={props.handleImageClick}/><div className="mobile-info"><p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p><hr /></div></div>
            })
           }
            
@@ -35,7 +34,7 @@ const Paintings = (props) =>  {
             <div className="column-grid">
             {
            ['18', '16', '7', '8', '9'].map((i, count)=>{
-             return <div key={i}><img src={require(`../imgs/paintings/${props.paintingsData[i].url}`)} title={props.paintingsData[i].name} style={{width:'100%'}} name="paintings" alt={props.paintingsData[i].name} onClick={props.handleImageClick}/><div className="mobile-info"><p className="all-caps">{props.paintingsData[i].name}</p><i><p className="title">{props.paintingsData[i].specs}</p></i><p className="desc">{props.paintingsData[i].description}</p><hr /></div></div>
+             return <div key={i}><img src={require(`../imgs/paintings/${data[i].url}`)} title={data[i].name} style={{width:'100%'}} name="paintings" alt={data[i].name} onClick={props.handleImageClick}/><div className="mobile-info"><p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p><hr /></div></div>
              
            })
           }
@@ -44,7 +43,7 @@ const Paintings = (props) =>  {
             <div className="column-grid">
             {
            ['17', '10', '11', '12', '13'].map((i, count)=>{
-             return <div key={i}><img src={require(`../imgs/paintings/${props.paintingsData[i].url}`)} title={props.paintingsData[i].name} style={{width:'100%'}} name="paintings" alt={props.paintingsData[i].name} onClick={props.handleImageClick}/><div className="mobile-info"><p className="all-caps">{props.paintingsData[i].name}</p><i><p className="title">{props.paintingsData[i].specs}</p></i><p className="desc">{props.paintingsData[i].description}</p><hr /></div></div>
+             return <div key={i}><img src={require(`../imgs/paintings/${data[i].url}`)} title={data[i].name} style={{width:'100%'}} name="paintings" alt={data[i].name} onClick={props.handleImageClick}/><div className="mobile-info"><p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p><hr /></div></div>
              
            })
           }

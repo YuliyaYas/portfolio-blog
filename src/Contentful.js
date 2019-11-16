@@ -1,10 +1,7 @@
-import {config} from './config'
-
 var contentful = require('contentful');
-
 export const client = contentful.createClient({
-    space: config.SPACE_ID,
-    accessToken: config.CONTENT_DELIVERY_API_TOKEN
+    space: process.env.REACT_APP_SPACE_ID,
+    accessToken: process.env.REACT_APP_CONTENT_DELIVERY_API_TOKEN
 })
 
   

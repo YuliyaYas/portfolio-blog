@@ -22,17 +22,17 @@
     },
     {
       "id": 3,
-      "name": "dou color Abstract",
-      "description": "Two color study created during undergrad in fine arts. It means nothing more than shapes and colors, open to all interpretations",
+      "name": "duo color Abstract",
+      "description": "Two color study created during undergrad in fine arts. It means nothing more than shapes and colors, open to all interpretations.",
       "url": "dou-color-Abstract.jpg",
-      "specs": ""
+      "specs": "oil on cotton canvas"
     },
     {
       "id": 4,
       "name": "Dreamworld",
-      "description": "",
+      "description": "Each of us has a perfect world inside of our heads. Free of fear, lies and pain. Let this world be not only inside you, but outside. Live. Dream.",
       "url": "Dreamworld.jpg",
-      "specs": ""
+      "specs": "24x30, oil on cotton canvas"
     },
     {
       "id": 5,
@@ -43,10 +43,10 @@
     },
     {
       "id": 6,
-      "name": "FullGlass",
-      "description": "",
+      "name": "Full Glass",
+      "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. ",
       "url": "FullGlass.jpg",
-      "specs": ""
+      "specs": "24x36inches, acrylic on wood"
     },
     {
       "id": 7,
@@ -58,15 +58,15 @@
     {
       "id": 8,
       "name": "Snaility",
-      "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point",
+      "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.",
       "url": "Snaility.jpg",
       "specs": "20x20inches, acrylic on wood"
     },
     {
       "id": 9,
-      "name": "Tale",
+      "name": "Tail",
       "description": "A gift, I painted for an amazing photographer, ocean ambassador and a mermaid Kristin Hettermann. Kristin strives to share positive stories, document the earth and its cultures, inspire people to explore, encourage the balance of mind-body-spirit through holistic life practices, and raise awareness for important causes, particularly the protection and restoration of the world’s oceans.",
-      "url": "Tale.jpg",
+      "url": "Tail.jpg",
       "specs": "10x16inches, acrylic on canvas"
     },
     {
@@ -79,22 +79,64 @@
     {
       "id": 11,
       "name": "Master Copy of Louisa Matthiasdottir's work",
-      "description": "",
+      "description": "A study of Louisa Matthiasdottir's painting. Bright and vivid colors, typical for Matthiasdottir's artworks served as inspiration for some of Yuliya's early works.",
       "url": "Master-copy-of-Louisa-Matthiasdottirs-work.jpg",
-      "specs": ""
+      "specs": "oil on cotton canvas"
     },
     {
       "id": 12,
       "name": "Tree",
-      "description": "",
+      "description": "Yuliya's first oil artworks, painted when she just moved to New York in 2012.",
       "url": "Tree1.jpg",
-      "specs": ""
+      "specs": "oil on cotton canvas"
     },
     {
       "id": 13,
       "name": "Anomaly",
-      "description": "",
+      "description": "Two color study created during undergrad in fine arts.",
       "url": "Abstract-Anomaly.jpg",
-      "specs": ""
+      "specs": "oil on cotton canvas"
+    },
+    {
+      "id":14,
+      "name": "Grace",
+      "description": "'Grace comes into the soul, as the morning sun into the world; first a dawning, then a light; and at last the sun in his full and excellent brightness.' - Thomas Adams",
+      "url": "Grace.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":15,
+      "name": "Growth",
+      "description": "Growth only occurs in the sate of discomfort. Keep on growing.",
+      "url": "Growth.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":16,
+      "name": "Hope",
+      "description": "We didn’t get to choose where life planted us. It is our choice, however, how well we bloom.",
+      "url": "Hope.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":17,
+      "name": "Up",
+      "description": "The only way is up.",
+      "url": "Up.jpg",
+      "specs": "11x14inches, acrylic on wood"
+    },
+    {
+      "id":18,
+      "name": "Saturn",
+      "description": "Saturn is the slowest planet (in orbit around the Sun), but also in Roman mythology - Saturn was a god of time. Time is our most precious thing. Use it wisely as it won’t stop, but will only keep spinning round and round. To spend time with people with whom we don't see a long-term potential is to invest in person who will not be there for you tomorrow.",
+      "url": "Saturn.jpg",
+      "specs": "20x24inches, acrylic on wood"
+    },
+    {
+      "id":19,
+      "name": "Sun earth",
+      "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside of you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
+      "url": "Sun-earth.jpg",
+      "specs": "16x16inches, acrylic on wood"
     }
   ]

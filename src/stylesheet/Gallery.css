@@ -4,6 +4,29 @@
   }
 }
 @media (max-width: 480px) {
+  .sold-mobile {
+    position: absolute;
+    height: 32px;
+    color: white;
+    background-color: rgba(236, 42, 42, 0.65);
+    border-radius: 10px;
+    padding: 8px 10px;
+    right: 15px;
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .label-mobile {
+    position: absolute;
+    height: 32px;
+    color: white;
+    background-color: rgba(53, 197, 17, 0.75);
+    border-radius: 10px;
+    padding: 9px 16px;
+    right: 15px;
+    margin: 0;
+    font-size: 12px;
+  }
   .title {
     line-height: 0px;
   }

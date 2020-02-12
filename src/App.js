@@ -16,7 +16,7 @@ import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
-var slugify = require('slugify')
+var slugify = require('slugify');
 
 var allData = [{
     'paintings': paintingsData,
@@ -74,7 +74,7 @@ class App extends Component {
       }
       this.setState({closed: false, name: e.target.title, currentGallery, galleryType}, () => {
           let info = this.state.currentGallery.filter((img, i) => img.name === this.state.name)[0];
-          this.setState({info}, () => this.props.history.push(`/${galleryType}/${slugify(title)}`));
+          this.setState({info}, () => this.props.history.push(`/${galleryType}/#${slugify(title)}`));
       });
   }
 
@@ -86,22 +86,22 @@ class App extends Component {
     if (arrow === "left" && cur_id === 0){
       const next = this.state.currentGallery[length];
       this.setState({info: next}, () => {
-        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
       });
     } else if (arrow === "right" && cur_id === length){
       const next = this.state.currentGallery[0];
       this.setState({info: next}, () => {
-        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
       });
     } else if (arrow === "right"){
       const next =this.state.currentGallery[cur_id+1];
       this.setState({info: next}, () => {
-        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
       });
     } else if (arrow === "left"){
       const prev = this.state.currentGallery[cur_id-1];
       this.setState({info: prev}, () => {
-        this.props.history.push(`/${this.state.galleryType}/${slugify(this.state.info.name)}`)
+        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
       });
     }
   }

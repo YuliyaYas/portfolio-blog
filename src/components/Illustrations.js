@@ -18,7 +18,7 @@ const Illustrations = (props) =>  {
             <div className="column-grid">
             {
            ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'].map((i, count)=>{
-            return <img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/>
+            return <div><img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
             
           })
           }
@@ -26,7 +26,7 @@ const Illustrations = (props) =>  {
             <div className="column-grid">
             {
            ['10', '11', '12', '13', '14', '15', '16', '17', '18'].map((i, count)=>{
-            return <img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/>
+            return <div><img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
             
           })
           }
@@ -34,14 +34,14 @@ const Illustrations = (props) =>  {
             <div className="column-grid">
             {
            ['19', '20', '21', '22', '23', '24', '25', '26', '27'].map((i, count)=>{
-            return <img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/>
+            return <div><img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
           })
           }
           </div>
             <div className="column-grid">
             {
            ['28', '29', '30', '31', '32', '33', '34', '35', '36', '37'].map((i, count)=>{
-            return <img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/>
+            return <div><img key={count} src={require(`../imgs/illustrations/${data[i].url}`)} title={data[0].name} name="illustrations" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
           })
           }
             </div>

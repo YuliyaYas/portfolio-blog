@@ -18,6 +18,7 @@
       "name": "City on clouds",
       "description": "We build our own houses and cities, - ideal and perfect in our head. Its up to us to decide to see in color or in grey tones. My perfect city is full of shades of blue and green, on a cloud where no negativity and rain can reach me and other city’s inhabitants. Going places, guided by wind and sunny weather. Maybe too romantic and too perfect, but its mine. To each its own.",
       "url": "City-on-clouds.jpg",
+      "sold": true,
       "specs": "10x16inches, acrylic on paper"
     },
     {
@@ -25,6 +26,7 @@
       "name": "duo color Abstract",
       "description": "Two color study created during undergrad in fine arts. It means nothing more than shapes and colors, open to all interpretations.",
       "url": "dou-color-Abstract.jpg",
+      "sold": true,
       "specs": "oil on cotton canvas"
     },
     {
@@ -46,6 +48,7 @@
       "name": "Full Glass",
       "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. ",
       "url": "FullGlass.jpg",
+      "sold": true,
       "specs": "24x36inches, acrylic on wood"
     },
     {
@@ -67,6 +70,7 @@
       "name": "Tail",
       "description": "A gift, I painted for an amazing photographer, ocean ambassador and a mermaid Kristin Hettermann. Kristin strives to share positive stories, document the earth and its cultures, inspire people to explore, encourage the balance of mind-body-spirit through holistic life practices, and raise awareness for important causes, particularly the protection and restoration of the world’s oceans.",
       "url": "Tail.jpg",
+      "sold": true,
       "specs": "10x16inches, acrylic on canvas"
     },
     {
@@ -81,6 +85,7 @@
       "name": "Master Copy of Louisa Matthiasdottir's work",
       "description": "A study of Louisa Matthiasdottir's painting. Bright and vivid colors, typical for Matthiasdottir's artworks served as inspiration for some of Yuliya's early works.",
       "url": "Master-copy-of-Louisa-Matthiasdottirs-work.jpg",
+      "sold": true,
       "specs": "oil on cotton canvas"
     },
     {
@@ -95,6 +100,7 @@
       "name": "Anomaly",
       "description": "Two color study created during undergrad in fine arts.",
       "url": "Abstract-Anomaly.jpg",
+      "sold": true,
       "specs": "oil on cotton canvas"
     },
     {
@@ -134,7 +140,7 @@
     },
     {
       "id":19,
-      "name": "Sun arth",
+      "name": "Sun Earth",
       "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside of you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
       "url": "Sun-Earth.jpg",
       "specs": "16x16inches, acrylic on wood"

@@ -10,6 +10,7 @@
       "id": 1,
       "name": "Milwaukee",
       "description": "",
+      "sold": true,
       "url": "Milwaukee-1.jpg",
       "specs": ""
     },
@@ -18,6 +19,7 @@
       "name": "Ilona",
       "description": "",
       "url": "Ilona.jpg",
+      "sold": true,
       "specs": ""
     },
     {
@@ -39,6 +41,7 @@
       "name": "julianna",
       "description": "",
       "url": "julianna.jpg",
+      "sold": true,
       "specs": ""
     },
     {
@@ -81,6 +84,7 @@
       "name": "Lauren",
       "description": "",
       "url": "IMG_8306.jpg",
+      "sold": true,
       "specs": ""
     },
     {
@@ -129,6 +133,7 @@
       "id": 18,
       "name": "Valera",
       "description": "",
+      "sold": true,
       "url": "Valera.jpg",
       "specs": ""
     },
@@ -172,6 +177,7 @@
       "name": "Andrei",
       "description": "",
       "url": "Andrei.jpg",
+      "sold": true,
       "specs": ""
     },
     {
@@ -186,6 +192,7 @@
       "name": "In the garden",
       "description": "",
       "url": "In-the-garden.jpg",
+      "sold": true,
       "specs": ""
     },
     {
@@ -199,6 +206,7 @@
       "id": 28,
       "name": "Lianok",
       "description": "",
+      "sold": true,
       "url": "Lianok.jpg",
       "specs": ""
     },
@@ -228,6 +236,7 @@
       "name": "Roksolana",
       "description": "",
       "url": "Roksolana_maylar_ink.jpg",
+      "sold": true,
       "specs": ""
     },
     {

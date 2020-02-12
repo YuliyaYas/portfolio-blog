@@ -73,6 +73,7 @@
       "id": 10,
       "name": "Moments",
       "description": "",
+      "sold": true,
       "url": "IMG_8576.jpg",
       "specs": ""
     },

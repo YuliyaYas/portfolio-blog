@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const About = () =>  {
 
@@ -6,9 +6,9 @@ const About = () =>  {
         <div>
           <div id="about">
             <img id="profile-pic" src={require("../imgs/portrait1.jpg")} />
-            <p>Yuliya Yasenetska currently resides in New York City, but was born and raised in Lviv, Ukraine.
+            <p>Yuliya Yasenetska currently resides in New York City, but was born and raised in Lviv, Ukraine. She began her art career at the age of 6 when she started attending art classes at the Lviv National Academy of Arts. While she enjoyed the opportunity, she consistently refused to imitate someone else’s art. Why copy something that already exist? To create your own vision - felt more authentic to her. Eventually she was asked to leave the school unless she complied with the rules. She did not comply. Despite this, Yuliya never stopped expressing herself through creative processes. Her main forms of expression included poetry, music and the most dear to her heart - painting. This is one of the constants that she would forever rely on to confront the fluctuations of life.
             </p>
-            <p>Yuliya enjoys experimenting with different mediums. She feels that painting, drawing, digital art, printmaking and the combination of these techniques is the representation of variation of things that happens in our life. Humans constantly change, and as an artist, Yuliya continuously seeks improvement and varied methods to express herself.
+            <p>Yuliya Yasenetska enjoys experimenting with different mediums. She feels that painting, drawing, digital art, printmaking and the combination of these techniques is the representation of variation of things that happens in our life. Humans constantly change, and as an artist, Yuliya continuously seeks improvement and varied methods to express herself.
             </p>
             <p>Yuliya focuses on how her artwork looks and feels, not on ingraining hidden meanings into the art. When children look at the artwork - they don’t question ideas, or start debating on philosophical topics. All they see is colors, shapes, and their own view of the image; blended with their own naive vivid imaginations. She hopes to capture that carefree imagination in her paintings without enforcing any predefined connotations.
             </p>

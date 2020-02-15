@@ -10,6 +10,7 @@ import Sculptures from '../src/components/Sculptures.js';
 import Photography from '../src/components/Photography.js';
 import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
+import Ad from '../src/components/Ad';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
@@ -115,7 +116,6 @@ class App extends Component {
     return (
       <div>
       <div className="content">
-      <a href="/" id="z"><img id="logo-mobile" src={require("./imgs/logo_yy.png")} /></a>
       <div className="header-menu">
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
@@ -132,7 +132,6 @@ class App extends Component {
         <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank">INSTAGRAM<i className="right"></i></a></li>
         </ul>
       </div>
-
         <div className="row">
           <div className="column-1">
           <a href="/"><img id="logo" src={require("./imgs/logo_yy.png")} /></a>
@@ -144,6 +143,7 @@ class App extends Component {
               {/* <h4><a href="/sculptures">SCULPTURES<i className="right"></i></a></h4> */}
               <h4><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></h4>
             </div>
+            <Ad/>
             <div id="contact">
               <h4 id="about"><a href="/">HOME</a></h4>
               <h4 ><a href="/about">ABOUT</a></h4>

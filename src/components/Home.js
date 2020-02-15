@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import '../stylesheet/Home.css';
+import React from 'react';
 
 const Header = () =>  {
       return(
         <div id="home">
+          <a href="https://www.amazon.com/dp/1673973914?ref_=pe_3052080_397514860" target="_blank"><img id="amazon-mobile" src={require('../imgs/ad-mobile.png')} alt="Coloring book"/></a>
           <img id="home-img" src={require("../imgs/paintings/Snaility.jpg")}/>
           <div className="title">
             <p>REBIRTH</p>

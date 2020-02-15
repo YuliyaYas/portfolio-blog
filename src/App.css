@@ -23,6 +23,17 @@ a {
   text-decoration: none; /* no underline */
 }
 
+#amazon-mobile{
+  display: none;
+}
+
+@media (max-width: 480px) {
+  #amazon-mobile{
+    display: block;
+      padding-top: 50px;
+      width: 100%;
+  }
+}
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -97,9 +108,8 @@ a {
   }
 
   #home-img{
-    padding-top: 42px;
+    /* padding-top: 42px; */
   }
-
 
   #about{
     margin-top: 0px !important;
@@ -259,7 +269,7 @@ a {
 }
 
 #contact{
-  margin-top: 240px;
+  margin-top: 20px;
 }
 
 #footer{
@@ -274,7 +284,7 @@ a {
 }
 
 #about{
-  margin-top: 100px;
+  margin-top: 30px;
   padding-right: 50px;
   text-align: justify;
   line-height: 25px;
@@ -288,4 +298,8 @@ a {
 
 #contact-form{
   padding-top: 100px;
+}
+
+hr{
+  border-top: 1px solid #eaeaea;;
 }

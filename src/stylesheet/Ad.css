@@ -1,0 +1,40 @@
+#amazon {
+    width: 77%;
+    border: 1px solid;
+}
+
+#ad-container{
+    max-width: 250px;
+}
+
+#now-on-amazon{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ad-description{
+   font-family: Arial; 
+}
+
+#title, #paperback{
+    color: #1111d2;
+    /* line-height: 1px; */
+}
+
+#ad-about{
+    margin: 15px 0;
+    font-size: 14px;
+    font-style: italic;
+    width: 80%;
+}
+
+#author{
+    font-size: 12px;
+    font-style: italic;
+}
+
+#paperback{
+    font-size: 12px;
+}
+em{color: #b50303;}
+span{font-size: 12px;}

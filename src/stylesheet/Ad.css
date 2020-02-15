@@ -3,7 +3,7 @@
     border: 1px solid;
 }
 
-#ad-container{
+#amz-container{
     max-width: 250px;
 }
 
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-.ad-description{
+.amz-description{
    font-family: Arial; 
 }
 
@@ -21,7 +21,7 @@
     /* line-height: 1px; */
 }
 
-#ad-about{
+#amz-about{
     margin: 15px 0;
     font-size: 14px;
     font-style: italic;

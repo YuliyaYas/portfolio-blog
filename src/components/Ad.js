@@ -6,7 +6,7 @@ const Ad = () =>  {
             <img id="amazon" src={require('../imgs/ad.png')} alt="Coloring book"/>
             <div className="ad-description"> 
                 <p id="title">Tiny Houses: coloring book</p>
-                {/* <div id="author">by Yuliya Yasenetska</div> */}
+                <div id="author">by Yuliya Yasenetska</div>
                 <div id="ad-about">Whimsical coloring book for adults and kids to explore your own artistic self. </div> 
                 <div id="paperback">Paperback</div>
                 <div><em>$9.99</em> <span>to buy</span></div>

@@ -27,7 +27,7 @@ a {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   #amazon-mobile{
     display: block;
       padding-top: 50px;
@@ -55,7 +55,7 @@ a {
   .column-1 {
     float: left;
     width: 29%;
-    position: fixed;
+    position: absolute;
   }
 
   .column-2 {

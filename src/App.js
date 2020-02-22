@@ -6,11 +6,11 @@ import About from '../src/components/About.js';
 import Paintings from '../src/components/Paintings.js';
 import Illustrations from '../src/components/Illustrations.js';
 import Printmaking from '../src/components/Printmaking.js';
-import Sculptures from '../src/components/Sculptures.js';
+// import Sculptures from '../src/components/Sculptures.js';
 import Photography from '../src/components/Photography.js';
 import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
-import Ad from '../src/components/Ad';
+import Book from '../src/components/Book';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
@@ -51,8 +51,6 @@ class App extends Component {
         
         this.setState({info, name: artworkName, currentGallery: galleryData})
       });
-
-
     }
   }
 
@@ -82,7 +80,7 @@ class App extends Component {
   handleArrowClick = (e) => {
     const arrow = e.target.alt;
     const cur_id = this.state.info.id;
-    const first = this.state.currentGallery[0];
+    // const first = this.state.currentGallery[0];
     const length = this.state.currentGallery.length-1;
     if (arrow === "left" && cur_id === 0){
       const next = this.state.currentGallery[length];
@@ -129,12 +127,12 @@ class App extends Component {
         <li><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></li>
         <li><a href="/about">ABOUT<i className="right"></i></a></li>
         <li><a href="/contact">CONTACT<i className="right"></i></a></li>
-        <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank">INSTAGRAM<i className="right"></i></a></li>
+        <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank" rel="noopener noreferrer">INSTAGRAM<i className="right"></i></a></li>
         </ul>
       </div>
         <div className="row">
           <div className="column-1">
-          <a href="/"><img id="logo" src={require("./imgs/logo_yy.png")} /></a>
+          <a href="/"><img id="logo" src={require("./imgs/logo_yy.png")} alt="logo"/></a>
             <div id="menu">
               <h4><a href="/paintings/">PAINTINGS<i className="right"></i></a></h4>
               <h4><a href="/illustrations">ILLUSTRATIONS<i className="right"></i></a></h4>
@@ -143,12 +141,12 @@ class App extends Component {
               {/* <h4><a href="/sculptures">SCULPTURES<i className="right"></i></a></h4> */}
               <h4><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></h4>
             </div>
-            <Ad/>
+            <Book/>
             <div id="contact">
               <h4 id="about"><a href="/">HOME</a></h4>
               <h4 ><a href="/about">ABOUT</a></h4>
               <h4><a href="/contact">CONTACT</a></h4>
-              <a href="https://www.instagram.com/yuliyas.art/" target="_blank"><h4>INSTAGRAM</h4></a>
+              <a href="https://www.instagram.com/yuliyas.art/" target="_blank" rel="noopener noreferrer"><h4>INSTAGRAM</h4></a>
             </div>
           </div>
           <div className="column-2">

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Overlay from './Overlay';
 import '../stylesheet/Gallery.css';
 
@@ -14,18 +14,18 @@ const Sculptures = (props) =>  {
           }
           <div className="row-grid">
             <div className="column-grid">
-              <img src={require("../imgs/sculptures/berry.png")} title={props.sculpturesData[0].name} name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/sculptures/berry.png")} title={props.sculpturesData[0].name} alt={props.sculpturesData[0].name}  name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
             </div>
             <div className="column-grid">
-              <img src={require("../imgs/sculptures/city.png")} title={props.sculpturesData[1].name} name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/sculptures/city.png")} title={props.sculpturesData[1].name} alt={props.sculpturesData[1].name}  name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
             <div className="column-grid">
-              <img src={require("../imgs/sculptures/face.png")} title={props.sculpturesData[2].name} name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/sculptures/face.png")} title={props.sculpturesData[2].name} alt={props.sculpturesData[2].name}  name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
             <div className="column-grid">
-              <img src={require("../imgs/sculptures/vase.jpg")} title={props.sculpturesData[3].name} name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
+              <img src={require("../imgs/sculptures/vase.jpg")} title={props.sculpturesData[3].name} alt={props.sculpturesData[3].name} name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
 
             </div>
           </div>
@@ -34,6 +34,3 @@ const Sculptures = (props) =>  {
 };
 
 export default Sculptures;
-
-{/* <img src={require("../imgs/sculptures/plates.jpg")} title={props.sculpturesData[0].name} name="sculptures" style={{width:'100%'}} onClick={props.handleImageClick} />
-*/}

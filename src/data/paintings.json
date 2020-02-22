@@ -144,5 +144,12 @@
       "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside of you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
       "url": "Sun-Earth.jpg",
       "specs": "16x16inches, acrylic on wood"
+    },
+    {
+      "id": 20,
+      "name": "Glow",
+      "description": "Produce your own light, glow in the dark and stun with your beauty",
+      "url": "Glow.jpg",
+      "specs": "24x30inches, acrylic on wood"
     }
   ]

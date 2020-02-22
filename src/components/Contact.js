@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Contact = () =>  {
 
@@ -12,8 +12,8 @@ const Contact = () =>  {
             frameBorder="0"
             scrolling="no"
             style={{width: '80%', border: 'none', display: 'block', margin: '0 auto', marginTop: '50px', backgroundColor: 'green !important'}}
-            src="https://yuliyasart.wufoo.com/embed/zfo8cs61rij29h/">
-
+            src="https://yuliyasart.wufoo.com/embed/zfo8cs61rij29h/"
+            title="contact-form">
           </iframe>
         </div>
       );

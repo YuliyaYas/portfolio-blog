@@ -1,0 +1,31 @@
+h3{
+  text-transform: capitalize;
+}
+
+.blogContainer{
+ padding-top: 100px;
+}
+
+.post{
+    border: 1px solid #eaeaea;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.postImg{
+    height: 100px;
+    width: 100px !important;
+    object-fit: cover;
+    border: 1px solid #eaeaea;;
+    margin: 0px 10px 0 0!important;
+    float: left;
+}
+
+.shortDesc{
+    height: 100px;
+    padding: 10px;
+}
+
+

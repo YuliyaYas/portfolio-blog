@@ -11,6 +11,7 @@ import Photography from '../src/components/Photography.js';
 import Drawings from '../src/components/Drawings.js';
 import Contact from '../src/components/Contact.js';
 import Book from '../src/components/Book';
+import Blog from '../src/components/Blog';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
@@ -28,6 +29,13 @@ var allData = [{
     'photography': photographyData
   }];
 
+var contentful = require('contentful');
+
+const client = contentful.createClient({
+    space: 'mtf0snpvyek2',
+    accessToken: 'XxPJ-Mn0lXFi7Z5Kr4qiQeYmCNX5HohZm-ZmyiJcU-4'
+})
+
 class App extends Component {
   constructor(){
     super()
@@ -36,7 +44,8 @@ class App extends Component {
       name: '',
       info: [],
       currentGallery: [],
-      galleryType: ''
+      galleryType: '',
+      blog: []
     }
   }
 
@@ -52,6 +61,15 @@ class App extends Component {
         this.setState({info, name: artworkName, currentGallery: galleryData})
       });
     }
+    client.getEntries().then(entries => {
+      const blogs = [];
+      entries.items.forEach(entry => {
+        if(entry.sys.contentType.sys.id === 'blog') {
+          blogs.push(entry.fields);
+        }
+      })
+      this.setState({blog: blogs})
+    })
   }
 
   handleImageClick = (e) => {
@@ -125,6 +143,7 @@ class App extends Component {
         <li><a href="/printmaking">PRINTMAKING<i className="right"></i></a></li>
         {/* <li><a href="/sculptures">SCULPTURES<i className="right"></i></a></li> */}
         <li><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></li>
+        <li><a href="/blog">BLOG<i className="right"></i></a></li>
         <li><a href="/about">ABOUT<i className="right"></i></a></li>
         <li><a href="/contact">CONTACT<i className="right"></i></a></li>
         <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank" rel="noopener noreferrer">INSTAGRAM<i className="right"></i></a></li>
@@ -140,6 +159,7 @@ class App extends Component {
               <h4><a href="/printmaking">PRINTMAKING<i className="right"></i></a></h4>
               {/* <h4><a href="/sculptures">SCULPTURES<i className="right"></i></a></h4> */}
               <h4><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></h4>
+              <h4><a href="/blog">BLOG<i className="right"></i></a></h4>
             </div>
             <Book/>
             <div id="contact">
@@ -158,6 +178,7 @@ class App extends Component {
               <Route path={`/printmaking`} component={ () => <Printmaking closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
               {/* <Route path={`/sculptures`} component={ () => <Sculptures closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} sculpturesData={sculpturesData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} /> */}
               <Route path={`/photography`} component={ () => <Photography closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} photographyData={photographyData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} />
+              <Route path={`/blog`} component={ () => <Blog blog={this.state.blog}/>} />
               <Route path={`/about`} component={ () => <About/>} />
               <Route path={`/`} component={ () => <Home />} />
             </Switch>

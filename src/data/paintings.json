@@ -46,7 +46,7 @@
     {
       "id": 6,
       "name": "Full Glass",
-      "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. ",
+      "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. The bottle symbolizes the principles of containing and enclosure of life. The left side of the bottle portrays houses from Wolinsky's father's family side -  Long Island and Janow. Houses from Janow are painted them from old archive photos. There is a watch tower, synagogue and few Jewish residential buildings. Flowers and trees are also native to Poland and NY region.  The right side of the bottle - buildings and plants from Hong Kong, Wolinsky mother's side of the family. The bottle itself and the houses on the label - symbolizes New York. The decorations on the bottle are inspired by the few of Wolinsky's favorite wines - 1952 Cheval blanc, 1974 Contratto Barolo Riserva and1982 Montrose.",
       "url": "FullGlass.jpg",
       "sold": true,
       "specs": "24x36inches, acrylic on wood"
@@ -151,5 +151,12 @@
       "description": "Produce your own light, glow in the dark and stun with your beauty. ",
       "url": "Glow.jpg",
       "specs": "24x30inches, acrylic on wood"
+    },
+    {
+      "id": 21,
+      "name": "TucanVille",
+      "description": "Dare to be different, exciting and bold! this will add more color to your life. ",
+      "url": "tucan.jpg",
+      "specs": "24x36inches, acrylic on wood"
     }
   ]

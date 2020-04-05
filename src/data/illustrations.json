@@ -336,66 +336,73 @@
       "specs": ""
     },
     {
-      "id": 50,
+      "id": 48,
       "name": "Ladybug",
       "description": "",
       "url": "ladybug.jpg",
       "specs": ""
     },
     {
-      "id": 51,
+      "id": 49,
       "name": "Llama",
       "description": "",
       "url": "Llama.jpg",
       "specs": ""
     },
     {
-      "id": 52,
+      "id": 50,
       "name": "Manta",
       "description": "",
       "url": "manta.jpg",
       "specs": ""
     },
     {
-      "id": 53,
+      "id": 51,
       "name": "Muffin",
       "description": "",
       "url": "MUFFIN.jpg",
       "specs": ""
     },
     {
-      "id": 54,
+      "id": 52,
       "name": "Orchid",
       "description": "",
       "url": "orchid.jpg",
       "specs": ""
     },
     {
-      "id": 55,
+      "id": 53,
       "name": "The Scarlet Macaw",
       "description": "",
       "url": "parrot.jpg",
       "specs": ""
     },
     {
-      "id": 56,
+      "id": 54,
       "name": "Tucan",
       "description": "",
       "url": "tucan.jpg",
       "specs": ""
     },
     {
-      "id": 57,
+      "id": 55,
       "name": "turtle",
       "description": "",
       "url": "turtle.jpg",
       "specs": ""
     },
     {
-      "id": 58,
+      "id": 56,
       "name": "Watermelon",
       "description": "",
       "url": "watermelon.jpg",
+      "specs": ""
+    },
+    {
+      "id": 57,
+      "name": "Butterfly",
+      "description": "",
+      "url": "butterfly.jpg",
       "specs": ""
     }
   ]

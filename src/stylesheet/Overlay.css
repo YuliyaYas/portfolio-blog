@@ -23,7 +23,9 @@
   margin-left: auto;
   margin-right: auto;
   width: 96%;
-  overflow: hidden;
+  overflow: scroll;
+  max-height: 95%;
+  overflow-x: hidden;
   z-index: 2147483645;
   text-align: center;
   background-color: rgb(277, 277, 277);
@@ -154,13 +156,13 @@
   position: absolute;
 }
 .left-arrow {
-  left: 28%;
+  left: 28.5%;
   opacity: 0.6;
   transform: rotate(-180deg);
   position: fixed;
 }
 .right-arrow {
-  left: 94.5%;
+  left: 95.5%;
   opacity: 0.6;
   position: fixed;
 }

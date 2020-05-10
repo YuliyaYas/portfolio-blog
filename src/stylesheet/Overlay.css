@@ -1,7 +1,6 @@
 
 .base .shroud {
     background-color:  rgba(0, 0, 0, 0.75);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
 }
 
 .base .shroud {

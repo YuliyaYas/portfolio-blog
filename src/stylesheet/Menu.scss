@@ -1,23 +1,155 @@
-#logo {
-  max-width: 150px;   
+#logo, .menu-top {
+  display: none;
 }
 
-@media (min-width: 340px) {
+#logo-mobile{
+  width: 22%;
+  float: left;
+  z-index: 10;
+  position: fixed;
+  margin-left: 10px;
+}
+
+/* humburger menu */
+.mobile-menu {
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  margin: 0;
+  background: rgba(256,256,256,0.7);
+  .menu-btn {
+    display: none;
+    &:checked ~ .menu {
+      max-height: 2140px;
+    }
+    &:checked{
+      ~ .menu-icon{
+        .navicon {
+          background: transparent;
+          &:before {
+            transform: rotate(-45deg);
+          }
+          &:after {
+            transform: rotate(45deg);
+          }
+        }
+        &:not(.steps){
+          .navicon{
+            &:before, &:after{
+              top: 0;
+            }
+          }
+        } 
+      } 
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgba(256,256,256,0.7);
+  }
+
+  li a {
+    display: block;
+    padding: 15px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    border-top: 1px solid #dedbdb;
+  }
+
+  li a:hover, .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+
+  .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+    user-select: none;
+    .navicon {
+      background: #333;
+      display: block;
+      height: 2px;
+      position: relative;
+      transition: background .2s ease-out;
+      width: 30px;
+      &:before, &:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      &:before {
+        top: 7px;
+      }
+      &:after {
+        top: -7px;
+      }
+    }
+  }
+
+}
+/* humburger menu end */
+
+@media (min-width: 420px) {
+  #logo {
+    display: inline-block;
+    max-width: 150px;   
+  }
+  #logo-mobile{
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+
+  .menu{
+    width: 94%;
+    margin: 0 auto;
+    padding: 10px;
+  }
   .menu-top {
     display: flex;
     float: right;
     list-style: none;
     font-size: 14px;
+    margin: 35px 0px 15px 30px;
+
 
     
-    #insta, #email{
-      width: 30px;
+    #icons{
+      width: 25px;
+      margin: -10px;
+      &:hover{
+        width: 30px;
+      }
     }
 
     li{
       margin: 15px;
+      &:hover{
+      text-decoration-line: underline;
+      }
     }
 
   }
 }
+
 

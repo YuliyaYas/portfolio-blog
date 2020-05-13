@@ -125,7 +125,7 @@ class App extends Component {
         <li><a href="/printmaking">PRINTMAKING<i className="right"></i></a></li>
         {/* <li><a href="/sculptures">SCULPTURES<i className="right"></i></a></li> */}
         <li><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></li>
-        <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS<i className="right"></i></a></li>
+        <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP<i className="right"></i></a></li>
         <li><a href="/about">ABOUT<i className="right"></i></a></li>
         <li><a href="/contact">CONTACT<i className="right"></i></a></li>
         <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank" rel="noopener noreferrer">INSTAGRAM<i className="right"></i></a></li>
@@ -141,7 +141,7 @@ class App extends Component {
               <h4><a href="/printmaking">PRINTMAKING<i className="right"></i></a></h4>
               {/* <h4><a href="/sculptures">SCULPTURES<i className="right"></i></a></h4> */}
               <h4><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></h4>
-              <h4><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS<i className="right"></i></a></h4>
+              <h4><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP<i className="right"></i></a></h4>
             </div>
             <Book/>
             <div id="contact">

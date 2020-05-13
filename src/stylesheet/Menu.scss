@@ -1,0 +1,23 @@
+#logo {
+  max-width: 150px;   
+}
+
+@media (min-width: 340px) {
+  .menu-top {
+    display: flex;
+    float: right;
+    list-style: none;
+    font-size: 14px;
+
+    
+    #insta, #email{
+      width: 30px;
+    }
+
+    li{
+      margin: 15px;
+    }
+
+  }
+}
+

@@ -46,6 +46,7 @@ const Menu = (props) => {
         <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank" rel="noopener noreferrer">INSTAGRAM<i className="right"></i></a></li>
         </ul>
       </div>
+      <hr></hr>
     </div>
   );
 };

@@ -116,6 +116,7 @@ class App extends Component {
     return (
       <div>
         <Menu /> 
+        
       <div className="content">
       
           <Switch>

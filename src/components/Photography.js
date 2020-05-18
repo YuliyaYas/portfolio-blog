@@ -17,7 +17,7 @@ const Photography = (props) =>  {
             <div className="column-grid">
             {
            ['0', '1', '10', '2', '3'].map((i, count)=>{
-            return <div key={count}><img src={require(`../imgs/photography/${data[i].url}`)} title={data[0].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
+            return <div key={count}><img src={require(`../imgs/photography/${data[i].url}`)} title={data[i].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
           })
           }
              
@@ -25,7 +25,7 @@ const Photography = (props) =>  {
             <div className="column-grid">
             {
            ['5', '6', '7', '8'].map((i, count)=>{
-            return <div key={count} ><img src={require(`../imgs/photography/${data[i].url}`)} title={data[0].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
+            return <div key={count} ><img src={require(`../imgs/photography/${data[i].url}`)} title={data[i].name} name="photography" style={{width:'100%'}} onClick={props.handleImageClick} alt={data[0].name}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p></div></div>
           })
           }
             </div>

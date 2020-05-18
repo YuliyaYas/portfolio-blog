@@ -2,7 +2,6 @@ import React from 'react';
 import '../stylesheet/Overlay.css';
 
 const Overlay1 = (props) => {
-  console.log(props)
   return(
     <div className="base" >
       <div className="shroud overlay-scroll box">

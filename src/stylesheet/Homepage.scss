@@ -1,7 +1,14 @@
 .homepage{    
     .featured{
+        width: 100%;
         h2{
             text-align: center;
+        }
+        .featured-img{
+            align-items: center;
+            display: flex;
+            margin-bottom: 5px;
+            overflow: auto;
         }
         .block-img{
             width: 40%;

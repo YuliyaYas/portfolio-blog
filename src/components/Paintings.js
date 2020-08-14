@@ -17,7 +17,7 @@ const Paintings = (props) =>  {
           <div className="row-grid">
             <div className="column-grid">
             {
-           [ '22', '1', '19', '14', '0', '2'].map((i, count)=>{
+           [ '23', '22', '1', '19', '14', '0', '2'].map((i, count)=>{
             return <div key={i} className=""><img src={require(`../imgs/paintings/${data[i].url}`)} id={slugify(data[i].name)} title={data[i].name} style={{width:'100%'}} name="paintings" alt={data[i].name} onClick={props.handleImageClick}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p><hr /></div></div>
             
           })
@@ -33,7 +33,7 @@ const Paintings = (props) =>  {
             </div>
             <div className="column-grid">
             {
-           ['21', '18', '6', '16', '7', '3'].map((i, count)=>{
+           ['24', '21', '18', '6', '16', '7', '3'].map((i, count)=>{
              return <div key={i}><img src={require(`../imgs/paintings/${data[i].url}`)} title={data[i].name} id={slugify(data[i].name)} style={{width:'100%'}} name="paintings" alt={data[i].name} onClick={props.handleImageClick}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p><hr /></div></div>
              
            })
@@ -42,7 +42,7 @@ const Paintings = (props) =>  {
             </div>
             <div className="column-grid">
             {
-           ['17', '10', '11', '12', '13', '9'].map((i, count)=>{
+           ['10', '17','11', '12', '13', '9'].map((i, count)=>{
              return <div key={i}><img src={require(`../imgs/paintings/${data[i].url}`)} title={data[i].name} id={slugify(data[i].name)} style={{width:'100%'}} name="paintings" alt={data[i].name} onClick={props.handleImageClick}/><div className="mobile-info">{data[i].sold ? <p className="sold-mobile" onClick={props.handleCloseClick}>SOLD</p> : <a href='/contact'><p className="label-mobile" onClick={props.handleCloseClick}>BUY</p></a>}<p className="all-caps">{data[i].name}</p><i><p className="title">{data[i].specs}</p></i><p className="desc">{data[i].description}</p><hr /></div></div>
              
            })

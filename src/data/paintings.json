@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Head Up",
       "description": "It doesn’t matter if you stand on one leg or both. It doesn’t matter if you wear pink, blue or black. Just be yourself and you’ll always stand out as long as you keep your head up. ",
-      "url": "Flamity.png",
+      "url": "Flamity.jpg",
       "specs": "18x18inches, acrylic on wood"
     },
     {
@@ -161,9 +161,23 @@
     },
     {
       "id": 22,
-      "name": "MushTown",
+      "name": "Colony",
       "description": "",
       "url": "MushTown.jpg",
       "specs": "24x30inches, acrylic on wood"
+    },
+    {
+      "id": 23,
+      "name": "Macaw",
+      "description": "Macaw was seen as a guardian and a symbol of healing. They are bold, loud and beautiful, just like every one of us.",
+      "url": "macaw.jpg",
+      "specs": "24x36inches, acrylic on wood"
+    },
+    {
+      "id": 24,
+      "name": "Cicada",
+      "description": "",
+      "url": "Cicada.jpg",
+      "specs": "18x24inches, acrylic and golden leaf on wood"
     }
   ]

@@ -10,7 +10,7 @@
       "id": 1,
       "name": "Chamille",
       "description": "Ability to adapt and change belongs to both chameleons and humans. But don’t forget, that with change of color - we should stay true to our beliefs and values.",
-      "url": "Chamille.jpg",
+      "url": "chamille.jpg",
       "specs": "16x20inches, acrylic on wood"
     },
     {
@@ -179,5 +179,19 @@
       "description": "",
       "url": "Cicada.jpg",
       "specs": "18x24inches, acrylic and golden leaf on wood"
+    },
+    {
+      "id": 25,
+      "name": "Colibri",
+      "description": "",
+      "url": "colibri.jpg",
+      "specs": "18x24inches, acrylic on wood"
+    },
+    {
+      "id": 26,
+      "name": "kingsfisher",
+      "description": "",
+      "url": "kingsfisher.jpg",
+      "specs": "24x18inches, acrylic on wood"
     }
   ]

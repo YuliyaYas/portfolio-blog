@@ -4,7 +4,7 @@ import '../stylesheet/Menu.scss';
 const Menu = (props) => {
   return(
     <div className="menu">
-        <a href="/"><img id="logo" src={require("../imgs/logo_yy.png")} alt="logo"/></a>
+        <a href="/"><img id="logo" src={require("../imgs/signature.svg")} alt="logo"/></a>
         <ul className="menu-top">
         <li><a href="/">HOME</a></li>
         <li><a href="/paintings">PAINTINGS</a></li>

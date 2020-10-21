@@ -5,6 +5,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: #2b4a67;
   height: 100%;
+  line-height: 25px;
 }
 
 a {
@@ -32,6 +33,7 @@ a {
 .content{
   width: 95%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 @media (max-width: 600px) {

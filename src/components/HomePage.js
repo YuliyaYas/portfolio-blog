@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheet/Homepage.scss';
 import Book from '../components/Book';
 import Form from '../components/FormContactUs';
+import Carousel from '../components/Carousel';
 
 const HomePage = (props) => {
   return(
@@ -42,7 +43,8 @@ const HomePage = (props) => {
         </div>
         <a href ='/paintings' className="general-btn"><span>View More Paintings</span></a>
       </div>
-      <h2>Recent Shows</h2>
+      <h2>Selected Works</h2>
+      <Carousel />
       <br/>
     <Form/>
     Instagram

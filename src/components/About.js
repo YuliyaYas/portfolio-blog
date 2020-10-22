@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Form from '../components/FormContactUs';
 const About = () =>  {
 
       return(
-        <div>
+        <div style={{marginBottom: '200px'}}>
           <div id="about">
             <img id="profile-pic" src={require("../imgs/portrait1.jpg")} alt="portrait"/>
             <p>Yuliya Yasenetska currently resides in New York City, but was born and raised in Lviv, Ukraine. She began her art career at the age of 6 when she started attending art classes at the Lviv National Academy of Arts. While she enjoyed the opportunity, she consistently refused to imitate someone else’s art. Why copy something that already exist? To create your own vision - felt more authentic to her. Eventually she was asked to leave the school unless she complied with the rules. She did not comply. Despite this, Yuliya never stopped expressing herself through creative processes. Her main forms of expression included poetry, music and the most dear to her heart - painting. This is one of the constants that she would forever rely on to confront the fluctuations of life.
@@ -20,7 +20,7 @@ const About = () =>  {
             </p>
           </div>
           <br/>
-            <a href="/contact"><h4>CONTACT YULIYA</h4></a>
+          <center><Form /></center>
         </div>
       );
 };

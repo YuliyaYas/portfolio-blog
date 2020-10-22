@@ -1,6 +1,5 @@
 import React from 'react';
 import '../stylesheet/Homepage.scss';
-import Book from '../components/Book';
 import Form from '../components/FormContactUs';
 import Carousel from '../components/Carousel';
 
@@ -44,9 +43,9 @@ const HomePage = (props) => {
         <a href ='/paintings' className="general-btn"><span>View More Paintings</span></a>
       </div>
       <h2>Selected Works</h2>
-      <Carousel />
+      <div style={{width: '100%', display: 'block', marginBottom: '60px'}}><Carousel /></div>
       <br/>
-    <Form/>
+    <Form />
     Instagram
     </div>
   );

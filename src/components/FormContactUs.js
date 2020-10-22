@@ -54,7 +54,7 @@ const formData = {
         <center><p>Have any questions? I'm always open to a conversation.</p></center>
         <form>
         <div className="span-half">
-            <input type="text" id="firstname" name="firstname" style={{width: '95%'}} placeholder='Your Name*'/>
+            <input type="text" id="firstname" name="firstname" style={{width: '95%', float: 'left'}} placeholder='Your Name*'/>
         </div>
         <div className="span-half">
             <input type="text" id="email" name="email" className="span-half" style={{width: '100%'}} placeholder="Email*"/> 

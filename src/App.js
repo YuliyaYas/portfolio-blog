@@ -11,7 +11,7 @@ import Printmaking from '../src/components/Printmaking.js';
 // import Sculptures from '../src/components/Sculptures.js';
 import Photography from '../src/components/Photography.js';
 import Drawings from '../src/components/Drawings.js';
-import Contact from '../src/components/Contact.js';
+import Contact from '../src/components/FormContactUs';
 import Book from '../src/components/Book';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';

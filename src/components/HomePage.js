@@ -6,13 +6,6 @@ import Carousel from '../components/Carousel';
 const HomePage = (props) => {
   return(
     <div className="homepage">
-       <div id="intro">
-        <img src={require("../imgs/studio.jpeg")} alt="portrait" id="portrait"/>
-        <p>
-          Yuliya Yasenetska is a Ukrainian born artist and currently works in New York. Yuliya is a multidisciplinary artist, focused primarily on painting. She enjoys experimenting with different mediums. Humans constantly change, and as an artist, Yuliya continuously seeks improvement and varied methods to express herself. She focuses on how her artwork looks and feels, not on ingraining hidden meanings into the art. Through the light and colorful depictions of her artwork she tries to awaken forgotten joy....
-          <a href ='/about' className="general-btn"><span>Read More</span></a>  
-         </p>  
-        </div> 
       <div className="featured"> 
         <h2>Latest Works</h2>
         <div className="featured-img">
@@ -45,6 +38,14 @@ const HomePage = (props) => {
       <h2>Selected Works</h2>
       <div style={{width: '100%', display: 'block', marginBottom: '60px'}}><Carousel /></div>
       <br/>
+
+      <div id="intro">
+        <img src={require("../imgs/studio.jpeg")} alt="portrait" id="portrait"/>
+        <p>
+          Yuliya Yasenetska is a Ukrainian born artist and currently works in New York. Yuliya is a multidisciplinary artist, focused primarily on painting. She enjoys experimenting with different mediums. Humans constantly change, and as an artist, Yuliya continuously seeks improvement and varied methods to express herself. She focuses on how her artwork looks and feels, not on ingraining hidden meanings into the art. Through the light and colorful depictions of her artwork she tries to awaken forgotten joy....
+          <a href ='/about' className="general-btn"><span>Read More</span></a>  
+         </p>  
+        </div> 
     <Form />
     Instagram
     </div>

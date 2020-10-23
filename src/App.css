@@ -54,8 +54,8 @@ a {
   }
 
   .content {
-    width: 100%;
-    margin-left: 0;
+    width: 95%;
+    margin: 0 auto;
   }
 
   #about{

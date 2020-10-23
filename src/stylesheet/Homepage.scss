@@ -2,50 +2,41 @@
     h2{
         text-align: center;
     }  
-    
-    #intro{
-        align-items: center;
-        display: flex;
-        overflow: auto;
-        #portrait{
-            width: 40%;
-            float: left;
-            padding: 80px;
-        }
-        width: 100%;
-        line-height: 30px;
-        text-align: justify;
-        a{
-            float: right;
-            margin-top: 60px;
-        }
-        p{
-            width: 50%;
-            float: left;
-            padding-right: 80px;
-        }
-        margin-bottom: 60px;
-    }
     .featured {
         width: 100%;
         .featured-img{
             align-items: center;
-            display: flex;
-            overflow: auto;
+            @media (min-width: 600px) {
+                display: flex;
+                overflow: auto;
+            }
             margin-bottom: 20px;
 
         }
         .block-img{
-            width: 40%;
-            float: left;
-            img{
-                width: 80%;
-                margin: 0 auto;
+            @media (max-width: 600px) {
+                text-align: initial !important;
             }
+            img{
+                width: 100%;
+                margin: 0 auto;
+                
+            }
+            @media (min-width: 600px) {
+                width: 40%;
+                float: left;
+                img{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }   
         }
         .block-desc{
+            @media (min-width: 600px) {
+
             width: 60%;
             float: right;
+            }
             text-align: justify;
             .info-desc{
                 font-style: italic;
@@ -68,6 +59,38 @@
             color: white;
             text-transform: uppercase;
         }
+    }
+    #intro{
+        width: 100%;
+        line-height: 30px;
+        text-align: justify;
+        align-items: center;
+        
+        // overflow: auto;
+        #portrait{
+            width: 100%;
+            @media (min-width: 600px) {
+                width: 40%;
+                float: left;
+                padding: 80px;
+            }
+        }
+        a{
+            @media (min-width: 600px) {
+                float: right;
+            }
+            margin-top: 60px;
+        }
+        @media (min-width: 600px) {
+            display: flex;
+            p{
+                width: 50%;
+                float: left;
+                padding-right: 80px;
+            }
+        }
+       
+        margin-bottom: 60px;
     }
 
 }

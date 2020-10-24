@@ -34,9 +34,11 @@ const EmblaCarousel = () => {
                 <img
                   className="embla__slide__img"
                   src={require("../imgs/paintings/MushTown.jpg")}
-                  alt="A cool cat."
+                  alt="Colony"
                 />
+                 <p className="selected-img-desc">Colony, 24x30inches, acrylic on wood, 2020</p>
               </div>
+
             </div>
 
             <div className="embla__slide">
@@ -44,8 +46,9 @@ const EmblaCarousel = () => {
                 <img
                   className="embla__slide__img"
                   src={require("../imgs/paintings/TurtleVille.jpg")}
-                  alt="A cool cat."
+                  alt="turtle"
                 />
+                 <p className="selected-img-desc">World Bearing, 36x24inches, oil on canvas, 2016</p>
               </div>
             </div>
 
@@ -54,8 +57,9 @@ const EmblaCarousel = () => {
                 <img
                   className="embla__slide__img"
                   src={require("../imgs/paintings/Snaility.jpg")}
-                  alt="A cool cat."
+                  alt="Snail"
                 />
+                 <p className="selected-img-desc">Snaility, 20x20inches, acrylic on wood, 2017</p>
               </div>
             </div>
            
@@ -64,8 +68,9 @@ const EmblaCarousel = () => {
                 <img
                   className="embla__slide__img"
                   src={require("../imgs/paintings/Cicada.jpg")}
-                  alt="A cool cat."
+                  alt="Cicada"
                 />
+              <p className="selected-img-desc">Cicada, 18x24inches, acrylic and golden leaf on wood, 2020</p>
               </div>
             </div>
             <div className="embla__slide">
@@ -73,8 +78,10 @@ const EmblaCarousel = () => {
                 <img
                   className="embla__slide__img"
                   src={require("../imgs/paintings/Glow.jpg")}
-                  alt="A cool cat."
+                  alt="Jellyfish"
                 />
+                <p className="selected-img-desc">Glow, 24x30inches, acrylic on wood, 2020</p>
+                
               </div>
             </div>
         </div>

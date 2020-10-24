@@ -1,405 +1,405 @@
 [
     {
-      "id": 0,
+      "type": "illustrations",
       "name": "Atom",
       "description": "",
       "url": "atom.jpg",
       "specs": ""
     },
     {
-      "id": 1,
+      "type": "illustrations",
       "name": "BlackBerry",
       "description": "",
       "url": "blackberry.jpg",
       "specs": ""
     },
     {
-      "id": 2,
+      "type": "illustrations",
       "name": "Colibri",
       "description": "",
       "url": "colibri.jpg",
       "specs": ""
     },
     {
-      "id": 3,
+      "type": "illustrations",
       "name": "Bird's View",
       "description": "",
       "url": "birds-view.png",
       "specs": ""
     },
     {
-      "id": 4,
+      "type": "illustrations",
       "name": "House Plant",
       "description": "",
       "url": "houseplant.png",
       "specs": ""
     },
     {
-      "id": 5,
+      "type": "illustrations",
       "name": "Train",
       "description": "",
       "url": "Train1.jpg",
       "specs": ""
     },
     {
-      "id": 6,
+      "type": "illustrations",
       "name": "ShellVille",
       "description": "",
       "url": "shelville1.jpg",
       "specs": ""
     },
     {
-      "id": 7,
+      "type": "illustrations",
       "name": "burger",
       "description": "",
       "url": "Burger-.jpg",
       "specs": ""
     },
     {
-      "id": 8,
+      "type": "illustrations",
       "name": "Dino",
       "description": "",
       "url": "dinosaur.jpg",
       "specs": ""
     },
     {
-      "id": 9,
+      "type": "illustrations",
       "name": "Gyraff",
       "description": "",
       "url": "gyraff2.jpg",
       "specs": ""
     },
     {
-      "id": 10,
+      "type": "illustrations",
       "name": "Flamingo",
       "description": "",
       "url": "flamingo.jpg",
       "specs": ""
     },
     {
-      "id": 11,
+      "type": "illustrations",
       "name": "Camel",
       "description": "",
       "url": "camel.jpg",
       "specs": ""
     },
     {
-      "id": 12,
+      "type": "illustrations",
       "name": "Heart",
       "description": "",
       "url": "heart3.jpg",
       "specs": ""
     },
     {
-      "id": 13,
+      "type": "illustrations",
       "name": "Chameleon",
       "description": "",
       "url": "chameleon.jpg",
       "specs": ""
     },
     {
-      "id": 14,
+      "type": "illustrations",
       "name": "House Growth",
       "description": "",
       "url": "housegrowth.png",
       "specs": ""
     },
     {
-      "id": 15,
+      "type": "illustrations",
       "name": "House Vines",
       "description": "",
       "url": "houses-wine.jpg",
       "specs": ""
     },
     {
-      "id": 16,
+      "type": "illustrations",
       "name": "Crab",
       "description": "",
       "url": "crab.jpg",
       "specs": ""
     },
     {
-      "id": 17,
+      "type": "illustrations",
       "name": "Houses Yard",
       "description": "",
       "url": "houses-yard.jpg",
       "specs": ""
     },
     {
-      "id": 18,
+      "type": "illustrations",
       "name": "Pattern",
       "description": "",
       "url": "Pattern.png",
       "specs": ""
     },
     {
-      "id": 19,
+      "type": "illustrations",
       "name": "CIty On the hill",
       "description": "",
       "url": "City-on-the-hill.jpg",
       "specs": ""
     },
     {
-      "id": 20,
+      "type": "illustrations",
       "name": "sunflower",
       "description": "",
       "url": "sunflower.jpg",
       "specs": ""
     },
     {
-      "id": 21,
+      "type": "illustrations",
       "name": "turtle",
       "description": "",
       "url": "turtle2.jpg",
       "specs": ""
     },
     {
-      "id": 22,
+      "type": "illustrations",
       "name": "Jellyfish",
       "description": "",
       "url": "jellyfish.jpg",
       "specs": ""
     },
     {
-      "id": 23,
+      "type": "illustrations",
       "name": "Deer",
       "description": "",
       "url": "deer.png",
       "specs": ""
     },
     {
-      "id": 24,
+      "type": "illustrations",
       "name": "Saturn",
       "description": "",
       "url": "saturn1.jpg",
       "specs": ""
     },
     {
-      "id": 25,
+      "type": "illustrations",
       "name": "Housing project",
       "description": "",
       "url": "Housing-projects.jpg",
       "specs": ""
     },
     {
-      "id": 26,
+      "type": "illustrations",
       "name": "Flo city",
       "description": "",
       "url": "Flo-city.jpg",
       "specs": ""
     },
     {
-      "id": 27,
+      "type": "illustrations",
       "name": "Townhouse",
       "description": "",
       "url": "townhouse_insta.jpg",
       "specs": ""
     },
     {
-      "id": 28,
+      "type": "illustrations",
       "name": "Lemur",
       "description": "",
       "url": "Lemur.jpg",
       "specs": ""
     },
     {
-      "id": 29,
+      "type": "illustrations",
       "name": "Orchids",
       "description": "",
       "url": "orchids.png",
       "specs": ""
     },
     {
-      "id": 30,
+      "type": "illustrations",
       "name": "Snaility",
       "description": "",
       "url": "snaility1.jpg",
       "specs": ""
     },
     {
-      "id": 31,
+      "type": "illustrations",
       "name": "Mushrooms",
       "description": "",
       "url": "Mushrooms.jpg",
       "specs": ""
     },
     {
-      "id": 32,
+      "type": "illustrations",
       "name": "Octopus",
       "description": "",
       "url": "octopus4.jpg",
       "specs": ""
     },
     {
-      "id": 33,
+      "type": "illustrations",
       "name": "Dirigible",
       "description": "",
       "url": "dirigible.jpg",
       "specs": ""
     },
     {
-      "id": 34,
+      "type": "illustrations",
       "name": "Fish",
       "description": "",
       "url": "fish2.jpg",
       "specs": ""
     },
     {
-      "id": 35,
+      "type": "illustrations",
       "name": "shell",
       "description": "",
       "url": "shell1.jpg",
       "specs": ""
     },
     {
-      "id": 36,
+      "type": "illustrations",
       "name": "goat",
       "description": "",
       "url": "goat.jpg",
       "specs": ""
     },
     {
-      "id": 37,
+      "type": "illustrations",
       "name": "baloon",
       "description": "",
       "url": "baloon1.jpg",
       "specs": ""
     },
     {
-      "id": 38,
+      "type": "illustrations",
       "name": "B.A.",
       "description": "",
       "url": "bee.jpg",
       "specs": ""
     },
     {
-      "id": 39,
+      "type": "illustrations",
       "name": "Butterfly",
       "description": "",
       "url": "butterfly_kate.jpg",
       "specs": ""
     },
     {
-      "id": 40,
+      "type": "illustrations",
       "name": "Cat",
       "description": "",
       "url": "cat.jpg",
       "specs": ""
     },
     {
-      "id": 41,
+      "type": "illustrations",
       "name": "Cheetah",
       "description": "",
       "url": "cheetah.jpg",
       "specs": ""
     },
     {
-      "id": 42,
+      "type": "illustrations",
       "name": "Cicada",
       "description": "",
       "url": "cicada.jpg",
       "specs": ""
     },
     {
-      "id": 43,
+      "type": "illustrations",
       "name": "Dog",
       "description": "",
       "url": "dog.jpg",
       "specs": ""
     },
     {
-      "id": 44,
+      "type": "illustrations",
       "name": "Fairy",
       "description": "",
       "url": "fairy.jpg",
       "specs": ""
     },
     {
-      "id": 45,
+      "type": "illustrations",
       "name": "Fish",
       "description": "",
       "url": "fish_1.jpg",
       "specs": ""
     },
     {
-      "id": 46,
+      "type": "illustrations",
       "name": "Fish",
       "description": "",
       "url": "fish_olenka.jpg",
       "specs": ""
     },
     {
-      "id": 47,
+      "type": "illustrations",
       "name": "Inula",
       "description": "",
       "url": "Inula.jpg",
       "specs": ""
     },
     {
-      "id": 48,
+      "type": "illustrations",
       "name": "Ladybug",
       "description": "",
       "url": "ladybug.jpg",
       "specs": ""
     },
     {
-      "id": 49,
+      "type": "illustrations",
       "name": "Llama",
       "description": "",
       "url": "Llama.jpg",
       "specs": ""
     },
     {
-      "id": 50,
+      "type": "illustrations",
       "name": "Manta",
       "description": "",
       "url": "manta.jpg",
       "specs": ""
     },
     {
-      "id": 51,
+      "type": "illustrations",
       "name": "Muffin",
       "description": "",
       "url": "MUFFIN.jpg",
       "specs": ""
     },
     {
-      "id": 52,
+      "type": "illustrations",
       "name": "Orchid",
       "description": "",
       "url": "orchid.jpg",
       "specs": ""
     },
     {
-      "id": 53,
+      "type": "illustrations",
       "name": "The Scarlet Macaw",
       "description": "",
       "url": "parrot.jpg",
       "specs": ""
     },
     {
-      "id": 54,
+      "type": "illustrations",
       "name": "Tucan",
       "description": "",
       "url": "tucan.jpg",
       "specs": ""
     },
     {
-      "id": 55,
+      "type": "illustrations",
       "name": "turtle",
       "description": "",
       "url": "turtle.jpg",
       "specs": ""
     },
     {
-      "id": 56,
+      "type": "illustrations",
       "name": "Watermelon",
       "description": "",
       "url": "watermelon.jpg",
       "specs": ""
     },
     {
-      "id": 57,
+      "type": "illustrations",
       "name": "Butterfly",
       "description": "",
       "url": "butterfly.jpg",

@@ -1,76 +1,77 @@
 [
     {
-      "id": 0,
+      "type": "printmaking",
       "name": "Underwworld2",
       "description": "",
       "url": "Underwworld2.jpg",
       "specs": ""
     },
     {
-      "id": 1,
+      "type": "printmaking",
       "name": "City nests",
       "description": "",
       "url": "City-nests.jpg",
       "specs": ""
     },
     {
-      "id": 2,
+      "type": "printmaking",
       "name": "city series",
       "description": "",
       "url": "city-series1.jpg",
       "specs": ""
     },
     {
-      "id": 3,
+      "type": "printmaking",
       "name": "house life",
       "description": "",
       "url": "house-life1.jpg",
       "specs": ""
     },
     {
-      "id": 4,
+      "type": "printmaking",
+
       "name": "industrial flower",
       "description": "",
       "url": "industrial-flower1.jpg",
       "specs": ""
     },
     {
-      "id": 5,
+      "type": "printmaking",
       "name": "Light",
       "description": "",
       "url": "Light2.jpg",
       "specs": ""
     },
     {
-      "id": 6,
+      "type": "printmaking",
       "name": "3 color experiment",
       "description": "",
       "url": "3-color-experiment-1.jpg",
       "specs": ""
     },
     {
-      "id": 7,
+      "type": "printmaking",
       "name": "Town Nest",
       "description": "",
       "url": "Town-Nest.jpg",
       "specs": ""
     },
     {
-      "id": 8,
+      "type": "printmaking",
       "name": "Energy",
       "description": "",
       "url": "Energy.jpg",
       "specs": ""
     },
     {
-      "id": 9,
+      "type": "printmaking",
       "name": "explosion",
       "description": "",
       "url": "explosion.jpg",
       "specs": ""
     },
     {
-      "id": 10,
+      "type": "printmaking",
       "name": "Moments",
       "description": "",
       "sold": true,
@@ -78,147 +79,147 @@
       "specs": ""
     },
     {
-      "id": 11,
+      "type": "printmaking",
       "name": "Turtle state 1",
       "description": "",
       "url": "Turtle_state12.jpg",
       "specs": ""
     },
     {
-      "id": 12,
+      "type": "printmaking",
       "name": "Sunflower",
       "description": "",
       "url": "IMG_8578.jpg",
       "specs": ""
     },
     {
-      "id": 13,
+      "type": "printmaking",
       "name": "industrialization",
       "description": "",
       "url": "industrialization1.jpg",
       "specs": ""
     },
     {
-      "id": 14,
+      "type": "printmaking",
       "name": "Shellville",
       "description": "",
       "url": "Shellville2.jpg",
       "specs": ""
     },
     {
-      "id": 15,
+      "type": "printmaking",
       "name": "Old House",
       "description": "",
       "url": "Old-House.jpg",
       "specs": ""
     },
     {
-      "id": 16,
+      "type": "printmaking",
       "name": "Tree",
       "description": "",
       "url": "Tree.jpg",
       "specs": ""
     },
     {
-      "id": 17,
+      "type": "printmaking",
       "name": "Birth",
       "description": "",
       "url": "Birth2.jpg",
       "specs": ""
     },
     {
-      "id": 18,
+      "type": "printmaking",
       "name": "Flight",
       "description": "",
       "url": "Flight.jpg",
       "specs": ""
     },
     {
-      "id": 19,
+      "type": "printmaking",
       "name": "Ghost print of the Village",
       "description": "",
       "url": "Ghost-print-of-the-Village.jpg",
       "specs": ""
     },
     {
-      "id": 20,
+      "type": "printmaking",
       "name": "industrialization",
       "description": "",
       "url": "IMG_8582.jpg",
       "specs": ""
     },
     {
-      "id": 21,
+      "type": "printmaking",
       "name": "Jellytown",
       "description": "",
       "url": "Jellytown2.jpg",
       "specs": ""
     },
     {
-      "id": 22,
+      "type": "printmaking",
       "name": "Photo print",
       "description": "",
       "url": "Photo-print.jpg",
       "specs": ""
     },
     {
-      "id": 23,
+      "type": "printmaking",
       "name": "Village in the mountains",
       "description": "",
       "url": "Village-in-the-mountains-.jpg",
       "specs": ""
     },
     {
-      "id": 24,
+      "type": "printmaking",
       "name": "Cactus house",
       "description": "",
       "url": "Cactus-house.jpg",
       "specs": ""
     },
     {
-      "id": 25,
+      "type": "printmaking",
       "name": "Growing",
       "description": "",
       "url": "Growing.jpg",
       "specs": ""
     },
     {
-      "id": 26,
+      "type": "printmaking",
       "name": "heart attack",
       "description": "",
       "url": "heart-attack1.jpg",
       "specs": ""
     },
     {
-      "id": 27,
+      "type": "printmaking",
       "name": "3 color print",
       "description": "",
       "url": "3-color-print1.jpg",
       "specs": ""
     },
     {
-      "id": 28,
+      "type": "printmaking",
       "name": "Light state",
       "description": "",
       "url": "Light_state22.jpg",
       "specs": ""
     },
     {
-      "id": 29,
+      "type": "printmaking",
       "name": "Turtle",
       "description": "",
       "url": "Turtle2.jpg",
       "specs": ""
     },
     {
-      "id": 30,
+      "type": "printmaking",
       "name": "Starry night",
       "description": "",
       "url": "Starry-night.jpg",
       "specs": ""
     },
     {
-      "id": 31,
+      "type": "printmaking",
       "name": "octopus",
       "description": "",
       "url": "octopus3.jpg",

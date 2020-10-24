@@ -18,6 +18,11 @@ form {
         border: 1px solid rgb(227, 225, 225);
         background: #fafafa;
         margin: 10px 0px;
+        outline: none;
+
+        :focus {
+            outline: none;
+      }
     }
     ::placeholder {
         color:  rgb(194, 192, 192);
@@ -27,11 +32,13 @@ form {
     }
     input{
         height: 40px;
+        :focus {
+            outline: none;
+      }
     }
     .submit-btn{
         display: block;
-        // margin: 0 auto;
-        float: right;
+        margin: 0 auto;
         background-color: #687175;
         border-radius: 25px;
         padding: 10px;
@@ -40,6 +47,10 @@ form {
         span{
             color: white;
             text-transform: uppercase;
+            font-size: 14px;
         }
+        :focus {
+            outline: none;
+      }
     }
 }

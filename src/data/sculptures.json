@@ -1,27 +1,27 @@
 [
     {
-      "id": 0,
+      "type": "sculptures",
       "name": "Berry",
       "description": "",
       "url": "berry.png",
       "specs": ""
     },
     {
-      "id": 1,
+      "type": "sculptures",
       "name": "City",
       "description": "alld",
       "url": "city.png",
       "specs": ""
     },
     {
-      "id": 2,
+      "type": "sculptures",
       "name": "Face",
       "description": "",
       "url": "face.png",
       "specs": ""
     },
     {
-      "id": 3,
+      "type": "sculptures",
       "name": "vase",
       "description": "",
       "url": "vase.jpg",

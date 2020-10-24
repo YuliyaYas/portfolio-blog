@@ -5,7 +5,7 @@ import Carousel from '../components/Carousel';
 
 const HomePage = (props) => {
   return(
-    <div className="homepage">
+    <div className="homepage" style={{marginBottom: '100px'}}>
       <div className="featured"> 
         <h2>Latest Works</h2>
         <div className="featured-img">
@@ -16,18 +16,18 @@ const HomePage = (props) => {
             <h3>Colibri</h3>
             <div className="info-desc"> 24x18inches, acrylic on wood, 2020 </div>
             <br/>
-            <p>The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.
+            <p>Small but challenging painting I did recently that will head to a gallery in Barcelona in summer.
             </p>
           </div>
         </div>
         <div className="featured-img">
         <div className="block-desc">
-            <h3>SNAILITY</h3>
+            <h3>Kingsfisher</h3>
             <div className="info-desc"> 20x20inches, acrylic on wood, 2020 </div>
             <br/>
-            <p>
+            {/* <p>
             The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.
-            </p>
+            </p> */}
           </div>
           <div className="block-img"  style={{textAlign: 'end'}}>
             <img  src={require("../imgs/paintings/kingsfisher.jpg")} alt="Rebirth"/>
@@ -47,7 +47,7 @@ const HomePage = (props) => {
          </p>  
         </div> 
     <Form />
-    Instagram
+    {/* Instagram */}
     </div>
   );
 };

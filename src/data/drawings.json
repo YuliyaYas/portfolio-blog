@@ -1,13 +1,13 @@
 [
     {
-      "id": 0,
+      "type": "drawings",
       "name": "Sunflower",
       "description": "",
       "url": "Sunflower.jpg",
       "specs": ""
     },
     {
-      "id": 1,
+      "type": "drawings",
       "name": "Milwaukee",
       "description": "",
       "sold": true,
@@ -15,7 +15,7 @@
       "specs": ""
     },
     {
-      "id": 2,
+      "type": "drawings",
       "name": "Ilona",
       "description": "",
       "url": "Ilona.jpg",
@@ -23,21 +23,21 @@
       "specs": ""
     },
     {
-      "id": 3,
+      "type": "drawings",
       "name": "Iceberg",
       "description": "",
       "url": "Iceberg.jpg",
       "specs": ""
     },
     {
-      "id": 4,
+      "type": "drawings",
       "name": "birth",
       "description": "",
       "url": "birth.png",
       "specs": ""
     },
     {
-      "id": 5,
+      "type": "drawings",
       "name": "julianna",
       "description": "",
       "url": "julianna.jpg",
@@ -45,42 +45,42 @@
       "specs": ""
     },
     {
-      "id": 6,
+      "type": "drawings",
       "name": "Mushroom Tree",
       "description": "",
       "url": "Mushroom-Tree.jpg",
       "specs": ""
     },
     {
-      "id": 7,
+      "type": "drawings",
       "name": "Tree",
       "description": "",
       "url": "Tree2.jpg",
       "specs": ""
     },
     {
-      "id": 8,
+      "type": "drawings",
       "name": "UniCity",
       "description": "",
       "url": "UniCity.jpg",
       "specs": ""
     },
     {
-      "id": 9,
+      "type": "drawings",
       "name": "industrial",
       "description": "",
       "url": "industrial.jpg",
       "specs": ""
     },
     {
-      "id": 10,
+      "type": "drawings",
       "name": "Turtle Ville",
       "description": "",
       "url": "Turtle-Ville.jpg",
       "specs": ""
     },
     {
-      "id": 11,
+      "type": "drawings",
       "name": "Lauren",
       "description": "",
       "url": "IMG_8306.jpg",
@@ -88,49 +88,49 @@
       "specs": ""
     },
     {
-      "id": 12,
+      "type": "drawings",
       "name": "Grumpy cat",
       "description": "",
       "url": "Grumpy-cat.jpg",
       "specs": ""
     },
     {
-      "id": 13,
+      "type": "drawings",
       "name": "Sun",
       "description": "",
       "url": "Sun.jpg",
       "specs": ""
     },
     {
-      "id": 14,
+      "type": "drawings",
       "name": "Earth",
       "description": "",
       "url": "Earth.jpg",
       "specs": ""
     },
     {
-      "id": 15,
+      "type": "drawings",
       "name": "Train Home",
       "description": "",
       "url": "Train-Home.jpg",
       "specs": ""
     },
     {
-      "id": 16,
+      "type": "drawings",
       "name": "Mountain",
       "description": "",
       "url": "Mountain.jpg",
       "specs": ""
     },
     {
-      "id": 17,
+      "type": "drawings",
       "name": "barn",
       "description": "",
       "url": "barn.png",
       "specs": ""
     },
     {
-      "id": 18,
+      "type": "drawings",
       "name": "Valera",
       "description": "",
       "sold": true,
@@ -138,42 +138,42 @@
       "specs": ""
     },
     {
-      "id": 19,
+      "type": "drawings",
       "name": "Octo Tree",
       "description": "",
       "url": "Octo-Tree.jpg",
       "specs": ""
     },
     {
-      "id": 20,
+      "type": "drawings",
       "name": "garden",
       "description": "",
       "url": "garden.png",
       "specs": ""
     },
     {
-      "id": 21,
+      "type": "drawings",
       "name": "Tree",
       "description": "",
       "url": "Tree_2.jpg",
       "specs": ""
     },
     {
-      "id": 22,
+      "type": "drawings",
       "name": "cactus house",
       "description": "",
       "url": "cactus-house.jpg",
       "specs": ""
     },
     {
-      "id": 23,
+      "type": "drawings",
       "name": "Up",
       "description": "",
       "url": "Up.jpg",
       "specs": ""
     },
     {
-      "id": 24,
+      "type": "drawings",
       "name": "Andrei",
       "description": "",
       "url": "Andrei.jpg",
@@ -181,14 +181,14 @@
       "specs": ""
     },
     {
-      "id": 25,
+      "type": "drawings",
       "name": "Nest",
       "description": "",
       "url": "Nest.jpg",
       "specs": ""
     },
     {
-      "id": 26,
+      "type": "drawings",
       "name": "In the garden",
       "description": "",
       "url": "In-the-garden.jpg",
@@ -196,14 +196,14 @@
       "specs": ""
     },
     {
-      "id": 27,
+      "type": "drawings",
       "name": "Shellville",
       "description": "",
       "url": "Shellville.jpg",
       "specs": ""
     },
     {
-      "id": 28,
+      "type": "drawings",
       "name": "Lianok",
       "description": "",
       "sold": true,
@@ -211,28 +211,28 @@
       "specs": ""
     },
     {
-      "id": 29,
+      "type": "drawings",
       "name": "atom",
       "description": "",
       "url": "atom.png",
       "specs": ""
     },
     {
-      "id": 30,
+      "type": "drawings",
       "name": "Ruins",
       "description": "",
       "url": "Ruins.jpg",
       "specs": ""
     },
     {
-      "id": 31,
+      "type": "drawings",
       "name": "vines",
       "description": "",
       "url": "vines.png",
       "specs": ""
     },
     {
-      "id": 32,
+      "type": "drawings",
       "name": "Roksolana",
       "description": "",
       "url": "Roksolana_maylar_ink.jpg",
@@ -240,77 +240,77 @@
       "specs": ""
     },
     {
-      "id": 33,
+      "type": "drawings",
       "name": "Mushroom town",
       "description": "",
       "url": "Mushroom-town.jpg",
       "specs": ""
     },
     {
-      "id": 34,
+      "type": "drawings",
       "name": "lighthouse",
       "description": "",
       "url": "lighthouse.png",
       "specs": ""
     },
     {
-      "id": 35,
+      "type": "drawings",
       "name": "Girl with butterflies",
       "description": "",
       "url": "Girl-with-butterflies.jpg",
       "specs": ""
     },
     {
-      "id": 36,
+      "type": "drawings",
       "name": "ShellTown",
       "description": "",
       "url": "ShellTown.jpg",
       "specs": ""
     },
     {
-      "id": 37,
+      "type": "drawings",
       "name": "Moments",
       "description": "",
       "url": "Moments.jpg",
       "specs": ""
     },
     {
-      "id": 38,
+      "type": "drawings",
       "name": "girl",
       "description": "",
       "url": "girl.jpg",
       "specs": ""
     },
     {
-      "id": 39,
+      "type": "drawings",
       "name": "Piece of a spoon",
       "description": "",
       "url": "Piece-of-a-spoon.jpg",
       "specs": ""
     },
     {
-      "id": 40,
+      "type": "drawings",
       "name": "fairytale",
       "description": "",
       "url": "fairytale.png",
       "specs": ""
     },
     {
-      "id": 41,
+      "type": "drawings",
       "name": "Saturnity",
       "description": "",
       "url": "Saturnity.jpg",
       "specs": ""
     },
     {
-      "id": 42,
+      "type": "drawings",
       "name": "Tree3",
       "description": "",
       "url": "Tree3.jpg",
       "specs": ""
     },
     {
-      "id": 43,
+      "type": "drawings",
       "name": "selfportrait",
       "description": "",
       "url": "selfportrait.png",

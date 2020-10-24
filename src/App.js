@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
-import HomePage from '../src/components/HomePage.js';
-import Menu from '../src/components/Menu.js';
+import HomePage from '../src/components/HomePage';
+import Menu from '../src/components/Menu';
 
-import About from '../src/components/About.js';
-import Artworks from '../src/components/Paintings-new.js';
-import Illustrations from '../src/components/Illustrations.js';
-import Printmaking from '../src/components/Printmaking.js';
-// import Sculptures from '../src/components/Sculptures.js';
-import Photography from '../src/components/Photography.js';
-import Drawings from '../src/components/Drawings.js';
+import About from '../src/components/About';
+import Artworks from '../src/components/Artworks';
 import Contact from '../src/components/FormContactUs';
 // import Book from '../src/components/Book';
 import paintingsData from '../src/data/paintings.json';
@@ -23,7 +18,6 @@ var slugify = require('slugify');
 
 var allData = [
   {type: 'illustrations', data: illustrationsData},
-
   {type: 'paintings', data: paintingsData},
   {type: 'drawings', data: drawingsData},
   {type: 'printmaking', data: printmakingData},
@@ -124,17 +118,10 @@ class App extends Component {
             <Route path={`/contact`} component={ () => <Contact/>} />
             {allData.map(art => {
               console.log(art.type)
-              return  <Route path={`/${art.type}/`} component={ () => <Artworks closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} data={art.data} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
+              return  <Route key={art.type} path={`/${art.type}/`} component={ () => <Artworks closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} data={art.data} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
             })}
-
-            {/* <Route path={`/paintings/`} component={ () => <Artworks closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} paintingsData={paintingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-            <Route path={`/drawings`} component={ () => <Drawings closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} drawingsData={drawingsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-            <Route path={`/illustrations`} component={ () => <Illustrations closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} illustrationsData={illustrationsData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-            <Route path={`/printmaking`} component={ () => <Printmaking closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} printmakingData={printmakingData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-            {/* <Route path={`/sculptures`} component={ () => <Sculptures closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} sculpturesData={sculpturesData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />} /> */}
-            <Route path={`/photography`} component={ () => <Photography closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} photographyData={photographyData} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
             <Route path={`/about`} component={ () => <About/>} />
-            <Route path={`/`} component={ () => <HomePage />} /> */}
+            <Route path={`/`} component={ () => <HomePage />} /> 
           </Switch>
       </div>
     </div>

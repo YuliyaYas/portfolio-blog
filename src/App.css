@@ -4,8 +4,8 @@ body{
   background-color: white;
   font-family: 'Montserrat', sans-serif;
   color: #2b4a67;
-  height: 100%;
   line-height: 25px;
+  margin: 0;
 }
 
 a {

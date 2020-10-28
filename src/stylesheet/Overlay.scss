@@ -1,5 +1,20 @@
-
-.base .shroud {
+.overlay-popup{
+  position:absolute;
+  top:135px;
+  left:0;
+  right:0;
+  // bottom:0;
+  background-color:rgba(255, 255, 255, 0.85);
+  z-index: 2;
+  color:#2b4a67;
+}
+.overlay-img{
+  width: 100%;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+/*.base .shroud {
     background-color:  rgba(0, 0, 0, 0.75);
 }
 
@@ -15,7 +30,6 @@
   z-index: 3;
 }
 
-/* min-height specified in Overlay1.js */
 .overlay-popup{
   margin-top: 30px;
   margin-left: auto;
@@ -124,19 +138,7 @@
     transform: rotate(-45deg);
   }
 
-  .desc {
-    width: 90%;
-    margin: 0 auto;
-    line-height: 24px;
-    margin-top: 25px;
-    text-align: justify !important;
-    margin-bottom: 50px;
-  }
-
-  .all-caps{
-    text-transform: uppercase;
-  }
-
+  
   #overlay-img{
     width: 100%;
   }
@@ -144,30 +146,36 @@
   .box {
     position: relative;
   }
+  */
 .left-arrow,
 .right-arrow {
   width: 60px;
   height: 60px;
+  opacity: 0.6;
   display: block;
-  top: 50%;
-  margin-top: -30px; /* img height/2 */
+  top: 40%;
   position: absolute;
 }
 .left-arrow {
-  /* left: 5%; */
-  opacity: 0.6;
   transform: rotate(-180deg);
-  position: fixed;
 }
 .right-arrow {
-  right:4%;
-  width: 60px;
-  height: 60px;
-  opacity: 0.6;
-  position: fixed;
-  /* float: right; */
+  right: 0;
 }
 
 .right-arrow:hover, .left-arrow:hover {
   opacity: 1;
+}
+
+.desc {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 24px;
+  margin-top: 25px;
+  text-align: justify !important;
+  margin-bottom: 50px;
+}
+
+.all-caps{
+  text-transform: uppercase;
 }

@@ -121,12 +121,17 @@
     display: none;
   }
 
-
+  .menu-container{
+    z-index: 3;
+    position: sticky;
+    background: white;
+  }
   .menu{
     width: 94%;
     margin: 0 auto;
     padding: 10px;
     max-width: 1200px;
+
     hr{
       width: 100%;
     }
@@ -156,6 +161,52 @@
     }
 
   }
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+  position: relative;
+}
+	
+nav ul li {
+	display:inline-block;
+	}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+  top: 40px; /* the height of the main nav */
+  background-color: white;
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Dropdown */
+nav ul ul li {
+	float: none;
+	display:list-item;
+  position: relative;
+  margin-left: 0 !important;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+.dropdown:after { 
+  content:  ''; 
+    border: solid #2b4a67;
+    border-width: 0 0px 1px 1px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin: 0 0 3px 7px
+}
+.dropdown:only-child:after { content: ''; }
 }
 
 

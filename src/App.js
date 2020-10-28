@@ -3,11 +3,9 @@ import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import HomePage from '../src/components/HomePage';
 import Menu from '../src/components/Menu';
-
 import About from '../src/components/About';
 import Artworks from '../src/components/Artworks';
 import Contact from '../src/components/FormContactUs';
-// import Book from '../src/components/Book';
 import paintingsData from '../src/data/paintings.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
@@ -54,6 +52,7 @@ class App extends Component {
   handleImageClick = (e) => {
       const title = e.target.title;
       const galleryType = e.target.name;
+      console.log(title, galleryType);
       let currentGallery = '';
       if (galleryType === "paintings"){
         currentGallery = paintingsData;
@@ -111,13 +110,10 @@ class App extends Component {
     return (
       <div>
         <Menu /> 
-        
       <div className="content">
-      
           <Switch>
             <Route path={`/contact`} component={ () => <Contact/>} />
             {allData.map(art => {
-              console.log(art.type)
               return  <Route key={art.type} path={`/${art.type}/`} component={ () => <Artworks closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} data={art.data} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
             })}
             <Route path={`/about`} component={ () => <About/>} />

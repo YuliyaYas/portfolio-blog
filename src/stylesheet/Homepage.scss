@@ -4,6 +4,9 @@
     }  
     .featured {
         width: 100%;
+        @media (max-width : 900px) {
+            margin-top: 50px;
+        }
         .featured-img{
             align-items: center;
             @media (min-width: 600px) {

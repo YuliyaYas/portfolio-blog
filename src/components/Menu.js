@@ -10,19 +10,21 @@ const Menu = (props) => {
         <li><a href="/">HOME</a></li>
         <li><a href="/paintings">PAINTINGS</a></li>
         <li><a href="/illustrations">ILLUSTRATIONS</a></li> 
-        <li><a href="/drawings">DRAWINGS</a></li>
         <li className="dropdown">OTHER
             <ul>
+            <li><a href="/drawings">DRAWINGS</a></li>
+
             <li><a href="/printmaking">PRINTMAKING</a></li>
-              <li><a href="/sculptures">SCULPTURES</a></li>
+              {/* <li><a href="/sculptures">SCULPTURES</a></li> */}
               <li><a href="/photography">PHOTOGRAPHY</a></li>
-              <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP</a></li>
+              {/* <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS</a></li> */}
             </ul>        
             </li>
         <li><a href="/about">ABOUT</a></li>
         <li>
           <a href="/contact">
-              <img id="icons" src={require("../imgs/email.png")} alt="instagram"/>
+              {/* <img id="icons" src={require("../imgs/email.png")} alt="instagram"/> */}
+              CONTACT
           </a>
         </li>
         <li>
@@ -43,7 +45,7 @@ const Menu = (props) => {
         <li><a href="/printmaking">PRINTMAKING<i className="right"></i></a></li>
         {/* <li><a href="/sculptures">SCULPTURES<i className="right"></i></a></li> */}
         <li><a href="/photography">PHOTOGRAPHY<i className="right"></i></a></li>
-        <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS<i className="right"></i></a></li>
+        {/* <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS<i className="right"></i></a></li> */}
         <li><a href="/about">ABOUT<i className="right"></i></a></li>
         <li><a href="/contact">CONTACT<i className="right"></i></a></li>
         <li><a href="https://www.instagram.com/yuliyas.art/" target="_blank" rel="noopener noreferrer">INSTAGRAM<i className="right"></i></a></li>

@@ -3,7 +3,7 @@
 }
 
 #logo-mobile{
-  width: 22%;
+  width: 90px;
   float: left;
   z-index: 10;
   position: fixed;
@@ -106,10 +106,10 @@
 }
 /* humburger menu end */
 
-@media (min-width: 420px) {
+@media (min-width: 900px) {
   #logo {
     display: inline-block;
-    max-width: 150px; 
+    max-width: 120px; 
     margin-top: 20px;  
     margin-left: 30px;
   }
@@ -141,7 +141,7 @@
     float: right;
     list-style: none;
     font-size: 14px;
-    margin: 35px 0px 15px 30px;
+    margin-top: 35px;
 
 
     
@@ -191,7 +191,7 @@ nav ul ul li {
 	float: none;
 	display:list-item;
   position: relative;
-  margin-left: 0 !important;
+  margin-left: 5px !important;
 }
 
 	

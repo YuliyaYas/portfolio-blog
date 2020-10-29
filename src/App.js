@@ -52,25 +52,15 @@ class App extends Component {
   handleImageClick = (e) => {
       const title = e.target.title;
       const galleryType = e.target.name;
-      console.log(title, galleryType);
-      let currentGallery = '';
-      if (galleryType === "paintings"){
-        currentGallery = paintingsData;
-      } else if (galleryType === "illustrations"){
-        currentGallery = illustrationsData;
-      } else if (galleryType === "drawings"){
-        currentGallery = drawingsData;
-      } else if (galleryType === "sculptures"){
-        currentGallery = sculpturesData;
-      } else if (galleryType === "printmaking"){
-        currentGallery = printmakingData;
-      } else if (galleryType === "photography"){
-        currentGallery = photographyData;
-      }
-      this.setState({closed: false, name: e.target.title, currentGallery, galleryType}, () => {
-          let info = this.state.currentGallery.filter((img, i) => img.name === this.state.name)[0];
-          this.setState({info}, () => this.props.history.push(`/${galleryType}/#${slugify(title)}`));
+      console.log(e.target)
+      const currentGallery = allData.filter(data => data.type === galleryType)[0].data;
+      let info = currentGallery.filter(data => data.name === title)[0];
+      window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
       });
+      this.setState({closed: false, name: e.target.title, currentGallery, galleryType, info})
   }
 
   handleArrowClick = (e) => {

@@ -6,8 +6,9 @@ var slugify = require('slugify')
 const Artworks = ({ 
   data, handleCloseClick, handleImageClick,
   closed, info, galleryType, handleArrowClick, 
-}) =>  {
-  const paintings = data.map((art)=>{
+}, props) =>  {
+  console.log("here",info)
+  const art = data.map((art)=>{
     return <div key={art.name+art.type}>
         <a href={`#${art.name}`}><img className="gallery-img"src={require(`../imgs/${art.type}/${art.url}`)} title={art.name} id={slugify(art.name)} style={{width:'100%'}} name={art.type} alt={art.name} onClick={handleImageClick}/></a>
         
@@ -25,9 +26,9 @@ const Artworks = ({
         ?
         ""
         :
-        <Overlay info={info} galleryType={galleryType} handleArrowClick={handleArrowClick} handleCloseClick={handleCloseClick} data={data}/>
+        <Overlay handleArrowClick={handleArrowClick} handleCloseClick={handleCloseClick} data={data}/>
         }
-        {paintings}
+        {art}
       </div>
     );
 };

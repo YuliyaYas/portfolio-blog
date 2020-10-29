@@ -3,9 +3,10 @@ import '../stylesheet/Overlay.scss';
 import { useLocation } from 'react-router-dom';
 
 const Overlay1 = ({data}, props) => {
+  console.log("overlay", data)
   const location = useLocation()
-  const artName = location.hash.substring(1);
-  const overlayImg = data.filter(d=> d.name.toLowerCase() === artName)[0]
+  const artName = location.hash.substring(1).replace(/%20/g, " ");
+  const overlayImg = data.filter(d=> d.name.toLowerCase() === artName.toLowerCase())[0]
   return(
     // <div className="base" >
     //   <div className="shroud overlay-scroll box">

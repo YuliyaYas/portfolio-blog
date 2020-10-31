@@ -12,6 +12,8 @@ import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
+// import {globalHistory} from "@reach/router";
+
 var slugify = require('slugify');
 
 var allData = [
@@ -36,17 +38,18 @@ class App extends Component {
   }
 
   componentDidMount(){
-    var path = this.props.history.location.pathname.split("/").filter(Boolean);
-    if(path.length > 1){
-      var galleryType = path[0];
-      var artworkName = path[1].split('-').join(' ');
-      this.setState({closed: false, galleryType, }, () => {
-        var galleryData = allData[0][`${this.state.galleryType}`];
-        let info = galleryData.filter((img, i) => img.name === artworkName)[0];
+    // const hash = globalHistory.location.hash.substring
+    // if( globalHistory.location.hash){
+      // var galleryType = path[0];
+      // var artworkName = path[1].split('-').join(' ');
+      this.setState({closed: false})
+      //   , galleryType, }, () => {
+      //   var galleryData = allData[0][`${this.state.galleryType}`];
+      //   let info = galleryData.filter((img, i) => img.name === artworkName)[0];
         
-        this.setState({info, name: artworkName, currentGallery: galleryData})
-      });
-    }
+      //   this.setState({info, name: artworkName, currentGallery: galleryData})
+      // });
+    // }
   }
 
   handleImageClick = (e) => {

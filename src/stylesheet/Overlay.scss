@@ -153,10 +153,11 @@
 .right-arrow {
   width: 60px;
   height: 60px;
-  opacity: 0.6;
+  opacity: 1;
   display: block;
   top: 40%;
   position: absolute;
+  color: black;
 }
 .left-arrow {
   transform: rotate(-180deg);
@@ -180,4 +181,33 @@
 
 .all-caps{
   text-transform: uppercase;
+}
+
+.close {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: black;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
 }

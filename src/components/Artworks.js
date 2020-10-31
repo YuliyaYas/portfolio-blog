@@ -30,7 +30,6 @@ const Artworks = ({
     overlayImg = info
    }
    
-console.log("overlayImg", overlayImg)
   return(
       <div className="photos">
         {closed===true

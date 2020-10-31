@@ -37,8 +37,12 @@ class App extends Component {
   }
 
   componentDidMount(){    
-    if( window.location.hash){
-      this.setState({closed: false})
+    const hash = window.location.hash;
+    if( hash){
+      // const artName = hash.substring(1).replace(/%20/g, " ");
+      const gallery = window.location.pathname.substring(1);
+      const info = allData.filter(data => data.type === gallery)[0].data;
+      this.setState({closed: false, currentGallery: info})
     }
   }
 
@@ -58,29 +62,33 @@ class App extends Component {
   handleArrowClick = (e) => {
     const arrow = e.target.alt;
     const cur_id = this.state.info.id;
+
+    console.log("arrow",arrow, this.state.currentGallery)
     // const first = this.state.currentGallery[0];
-    const length = this.state.currentGallery.length-1;
-    if (arrow === "left" && cur_id === 0){
-      const next = this.state.currentGallery[length];
-      this.setState({info: next}, () => {
-        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-      });
-    } else if (arrow === "right" && cur_id === length){
-      const next = this.state.currentGallery[0];
-      this.setState({info: next}, () => {
-        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-      });
-    } else if (arrow === "right"){
-      const next =this.state.currentGallery[cur_id+1];
-      this.setState({info: next}, () => {
-        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-      });
-    } else if (arrow === "left"){
-      const prev = this.state.currentGallery[cur_id-1];
-      this.setState({info: prev}, () => {
-        this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-      });
-    }
+    // const length = this.state.currentGallery.length-1;
+    // if (arrow === "left" && cur_id === 0){
+    //   const next = this.state.currentGallery[length];
+    //   this.setState({info: next}, () => {
+    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
+    //   });
+    // } else if (arrow === "right" && cur_id === length){
+    //   const next = this.state.currentGallery[0];
+    //   console.log("this.state.info", this.state.info)
+    //   console.log("this.current",next)
+    //   this.setState({info: next}, () => {
+    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
+    //   });
+    // } else if (arrow === "right"){
+    //   const next =this.state.currentGallery[cur_id+1];
+    //   this.setState({info: next}, () => {
+    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
+    //   });
+    // } else if (arrow === "left"){
+    //   const prev = this.state.currentGallery[cur_id-1];
+    //   this.setState({info: prev}, () => {
+    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
+    //   });
+    // }
   }
 
   handleCloseClick = (e) => {

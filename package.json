@@ -8,6 +8,7 @@
     "embla-carousel": "^4.0.6",
     "node-sass": "^4.14.1",
     "nvm": "0.0.4",
+    "reach-router": "0.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-hook-form": "^6.10.0",

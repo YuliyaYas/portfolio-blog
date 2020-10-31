@@ -1,12 +1,14 @@
 import React from 'react';
 import Overlay from './Overlay';
 import '../stylesheet/Gallery.scss';
+import { useLocation } from 'react-router-dom';
 var slugify = require('slugify')
 
 const Artworks = ({ 
   data, handleCloseClick, handleImageClick,
   closed, info, galleryType, handleArrowClick, 
-}, props) =>  {
+}) =>  {
+ 
   const art = data.map((art)=>{
     return <div key={art.name+art.type}>
         <a href={`#${art.name}`}><img className="gallery-img"src={require(`../imgs/${art.type}/${art.url}`)} title={art.name} id={slugify(art.name)} style={{width:'100%'}} name={art.type} alt={art.name} onClick={handleImageClick}/></a>
@@ -19,13 +21,23 @@ const Artworks = ({
     
   });
 
+   const location = useLocation()
+   const artName = location.hash.substring(1).replace(/%20/g, " ");
+   let overlayImg = {};
+   if (artName) {
+    overlayImg = data.filter(d=> d.name.toLowerCase() === artName.toLowerCase())[0]
+   } else {
+    overlayImg = info
+   }
+   
+console.log("overlayImg", overlayImg)
   return(
       <div className="photos">
         {closed===true
         ?
         ""
         :
-        <Overlay handleArrowClick={handleArrowClick} handleCloseClick={handleCloseClick} data={data} info={info}/>
+        <Overlay handleArrowClick={handleArrowClick} handleCloseClick={handleCloseClick} overlayImg={overlayImg}/>
         }
         {art}
       </div>

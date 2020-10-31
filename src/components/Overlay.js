@@ -1,13 +1,7 @@
 import React from 'react';
 import '../stylesheet/Overlay.scss';
-import { useLocation } from 'react-router-dom';
 
-const Overlay1 = ({info, data}) => {
-  const location = useLocation()
-  console.log(info, data)
-  const artName = location.hash.substring(1).replace(/%20/g, " ");
-  let overlayImg = info.length > 0 ? info : data.filter(d=> d.name.toLowerCase() === artName.toLowerCase())[0]
-console.log("yo", info.length)
+const Overlay1 = ({overlayImg}) => {
   return(
     // <div className="base" >
     //   <div className="shroud overlay-scroll box">

@@ -12,7 +12,6 @@ import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
-// import {globalHistory} from "@reach/router";
 
 var slugify = require('slugify');
 
@@ -37,25 +36,15 @@ class App extends Component {
     }
   }
 
-  componentDidMount(){
-    // const hash = globalHistory.location.hash.substring
-    // if( globalHistory.location.hash){
-      // var galleryType = path[0];
-      // var artworkName = path[1].split('-').join(' ');
+  componentDidMount(){    
+    if( window.location.hash){
       this.setState({closed: false})
-      //   , galleryType, }, () => {
-      //   var galleryData = allData[0][`${this.state.galleryType}`];
-      //   let info = galleryData.filter((img, i) => img.name === artworkName)[0];
-        
-      //   this.setState({info, name: artworkName, currentGallery: galleryData})
-      // });
-    // }
+    }
   }
 
   handleImageClick = (e) => {
       const title = e.target.title;
       const galleryType = e.target.name;
-      console.log(e.target)
       const currentGallery = allData.filter(data => data.type === galleryType)[0].data;
       let info = currentGallery.filter(data => data.name === title)[0];
       window.scroll({

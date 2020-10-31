@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import HomePage from '../src/components/HomePage';
@@ -24,95 +24,85 @@ var allData = [
   {type: 'photography', data: photographyData}
   ];
 
-class App extends Component {
-  constructor(){
-    super()
-    this.state = {
-      closed: true,
-      name: '',
-      info: [],
-      currentGallery: [],
-      galleryType: ''
-    }
-  }
-
-  componentDidMount(){    
+const App = () => {
+  const [closed, setClosed] = useState(true);
+  const [info, setInfo] = useState([]);
+  const [currentGallery, setCurrentGallery] = useState([]);
+  const [name, setName] = useState('')
+  const [rightArrow, setRightArrow] = useState(true)
+  const [leftArrow, setLeftArrow] = useState(true)
+  useEffect(() => {
     const hash = window.location.hash;
     if( hash){
-      // const artName = hash.substring(1).replace(/%20/g, " ");
+      const artName = hash.substring(1).replace(/%20/g, " ");
+      setName(artName);
       const gallery = window.location.pathname.substring(1);
-      const info = allData.filter(data => data.type === gallery)[0].data;
-      this.setState({closed: false, currentGallery: info})
+      const currentGallery = allData.filter(data => data.type === gallery)[0].data;
+      const info = currentGallery.filter(data => data.name === artName)[0];
+      setInfo(info);
+      setClosed(false);
+      setCurrentGallery(currentGallery)
     }
-  }
+  }, []);
 
-  handleImageClick = (e) => {
+  const handleImageClick = (e) => {
       const title = e.target.title;
+      setName(title);
+      console.log(title)
       const galleryType = e.target.name;
       const currentGallery = allData.filter(data => data.type === galleryType)[0].data;
       let info = currentGallery.filter(data => data.name === title)[0];
-      window.scroll({
-        top: 0, 
-        left: 0, 
-        behavior: 'smooth'
-      });
-      this.setState({closed: false, name: e.target.title, currentGallery, galleryType, info})
+      // window.scroll({
+      //   top: 0, 
+      //   left: 0, 
+      //   behavior: 'smooth'
+      // });
+      setClosed(false);
+      setCurrentGallery(currentGallery);
+      setInfo(info);
   }
 
-  handleArrowClick = (e) => {
-    const arrow = e.target.alt;
-    const cur_id = this.state.info.id;
-
-    console.log("arrow",arrow, this.state.currentGallery)
-    // const first = this.state.currentGallery[0];
-    // const length = this.state.currentGallery.length-1;
-    // if (arrow === "left" && cur_id === 0){
-    //   const next = this.state.currentGallery[length];
-    //   this.setState({info: next}, () => {
-    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-    //   });
-    // } else if (arrow === "right" && cur_id === length){
-    //   const next = this.state.currentGallery[0];
-    //   console.log("this.state.info", this.state.info)
-    //   console.log("this.current",next)
-    //   this.setState({info: next}, () => {
-    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-    //   });
-    // } else if (arrow === "right"){
-    //   const next =this.state.currentGallery[cur_id+1];
-    //   this.setState({info: next}, () => {
-    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-    //   });
-    // } else if (arrow === "left"){
-    //   const prev = this.state.currentGallery[cur_id-1];
-    //   this.setState({info: prev}, () => {
-    //     this.props.history.push(`/${this.state.galleryType}/#${slugify(this.state.info.name)}`)
-    //   });
-    // }
+  const handleArrowClick = (e) => {
+    const arrow = e.target.id;
+    const id = currentGallery.findIndex(art => art.name === name);
+    console.log(currentGallery.length, id)
+    if (currentGallery.length === id+2) {
+      setRightArrow(false);
+    } else if (id === 1){
+      setLeftArrow(false);
+    } else {
+      setRightArrow(true);
+      setLeftArrow(true);
+    }
+    if (arrow === "right-arrow") {
+      setName(currentGallery[id+1].name)
+      setInfo(currentGallery[id+1]);
+    }
+    if (arrow === "left-arrow") {
+      setName(currentGallery[id-1].name)
+      setInfo(currentGallery[id-1]);
+    }
   }
 
-  handleCloseClick = (e) => {
-      this.setState({closed: true});
+  const handleCloseClick = () => {
+      setClosed(true);
   }
 
-
-  render() {
-    return (
-      <div>
-        <Menu /> 
-      <div className="content">
-          <Switch>
-            <Route path={`/contact`} component={ () => <Contact/>} />
-            {allData.map(art => {
-              return  <Route key={art.type} path={`/${art.type}/`} component={ () => <Artworks closed={this.state.closed} info={this.state.info} galleryType={this.state.galleryType} data={art.data} handleArrowClick={this.handleArrowClick} handleImageClick={this.handleImageClick} handleCloseClick={this.handleCloseClick}/>} />
-            })}
-            <Route path={`/about`} component={ () => <About/>} />
-            <Route path={`/`} component={ () => <HomePage />} /> 
-          </Switch>
-      </div>
+  return (
+    <div>
+      <Menu /> 
+    <div className="content">
+        <Switch>
+          <Route path={`/contact`} component={ () => <Contact/>} />
+          {allData.map(art => {
+            return  <Route key={art.type} path={`/${art.type}/`} component={ () => <Artworks closed={closed} rightArrow={rightArrow} info={info} data={art.data} leftArrow={leftArrow} handleArrowClick={handleArrowClick} handleImageClick={handleImageClick} handleCloseClick={handleCloseClick}/>} />
+          })}
+          <Route path={`/about`} component={ () => <About/>} />
+          <Route path={`/`} component={ () => <HomePage />} /> 
+        </Switch>
     </div>
-    );
-  }
+  </div>
+  );
 }
 
 export default App;

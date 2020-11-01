@@ -8,10 +8,11 @@ function Form(){
   const location = useLocation();
   const [formSubmitted, setformSubmitted] = useState(false);
 
-  // eslint-disable-next-line array-callback-return
   Object.keys(errors).map(key => {
     document.getElementById(key).style.borderColor='red';
   })
+
+
   const onSubmit = async(data) => {
     // eslint-disable-next-line no-unused-vars
     let response;
@@ -50,7 +51,7 @@ function Form(){
         <center>
           <h2>Contact Artist</h2>
           <p>Have any questions? I'm always open to a conversation.</p>
-        
+        {Object.keys(errors).length > 0 && <p style={{color: 'red', fontSize: '14px'}}>Please fill in all required fields</p> }
         {!formSubmitted ? 
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="span-half">

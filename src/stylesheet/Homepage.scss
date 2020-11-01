@@ -6,12 +6,24 @@
         width: 100%;
         @media (max-width : 900px) {
             margin-top: 50px;
+            margin-bottom: 50px;
+
         }
+
+        @media (min-width : 900px) {
+            margin-bottom: 120px;
+        }
+
         .featured-img{
-            align-items: center;
             @media (min-width: 600px) {
-                display: flex;
+            align-items: center;
+            }
+            display: flex;
+            @media (min-width: 600px) {
                 overflow: auto;
+            }
+            @media (max-width: 600px) {
+                flex-flow: column;
             }
             margin-bottom: 20px;
 
@@ -27,7 +39,6 @@
             }
             @media (min-width: 600px) {
                 width: 40%;
-                float: left;
                 img{
                     width: 80%;
                     margin: 0 auto;
@@ -35,6 +46,9 @@
             }   
         }
         .block-desc{
+            @media (max-width: 600px) {
+            order: 2;
+            }
             @media (min-width: 600px) {
 
             width: 60%;
@@ -48,9 +62,11 @@
                 margin-bottom: 5px;
             }
         }
-        margin-bottom: 120px;
     }
     .general-btn{
+        @media (max-width: 600px) {
+        margin: 0 auto;
+        }
         display: block;
         // margin: 0 auto;
         background-color: #687175;
@@ -69,11 +85,15 @@
         line-height: 30px;
         text-align: justify;
         align-items: center;
-        
         // overflow: auto;
         #portrait{
             width: 100%;
             @media (min-width: 600px) {
+                width: 40%;
+                float: left;
+                padding-right: 40px;
+            }
+            @media (min-width: 900px) {
                 width: 40%;
                 float: left;
                 padding: 80px;
@@ -85,8 +105,10 @@
             margin-top: 30px;
         }
         @media (min-width: 600px) {
-            display: flex;
-            p{
+        display: flex;
+        }
+        p{
+            @media (min-width: 900px) {
                 width: 50%;
                 float: left;
                 padding-right: 80px;

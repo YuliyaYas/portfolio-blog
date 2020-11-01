@@ -12,17 +12,19 @@ const CV = () =>  {
           <div className="cv-section">
             <i>6/23 - 7/23, 2021</i><p>Artness Contemporary, “Catastrophes: Postmodern mental disaster”, <span>Barcelona, Spain</span></p>
             <i>Tbd, 2021</i><p>Prizma Art Prize, <span>Rome, Italy</span></p>
-            <i>9/30 - 10/29, 2020</i><p>Jones Gallery, “October Group Art Show”, <span>Kansas City, Missouri</span></p>
-            <i>9/15 - 12/14, 2020</i><p> Fusion Art, “3rd Annual Women Artists International Juried Art Exhibition”, <span>Palm Spring, California</span></p>
-            <i>9/11 - 27/11, 2020</i><p> Core New Art Space, “The Aqua Show”, <span>Denver, CO</span> </p>
-            <i>1/25 - 2/15, 2020</i><p>Pleiades Gallery, “Altered States - National Exhibition of American Art”, <span>Chelsea, NY</span> </p>
-            <i>12/12/19 - 1/10/20</i><p>LIC Open Arts, “Open Diary”, <span>LIC, NY</span> </p>
-            <i>11/6, 2019</i><p>Conception Art, “Conception Art Show”, <span>SoHo, NY</span></p>
-            <i>10/25, 2019</i><p>The Greenpoint Gallery, “2019 People’s Choice Show”, <span>LIC, NY</span></p>
-            <i>5/25, 2017</i><p>A.I.R. Gallery, “Wish You Were Here”, <span>Dumbo, NY</span></p>
-            <i>4/28, 2017</i><p>El Barrio’s Artspace PS109, “NeverTheLess: A Night of Nasty Woman”, <span>UES, NY</span></p>
-            <i>11/15, 2016</i><p>Living Gallery BK, “Blue”, <span>Bushwick, NY</span></p>
-            <i>4/19-5/10, 2015</i><p>Storefront Ten Eyck Gallery, “Exhibition and AIB 2015 Benefit”, <span>Bushwick, NY</span></p>
+            <i>1/23-12/25, 2020</i><p>La Fenice Gallery, <span>Hong Kong</span></p>
+            <i>10/16-11/13, 2020</i><p>Oxford Arts Alliance, “6th Annual National Juried Exhibition, <span>Oxford, PA,USA</span></p>
+            <i>9/30 - 10/29, 2020</i><p>Jones Gallery, “October Group Art Show”, <span>Kansas City, MO, USA</span></p>
+            <i>9/15 - 12/14, 2020</i><p> Fusion Art, “3rd Annual Women Artists International Juried Art Exhibition”, <span>Palm Spring, CA, USA</span></p>
+            <i>9/11 - 27/11, 2020</i><p> Core New Art Space, “The Aqua Show”, <span>Denver, CO, USA</span> </p>
+            <i>1/25 - 2/15, 2020</i><p>Pleiades Gallery, “Altered States - National Exhibition of American Art”, <span>Chelsea, NY, USA</span> </p>
+            <i>12/12/19 - 1/10/20</i><p>LIC Open Arts, “Open Diary”, <span>LIC, NY, USA</span> </p>
+            <i>11/6, 2019</i><p>Conception Art, “Conception Art Show”, <span>SoHo, NY, USA</span></p>
+            <i>10/25, 2019</i><p>The Greenpoint Gallery, “2019 People’s Choice Show”, <span>LIC, NY, USA</span></p>
+            <i>5/25, 2017</i><p>A.I.R. Gallery, “Wish You Were Here”, <span>Dumbo, NY, USA</span></p>
+            <i>4/28, 2017</i><p>El Barrio’s Artspace PS109, “NeverTheLess: A Night of Nasty Woman”, <span>Upper East Side, NY, USA</span></p>
+            <i>11/15, 2016</i><p>Living Gallery BK, “Blue”, <span>Bushwick, NY, USA</span></p>
+            <i>4/19-5/10, 2015</i><p>Storefront Ten Eyck Gallery, “Exhibition and AIB 2015 Benefit”, <span>Bushwick, NY, USA</span></p>
           </div>
           
           <h3>Publications:</h3>

@@ -45,10 +45,21 @@ const App = () => {
     }
   }, []);
 
+  useEffect(() => {
+    const id = currentGallery.findIndex(art => art.name === name);
+    if (currentGallery.length-1 === id && id !==-1) {
+      setRightArrow(false);
+    } else if (id === 0 && id !==-1){
+      setLeftArrow(false);
+    } else {
+      setRightArrow(true);
+      setLeftArrow(true);
+    }
+  })
+
   const handleImageClick = (e) => {
       const title = e.target.title;
       setName(title);
-      console.log(title)
       const galleryType = e.target.name;
       const currentGallery = allData.filter(data => data.type === galleryType)[0].data;
       let info = currentGallery.filter(data => data.name === title)[0];
@@ -65,15 +76,7 @@ const App = () => {
   const handleArrowClick = (e) => {
     const arrow = e.target.id;
     const id = currentGallery.findIndex(art => art.name === name);
-    console.log(currentGallery.length, id)
-    if (currentGallery.length === id+2) {
-      setRightArrow(false);
-    } else if (id === 1){
-      setLeftArrow(false);
-    } else {
-      setRightArrow(true);
-      setLeftArrow(true);
-    }
+
     if (arrow === "right-arrow") {
       setName(currentGallery[id+1].name)
       setInfo(currentGallery[id+1]);

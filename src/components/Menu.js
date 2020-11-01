@@ -20,10 +20,14 @@ const Menu = (props) => {
               {/* <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS</a></li> */}
             </ul>        
             </li>
-        <li><a href="/about">ABOUT</a></li>
+        <li className="dropdown">ABOUT
+        <ul>
+          <li><a href="/about-bio">BIO</a></li>
+          <li><a href="/about-cv">CV</a></li>
+        </ul>
+        </li>
         <li>
           <a href="/contact">
-              {/* <img id="icons" src={require("../imgs/email.png")} alt="instagram"/> */}
               CONTACT
           </a>
         </li>

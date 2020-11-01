@@ -12,6 +12,7 @@ import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
+import CV from '../src/components/CV';
 
 var slugify = require('slugify');
 
@@ -100,7 +101,8 @@ const App = () => {
           {allData.map(art => {
             return  <Route key={art.type} path={`/${art.type}/`} component={ () => <Artworks closed={closed} rightArrow={rightArrow} info={info} data={art.data} leftArrow={leftArrow} handleArrowClick={handleArrowClick} handleImageClick={handleImageClick} handleCloseClick={handleCloseClick}/>} />
           })}
-          <Route path={`/about`} component={ () => <About/>} />
+          <Route path={`/about-bio`} component={ () => <About/>} />
+          <Route path={`/about-cv`} component={ () => <CV/>} />
           <Route path={`/`} component={ () => <HomePage />} /> 
         </Switch>
     </div>

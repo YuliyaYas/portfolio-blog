@@ -37,7 +37,7 @@ const EmblaCarousel = () => {
     <div className="embla">
       <div className="embla__viewport" ref={viewportRef}>
         <div className="embla__container">
-          {carouselImages.map(art => {return <div className="embla__slide">
+          {carouselImages.map(art => {return <div className="embla__slide" key={art.name}>
               <div className="embla__slide__inner">
                 <img
                   className="embla__slide__img"

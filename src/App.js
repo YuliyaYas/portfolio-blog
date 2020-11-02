@@ -47,7 +47,9 @@ const App = () => {
       setClosed(false);
       setCurrentGallery(currentGallery)
     }
-  }, []);
+    window.scrollTo(0, 0);
+
+  }, [history.location.hash, history.location.pathname]);
 
   useEffect(() => {
     const id = currentGallery.findIndex(art => art.name === name);
@@ -62,6 +64,7 @@ const App = () => {
   }, [currentGallery, name])
 
   const handleImageClick = (e) => {
+    if(e.target.name){
       const title = e.target.title;
       setName(title);
       const galleryType = e.target.name;
@@ -72,9 +75,21 @@ const App = () => {
       //   left: 0, 
       //   behavior: 'smooth'
       // });
-      setClosed(false);
       setCurrentGallery(currentGallery);
       setInfo(info);
+    }
+    //for featured on homepage
+    if(e.target.alt === 'Heart'){
+      const info={type: "paintings", name: "", description: "", url: "heart.jpg", specs: ""}
+      setInfo(info)
+    }
+
+    if(e.target.alt === 'colibri'){
+      const info={type: "paintings", name: "", description: "", url: "colibri.jpg", specs: ""}
+      setInfo(info)
+    }
+
+    setClosed(false);
 
   }
 
@@ -111,7 +126,7 @@ const App = () => {
           })}
           <Route path={`/about-bio`} component={ () => <About/>} />
           <Route path={`/about-cv`} component={ () => <CV/>} />
-          <Route path={`/`} component={ () => <HomePage />} /> 
+          <Route path={`/`} component={ () => <HomePage info={info} closed={closed} handleCloseClick={handleCloseClick} handleImageClick={handleImageClick}/>} /> 
         </Switch>
     </div>
   </div>

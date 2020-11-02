@@ -40,7 +40,7 @@ const App = () => {
     if( hash){
       const artName = hash.substring(1).replace(/-/g, " ");
       setName(artName);
-      const gallery = window.location.pathname.substring(1);
+      const gallery = history.location.pathname.substring(1);
       const currentGallery = allData.filter(data => data.type === gallery)[0].data;
       const info = currentGallery.filter(data => data.name === artName)[0];
       setInfo(info);

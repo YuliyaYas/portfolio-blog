@@ -1,4 +1,25 @@
 [
+      {
+      "type": "paintings",
+      "name": "Heart",
+      "description": "We all have a home in our hearts, a special place we remember from our childhood when we used to be carefree and untroubled. For some - it is a small village where they spent summers with their grandparents, for another - it is a buzzing megalopolis of thousands skyscrapers. No matter what that place is, it’s nice to return to it in our memories from time to time, and remind ourself where we came from.",
+      "url": "heart.jpg",
+      "specs": "24x30inches, acrylic on wood"
+    },
+    {
+      "type": "paintings",
+      "name": "Colibri",
+      "description": "",
+      "url": "colibri.jpg",
+      "specs": "18x24inches, acrylic on wood"
+    },
+    {
+      "type": "paintings",
+      "name": "kingsfisher",
+      "description": "",
+      "url": "kingsfisher.jpg",
+      "specs": "24x18inches, acrylic on wood"
+    },
     {
       "type": "paintings",
       "name": "World Bearing",
@@ -179,19 +200,5 @@
       "description": "",
       "url": "Cicada.jpg",
       "specs": "18x24inches, acrylic and golden leaf on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "Colibri",
-      "description": "",
-      "url": "colibri.jpg",
-      "specs": "18x24inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "kingsfisher",
-      "description": "",
-      "url": "kingsfisher.jpg",
-      "specs": "24x18inches, acrylic on wood"
     }
   ]

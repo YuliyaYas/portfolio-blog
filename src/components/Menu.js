@@ -50,7 +50,7 @@ const Menu = (props) => {
         {/* <li><a href="/sculptures">SCULPTURES</a></li> */}
         <li><a href="/photography">PHOTOGRAPHY</a></li>
         {/* <li><a href="https://yuliyasart.redbubble.com/" target="_blank" rel="noopener noreferrer">SHOP PRINTS</a></li> */}
-        <li><a href="/about">ABOUT</a></li>
+        {/* <li><a href="/about">ABOUT</a></li> */}
         <li><a href="/about-bio">BIO</a></li>
           <li><a href="/about-cv">CV</a></li>
         <li><a href="/contact">CONTACT</a></li>

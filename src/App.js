@@ -65,16 +65,11 @@ const App = () => {
 
   const handleImageClick = (e) => {
     if(e.target.name){
-      const title = e.target.title;
+      const title = e.target.title.replace(/-/g, " ");
       setName(title);
       const galleryType = e.target.name;
       const currentGallery = allData.filter(data => data.type === galleryType)[0].data;
       let info = currentGallery.filter(data => data.name === title)[0];
-      // window.scroll({
-      //   top: 0, 
-      //   left: 0, 
-      //   behavior: 'smooth'
-      // });
       setCurrentGallery(currentGallery);
       setInfo(info);
     }

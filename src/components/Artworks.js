@@ -9,7 +9,7 @@ const Artworks = ({
 }) =>  {
   const art = data.map((art)=>{
     return <div key={art.name+art.type}>
-        <a href={`#${art.name}`}><img className="gallery-img"src={require(`../imgs/${art.type}/${art.url}`)} title={art.name} id={slugify(art.name)} style={{width:'100%'}} name={art.type} alt={art.name} onClick={handleImageClick}/></a>
+        <a href={`#${slugify(art.name)}`}><img className="gallery-img"src={require(`../imgs/${art.type}/${art.url}`)} title={slugify(art.name)} id={slugify(art.name)} style={{width:'100%'}} name={art.type} alt={art.name} onClick={handleImageClick}/></a>
         <div className="mobile-desc">
             <center> <p className="all-caps">{art.name}</p></center> 
           <i><p className="title">{art.specs}</p></i>

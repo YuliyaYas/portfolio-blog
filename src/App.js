@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Route, Switch} from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 import './App.css';
 import HomePage from '../src/components/HomePage';
 import Menu from '../src/components/Menu';
@@ -13,10 +13,11 @@ import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
 import CV from '../src/components/CV';
+import { useHistory } from "react-router-dom";
 
-var slugify = require('slugify');
+const slugify = require('slugify');
 
-var allData = [
+const allData = [
   {type: 'illustrations', data: illustrationsData},
   {type: 'paintings', data: paintingsData},
   {type: 'drawings', data: drawingsData},
@@ -32,10 +33,12 @@ const App = () => {
   const [name, setName] = useState('')
   const [rightArrow, setRightArrow] = useState(true)
   const [leftArrow, setLeftArrow] = useState(true)
+  let history = useHistory();
+
   useEffect(() => {
-    const hash = window.location.hash;
+    const hash = history.location.hash;
     if( hash){
-      const artName = hash.substring(1).replace(/%20/g, " ");
+      const artName = hash.substring(1).replace(/-/g, " ");
       setName(artName);
       const gallery = window.location.pathname.substring(1);
       const currentGallery = allData.filter(data => data.type === gallery)[0].data;
@@ -56,7 +59,7 @@ const App = () => {
       setRightArrow(true);
       setLeftArrow(true);
     }
-  })
+  }, [currentGallery, name])
 
   const handleImageClick = (e) => {
       const title = e.target.title;
@@ -72,19 +75,24 @@ const App = () => {
       setClosed(false);
       setCurrentGallery(currentGallery);
       setInfo(info);
+
   }
 
   const handleArrowClick = (e) => {
     const arrow = e.target.id;
     const id = currentGallery.findIndex(art => art.name === name);
-
     if (arrow === "right-arrow") {
-      setName(currentGallery[id+1].name)
+      const newName = currentGallery[id+1].name;
+      setName(newName)
       setInfo(currentGallery[id+1]);
+      history.push(`#${slugify(newName)}`)
+
     }
     if (arrow === "left-arrow") {
-      setName(currentGallery[id-1].name)
+      const newName = currentGallery[id-1].name;
+      setName(newName)
       setInfo(currentGallery[id-1]);
+      history.push(`#${slugify(newName)}`)
     }
   }
 

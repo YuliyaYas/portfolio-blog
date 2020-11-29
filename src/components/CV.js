@@ -39,6 +39,12 @@ const CV = () =>  {
           <i>2016 </i><p>Shaw Award. Received while studying at Brooklyn College, for excellence in painting. <span>New York City, USA</span></p>
           <i>2015-2016 </i> <p>Bernard Horlick Memorial Scholarship in Visual Arts and Art History Award. This scholarship is in recognition of outstanding achievements in the field of Visual Art. <span>New York City, USA</span></p>
           </div>
+
+          <h3>Founder:</h3>
+          <div className="cv-section">
+          <i>2020</i><p> Founded a professional flower preservation service Framed Petal <span><a href="framedpetal.com" target="_blank" rel="noopener noreferrer" id="amz-book">framedpetal.com</a></span></p>
+          </div>
+
         </div>
         <center style={{margin: '100px 0'}} ><Form /></center>
       </div>

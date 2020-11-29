@@ -36,11 +36,53 @@
     },
     {
       "type": "paintings",
+      "name": "Colony",
+      "description": "",
+      "url": "MushTown.jpg",
+      "specs": "24x30inches, acrylic on wood"
+    },
+    {
+      "type": "paintings",
+      "name": "Macaw",
+      "description": "Macaw was seen as a guardian and a symbol of healing. They are bold, loud and beautiful, just like every one of us.",
+      "url": "macaw.jpg",
+      "specs": "24x36inches, acrylic on wood"
+    },
+    {
+      "type": "paintings",
+      "name": "Cicada",
+      "description": "",
+      "url": "Cicada.jpg",
+      "specs": "18x24inches, acrylic and golden leaf on wood"
+    },
+    {
+      "type": "paintings",
       "name": "City on clouds",
       "description": "We build our own houses and cities, - ideal and perfect in our head. Its up to us to decide to see in color or in grey tones. My perfect city is full of shades of blue and green, on a cloud where no negativity and rain can reach me and other city’s inhabitants. Going places, guided by wind and sunny weather. Maybe too romantic and too perfect, but its mine. To each its own.",
       "url": "City-on-clouds.jpg",
       "sold": true,
       "specs": "10x16inches, acrylic on paper"
+    },
+    {
+      "type": "paintings",
+      "name": "Head Up",
+      "description": "It doesn’t matter if you stand on one leg or both. It doesn’t matter if you wear pink, blue or black. Just be yourself and you’ll always stand out as long as you keep your head up. ",
+      "url": "Flamity.jpg",
+      "specs": "18x18inches, acrylic on wood"
+    },
+    {
+      "type": "paintings",
+      "name": "TucanVille",
+      "description": "Dare to be different, exciting and bold! this will add more color to your life. ",
+      "url": "tucan.jpg",
+      "specs": "24x36inches, acrylic on wood"
+    },
+    {
+      "type": "paintings",
+      "name": "Snaility",
+      "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.",
+      "url": "Snaility.jpg",
+      "specs": "20x20inches, acrylic on wood"
     },
     {
       "type": "paintings",
@@ -59,13 +101,6 @@
     },
     {
       "type": "paintings",
-      "name": "Head Up",
-      "description": "It doesn’t matter if you stand on one leg or both. It doesn’t matter if you wear pink, blue or black. Just be yourself and you’ll always stand out as long as you keep your head up. ",
-      "url": "Flamity.jpg",
-      "specs": "18x18inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
       "name": "Full Glass",
       "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. The bottle symbolizes the principles of containing and enclosure of life. The left side of the bottle portrays houses from Wolinsky's father's family side -  Long Island and Janow. Houses from Janow are painted them from old archive photos. There is a watch tower, synagogue and few Jewish residential buildings. Flowers and trees are also native to Poland and NY region.  The right side of the bottle - buildings and plants from Hong Kong, Wolinsky mother's side of the family. The bottle itself and the houses on the label - symbolizes New York. The decorations on the bottle are inspired by the few of Wolinsky's favorite wines - 1952 Cheval blanc, 1974 Contratto Barolo Riserva and1982 Montrose.",
       "url": "FullGlass.jpg",
@@ -78,13 +113,6 @@
       "description": "Adapting to the environment is not the easiest thing. Fitting into something new, changing shapes and colors quickly, like octopus do, is a great skill to have. While doing so, lets be smart about staying true to ourselves. Don’t let any enemy of the world-sea scare us. But if someone do - spray some ink on them and move on. ",
       "url": "Octo.png",
       "specs": "30x30inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "Snaility",
-      "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.",
-      "url": "Snaility.jpg",
-      "specs": "20x20inches, acrylic on wood"
     },
     {
       "type": "paintings",
@@ -165,40 +193,5 @@
       "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside of you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
       "url": "Sun-Earth.jpg",
       "specs": "16x16inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "Glow",
-      "description": "Produce your own light, glow in the dark and stun with your beauty. ",
-      "url": "Glow.jpg",
-      "specs": "24x30inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "TucanVille",
-      "description": "Dare to be different, exciting and bold! this will add more color to your life. ",
-      "url": "tucan.jpg",
-      "specs": "24x36inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "Colony",
-      "description": "",
-      "url": "MushTown.jpg",
-      "specs": "24x30inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "Macaw",
-      "description": "Macaw was seen as a guardian and a symbol of healing. They are bold, loud and beautiful, just like every one of us.",
-      "url": "macaw.jpg",
-      "specs": "24x36inches, acrylic on wood"
-    },
-    {
-      "type": "paintings",
-      "name": "Cicada",
-      "description": "",
-      "url": "Cicada.jpg",
-      "specs": "18x24inches, acrylic and golden leaf on wood"
     }
   ]

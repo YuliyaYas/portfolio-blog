@@ -42,7 +42,7 @@ const CV = () =>  {
 
           <h3>Founder:</h3>
           <div className="cv-section">
-          <i>2020</i><p> Founded a professional flower preservation service Framed Petal <span><a href="framedpetal.com" target="_blank" rel="noopener noreferrer" id="amz-book">framedpetal.com</a></span></p>
+          <i>2020</i><p> Founded a professional flower preservation service Framed Petal <span><a href="https://www.framedpetal.com" target="_blank" rel="noopener noreferrer" id="amz-book">framedpetal.com</a></span></p>
           </div>
 
         </div>

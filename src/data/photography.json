@@ -1,0 +1,114 @@
+[
+    {
+      "type": "photography",
+      "name": "Silence",
+      "description": "",
+      "url": "norway-1.jpg",
+      "specs": "location: Norway"
+    },
+    {
+      "type": "photography",
+      "name": "Look Up",
+      "description": "",
+      "url": "alcatraz.jpg",
+      "specs": "location: Alcatraz Island, San Francisco, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Skeleton",
+      "description": "",
+      "url": "skeleton.png",
+      "specs": "location: New York City, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Curves",
+      "description": "",
+      "url": "chicago.jpg",
+      "specs": "location: Chicago, USA"
+    },
+    {
+      "type": "photography",
+      "name": "In Between",
+      "description": "",
+      "url": "montreal.jpg",
+      "specs": "location: Montreal, Canada"
+    },
+    {
+      "type": "photography",
+      "name": "Way Out",
+      "description": "",
+      "url": "mohonk.jpg",
+      "specs": "location: Mohonk Mountain House, New Paltz, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Blues",
+      "description": "",
+      "url": "whitney.jpg",
+      "specs": "location: Whitney Museum, New York City, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Into Deep",
+      "description": "",
+      "url": "chicago_1.jpg",
+      "specs": "location: Chicago, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Wheeling around",
+      "description": "",
+      "url": "chicago_wheel.jpg",
+      "specs": "location: Chicago, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Cold",
+      "description": "",
+      "url": "norway-7.jpg",
+      "specs": "location: Gudvangen Fjord, Norway"
+    },
+    {
+      "type": "photography",
+      "name": "Reflection",
+      "description": "",
+      "url": "norway-5.jpg",
+      "specs": "location: Gudvangen Fjord, Norway"
+    },
+    {
+      "type": "photography",
+      "name": "Infinity",
+      "description": "",
+      "url": "chicago_4.jpg",
+      "specs": "location: Chicago, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Dome",
+      "description": "",
+      "url": "dome.jpg",
+      "specs": "location: Montreal, Canada"
+    },
+    {
+      "type": "photography",
+      "name": "Up",
+      "description": "",
+      "url": "fullton.png",
+      "specs": "location: New York City, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Rain",
+      "description": "",
+      "url": "sanfran-1.jpg",
+      "specs": "location: San Francisco, USA"
+    },
+    {
+      "type": "photography",
+      "name": "Above",
+      "description": "",
+      "url": "fullton_up.png",
+      "specs": "location: New York City, USA"
+    }
+  ]

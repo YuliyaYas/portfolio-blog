@@ -1,0 +1,212 @@
+#logo, .menu-top {
+  display: none;
+}
+
+#logo-mobile{
+  width: 90px;
+  float: left;
+  z-index: 10;
+  position: fixed;
+  margin-left: 10px;
+}
+
+/* humburger menu */
+.mobile-menu {
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  margin: 0;
+  background: rgba(256,256,256,0.7);
+  .menu-btn {
+    display: none;
+    &:checked ~ .menu {
+      max-height: 2140px;
+    }
+    &:checked{
+      ~ .menu-icon{
+        .navicon {
+          background: transparent;
+          &:before {
+            transform: rotate(-45deg);
+          }
+          &:after {
+            transform: rotate(45deg);
+          }
+        }
+        &:not(.steps){
+          .navicon{
+            &:before, &:after{
+              top: 0;
+            }
+          }
+        } 
+      } 
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgba(256,256,256,0.7);
+  }
+
+  li a {
+    display: block;
+    padding: 15px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    border-top: 1px solid #dedbdb;
+  }
+
+  li a:hover, .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+
+  .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+    user-select: none;
+    .navicon {
+      background: #333;
+      display: block;
+      height: 2px;
+      position: relative;
+      transition: background .2s ease-out;
+      width: 30px;
+      &:before, &:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      &:before {
+        top: 7px;
+      }
+      &:after {
+        top: -7px;
+      }
+    }
+  }
+
+}
+/* humburger menu end */
+
+@media (min-width: 900px) {
+  #logo {
+    display: inline-block;
+    max-width: 120px; 
+    margin-top: 20px;  
+    margin-left: 30px;
+  }
+  #logo-mobile{
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .menu-container{
+    z-index: 3;
+    position: sticky;
+    background: white;
+  }
+  .menu{
+    width: 94%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px;
+
+    hr{
+      width: 100%;
+    }
+  }
+  .menu-top {
+    display: flex;
+    float: right;
+    list-style: none;
+    font-size: 14px;
+    margin-top: 35px;
+
+
+    
+    #icons{
+      width: 25px;
+      margin: -10px;
+      &:hover{
+        width: 30px;
+      }
+    }
+
+    li{
+      margin: 15px;
+      &:hover{
+      text-decoration-line: underline;
+      }
+    }
+
+  }
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+  position: relative;
+  min-width: 135px;
+}
+	
+nav ul li {
+	display:inline-block;
+	}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+  top: 40px; /* the height of the main nav */
+  background-color: white;
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Dropdown */
+nav ul ul li {
+	float: none;
+	display:list-item;
+  position: relative;
+  margin-left: 5px !important;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+.dropdown:after { 
+  content:  ''; 
+    border: solid #2b4a67;
+    border-width: 0 0px 1px 1px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin: 0 0 3px 7px
+}
+.dropdown:only-child:after { content: ''; }
+}
+
+

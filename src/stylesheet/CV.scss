@@ -1,0 +1,32 @@
+.cv{
+    max-width: 800px;
+    margin: 0 auto;
+    .cv-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   i{
+        flex: 20%;
+        @media (max-width: 800px) {
+            padding-right: 10px;
+        }
+       font-size: 11pt;
+   } 
+   span{
+       font-style: italic;
+   }
+   p{
+       margin: 0;
+       flex: 80%;
+       @media (max-width: 800px) {
+        margin-bottom: 10px;
+    }
+   }
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+#amz-book{
+    color: rgb(255, 153, 0);
+}

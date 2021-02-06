@@ -1,0 +1,122 @@
+.homepage{  
+    h2{
+        text-align: center;
+    }  
+    .featured {
+        width: 100%;
+        @media (max-width : 900px) {
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+
+        @media (min-width : 900px) {
+            margin-bottom: 120px;
+        }
+
+        .featured-img{
+            @media (min-width: 600px) {
+            align-items: center;
+            }
+            display: flex;
+            @media (min-width: 600px) {
+                overflow: auto;
+            }
+            @media (max-width: 600px) {
+                flex-flow: column;
+            }
+            margin-bottom: 20px;
+
+        }
+        .block-img{
+            @media (max-width: 600px) {
+                text-align: initial !important;
+            }
+            img{
+                width: 100%;
+                margin: 0 auto;
+                cursor: zoom-in;
+                
+            }
+            @media (min-width: 600px) {
+                width: 40%;
+                img{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }   
+        }
+        .block-desc{
+            @media (max-width: 600px) {
+            order: 2;
+            }
+            @media (min-width: 600px) {
+
+            width: 60%;
+            float: right;
+            }
+            text-align: justify;
+            .info-desc{
+                font-style: italic;
+            }
+            h3{
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .general-btn{
+        @media (max-width: 600px) {
+        margin: 0 auto;
+        }
+        display: block;
+        // margin: 0 auto;
+        background-color: #687175;
+        border-radius: 25px;
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+        span{
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    }
+    #intro{
+        width: 100%;
+        line-height: 30px;
+        text-align: justify;
+        align-items: center;
+        // overflow: auto;
+        #portrait{
+            width: 100%;
+            @media (min-width: 600px) {
+                width: 40%;
+                float: left;
+                padding-right: 40px;
+            }
+            @media (min-width: 900px) {
+                width: 40%;
+                float: left;
+                padding: 80px;
+            }
+        }
+        a{
+            margin-top: 60px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        @media (min-width: 600px) {
+        display: flex;
+        }
+        p{
+            @media (min-width: 900px) {
+                width: 50%;
+                float: left;
+                padding-right: 80px;
+            }
+        }
+       
+        margin-bottom: 60px;
+    }
+
+}

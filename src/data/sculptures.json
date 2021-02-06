@@ -1,0 +1,30 @@
+[
+    {
+      "type": "sculptures",
+      "name": "Berry",
+      "description": "",
+      "url": "berry.png",
+      "specs": ""
+    },
+    {
+      "type": "sculptures",
+      "name": "City",
+      "description": "alld",
+      "url": "city.png",
+      "specs": ""
+    },
+    {
+      "type": "sculptures",
+      "name": "Face",
+      "description": "",
+      "url": "face.png",
+      "specs": ""
+    },
+    {
+      "type": "sculptures",
+      "name": "vase",
+      "description": "",
+      "url": "vase.jpg",
+      "specs": ""
+    }
+  ]

@@ -79,8 +79,8 @@ const App = () => {
       setInfo(info)
     }
 
-    if(e.target.alt === 'colibri'){
-      const info={type: "paintings", name: "", description: "", url: "colibri.jpg", specs: ""}
+    if(e.target.alt === 'Leleka'){
+      const info={type: "paintings", name: "", description: "", url: "stork.jpg", specs: ""}
       setInfo(info)
     }
 

@@ -6,7 +6,6 @@ form {
         width: 50%;
         float: left;
         label,input {
-            // width: 90%;
             display: block;
         }
     }
@@ -60,7 +59,10 @@ form {
     
     #email-subscription{
         width: 250px;
-        margin-right: 20px;
+        @media (min-width: 450px) {
+            margin-right: 20px;
+          }
+        
     }
 
     .subscribe-btn {

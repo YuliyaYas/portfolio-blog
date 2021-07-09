@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import Form from '../components/FormContactUs';
 import Carousel from '../components/Carousel';
 import Overlay from './Overlay';
+import FromEmailSubscription from '../components/FormEmailSubscription';
 
 import '../stylesheet/Homepage.scss';
 
 const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
   return(
     <div className="homepage" style={{marginBottom: '100px'}}>
+      <FromEmailSubscription />
        {closed===true
         ?
         ""

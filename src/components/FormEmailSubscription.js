@@ -47,7 +47,7 @@ function FormEmailSubscription(){
     <div>
         <center>
           <h2>Be a part of my art journey</h2>
-          <p>Get monthly updates on the current work, gallery shows and more.</p>
+          <p>Get monthly updates on the current work, gallery shows and more!</p>
         {Object.keys(errors).length > 0 && <p style={{color: 'red', fontSize: '14px'}}>Please provide your email :)</p> }
         {!formSubmitted ? 
         <form onSubmit={handleSubmit(onSubmit)} id="subscribe-form">

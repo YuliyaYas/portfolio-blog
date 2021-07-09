@@ -10,8 +10,8 @@ const CV = () =>  {
         <div className="cv">
           <h3>Exhibition History: </h3>
           <div className="cv-section">
+            <i>10/1-10/24, 2021</i><p> Gallerie Valerie, Solo Art Show, <span>Crockett, CA</span></p>
             <i>6/23 - 7/23, 2021</i><p>Artness Contemporary, “Catastrophes: Postmodern mental disaster”, <span>Barcelona, Spain</span></p>
-            <i>Tbd, 2021</i><p>Prizma Art Prize, <span>Rome, Italy</span></p>
             <i>1/23-12/25, 2020</i><p>La Fenice Gallery, <span>Hong Kong</span></p>
             <i>10/16-11/13, 2020</i><p>Oxford Arts Alliance, “6th Annual National Juried Exhibition, <span>Oxford, PA,USA</span></p>
             <i>9/30 - 10/29, 2020</i><p>Jones Gallery, “October Group Art Show”, <span>Kansas City, MO, USA</span></p>

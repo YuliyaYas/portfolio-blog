@@ -1,7 +1,9 @@
 .photos {
-    display: grid;
     margin-top: 50px;
+    pointer-events: none;
     @media (min-width: 600px) {
+      pointer-events: all;
+      display: grid;
       grid-template-columns: repeat(2, 4fr);
       grid-template-rows: repeat(8, 40vw);
       grid-gap: 5px;
@@ -10,6 +12,8 @@
       }
     }
     @media (min-width: 800px) {
+      pointer-events: all;
+      display: grid;
       grid-template-columns: repeat(4, 2fr);
       grid-template-rows: repeat(8, 24vw);
       grid-gap: 5px;

@@ -3,13 +3,13 @@ import Form from '../components/FormContactUs';
 import Carousel from '../components/Carousel';
 import Overlay from './Overlay';
 import FromEmailSubscription from '../components/FormEmailSubscription';
-
+import GalleryShow from '../components/GalleryShow';
 import '../stylesheet/Homepage.scss';
 
 const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
   return(
     <div className="homepage" style={{marginBottom: '100px'}}>
-      <FromEmailSubscription />
+      <GalleryShow />
        {closed===true
         ?
         ""
@@ -47,7 +47,7 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
         </div>
         <a href ='/paintings' className="general-btn"><span>View More Paintings</span></a>
       </div>
-
+      <FromEmailSubscription />
       <h2>Selected Works</h2>
       <div style={{width: '100%', display: 'block', marginBottom: '60px'}}><Carousel /></div>
       <br/>

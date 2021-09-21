@@ -20,6 +20,19 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
         <h2>Latest Works</h2>
         <div className="featured-img">
           <div className="block-img">
+          <img  src={require("../imgs/paintings/Greenhouse.jpg")} alt="Greenhouse"
+            onClick={handleImageClick}/>
+          </div>
+          <div className="block-desc">
+            <h3>Greenhouse</h3>            
+            <div className="info-desc"> 20x24inches, acrylic on wood, 2021 </div>
+            <br/>
+            <p>Among fast developing cities and towns, it’s easy to lose your touch with nature. We live in the age where greenhouse effect is no longer a word from a science fiction, but a reality. Let’s reconnect with the nature and contribute to the conservation of the Mother Earth.
+            </p>
+          </div>
+        </div>
+        <div className="featured-img">
+          <div className="block-img">
           <img  src={require("../imgs/paintings/stork.jpg")} alt="Leleka"
             onClick={handleImageClick}/>
           </div>

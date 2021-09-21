@@ -29,7 +29,7 @@
     },
     {
       "type": "paintings",
-      "name": "kingsfisher",
+      "name": "kingfisher",
       "description": "",
       "url": "kingsfisher.jpg",
       "specs": "24x18inches, acrylic on wood, 2020"
@@ -192,6 +192,7 @@
       "name": "Hope",
       "description": "We didn’t get to choose where life planted us. It is our choice, however, how well we bloom.",
       "url": "Hope.jpg",
+      "sold": " (Sold to a private collector)",
       "specs": "11x14inches, acrylic on wood, 2019"
     },
     {

@@ -84,6 +84,11 @@ const App = () => {
       setInfo(info)
     }
 
+    if(e.target.alt === 'Greenhouse'){
+      const info={type: "paintings", name: "", description: "", url: "greenhouse.jpg", specs: ""}
+      setInfo(info)
+    }
+
     setClosed(false);
 
   }

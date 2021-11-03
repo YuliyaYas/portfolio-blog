@@ -41,7 +41,7 @@ function Form(){
           });
           setformSubmitted(true)
           } catch(e) {
-              console.error("Hubspoot error - ", e);
+              console.error("Hubspot error - ", e);
               return e;
           }
   };

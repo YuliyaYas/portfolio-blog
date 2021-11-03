@@ -1,0 +1,66 @@
+.gallery-show {
+  margin: 0 auto;
+  background-color: #f5f5f6;
+  h2 {
+    margin-bottom: 5px;
+      padding-top: 30px;
+  }
+
+  .gallery-name{
+    .link{
+      color: #3030ae;
+      text-decoration: underline;
+    }
+  }
+  .grid-show {
+    @media (max-width: 700px) {
+      display: block;
+    }
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    padding: 30px;
+    .details-show {
+      @media (max-width: 700px) {
+        width: 100%;
+      }
+      width: 70%;
+      float: right;
+      text-align: justify;
+    }
+  
+    img {
+      width: 100%;
+      padding-top: 30px;
+      @media (min-width: 700px) {
+        width: 30%;
+        text-align: end;
+        padding-top: 0px;
+      }
+     
+    }
+  
+    .opening-info{
+      @media (max-width: 700px) {
+        padding-right: 0;
+      }
+      padding: 20px 20px 20px 0;
+    }
+  }
+  
+  .rsvp-btn {
+    display: inline-block;
+    background-color: #113d51;
+    border-radius: 25px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+   :focus {
+        outline: none;
+  }
+  }
+}

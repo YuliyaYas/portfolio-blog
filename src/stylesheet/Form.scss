@@ -6,7 +6,6 @@ form {
         width: 50%;
         float: left;
         label,input {
-            // width: 90%;
             display: block;
         }
     }
@@ -14,7 +13,6 @@ form {
         width: 100%;
     }
     input, textarea{
-        border-radius: 10px;
         border: 1px solid rgb(227, 225, 225);
         background: #fafafa;
         margin: 10px 0px;
@@ -39,11 +37,41 @@ form {
     .submit-btn{
         display: block;
         // margin: 0 auto;
-        background-color: #687175;
+        background-color: #113d51;
         border-radius: 25px;
         padding: 15px;
         width: 200px;
         text-align: center;
+        border: none;
+        span{
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        :focus {
+            outline: none;
+      }
+    }
+}
+
+// subscription email form
+#subscribe-form {
+    
+    #email-subscription{
+        width: 250px;
+        @media (min-width: 450px) {
+            margin-right: 20px;
+          }
+        
+    }
+
+    .subscribe-btn {
+        background-color: #113d51;
+        border-radius: 25px;
+        padding: 15px;
+        width: 200px;
+        text-align: center;
+        border: none;
         span{
             color: white;
             text-transform: uppercase;

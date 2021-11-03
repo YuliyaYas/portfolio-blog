@@ -20,7 +20,7 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
         <h2>Latest Works</h2>
         <div className="featured-img">
           <div className="block-img">
-          <img  src={require("../imgs/paintings/greenhouse.jpg")} alt="Greenhouse"
+          <img  src={require("../imgs/paintings/Greenhouse.jpg")} alt="Greenhouse"
             onClick={handleImageClick}/>
           </div>
           <div className="block-desc">

@@ -21,17 +21,19 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
         <h2>Latest Works</h2>
         <div className="featured-img">
           <div className="block-img">
-          <img  src={require("../imgs/paintings/Greenhouse.jpg")} alt="Greenhouse"
+          <img  src={require("../imgs/paintings/peacock.jpg")} alt="Peacock"
             onClick={handleImageClick}/>
           </div>
           <div className="block-desc">
-            <h3>Greenhouse</h3>            
-            <div className="info-desc"> 20x24inches, acrylic on wood, 2021 </div>
+            <h3>Peacock</h3>            
+            <div className="info-desc"> 24x36inches, acrylic and 24k gold leaf on wood, 2022</div>
             <br/>
-            <p>Among fast developing cities and towns, it’s easy to lose your touch with nature. We live in the age where greenhouse effect is no longer a word from a science fiction, but a reality. Let’s reconnect with the nature and contribute to the conservation of the Mother Earth.
+            <p>
+            Nature never seise to amaze us. Every feather, every shade of color paints a picture of the grace and royalty.
             </p>
           </div>
         </div>
+
         <div className="featured-img">
         <div className="block-desc">
             <h3>Leleka</h3>
@@ -45,20 +47,21 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
           <img  src={require("../imgs/paintings/stork.jpg")} alt="Leleka" onClick={handleImageClick}/>
           </div>
         </div>
+
         <div className="featured-img">
           <div className="block-img">
-          <img  src={require("../imgs/paintings/heart.jpg")} alt="Heart"
+          <img  src={require("../imgs/paintings/Greenhouse.jpg")} alt="Greenhouse"
             onClick={handleImageClick}/>
           </div>
           <div className="block-desc">
-            <h3>Home</h3>            
-            <div className="info-desc"> 24x36inches, acrylic on wood, 2020</div>
+            <h3>Greenhouse</h3>            
+            <div className="info-desc"> 20x24inches, acrylic on wood, 2021 </div>
             <br/>
-            <p>
-            We all have a home in our hearts, a special place we remember from our childhood when we used to be carefree and untroubled. For some - it is a small village where they spent summers with their grandparents, for another - it is a buzzing megalopolis of thousands skyscrapers. No matter what that place is, it’s nice to return to it in our memories from time to time, and remind ourself where we came from.
+            <p>Among fast developing cities and towns, it’s easy to lose your touch with nature. We live in the age where greenhouse effect is no longer a word from a science fiction, but a reality. Let’s reconnect with the nature and contribute to the conservation of the Mother Earth.
             </p>
           </div>
         </div>
+
         <a href ='/paintings' className="general-btn"><span>View More Paintings</span></a>
       </div>
       <h2>Selected Works</h2>

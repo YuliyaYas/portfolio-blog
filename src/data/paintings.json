@@ -1,219 +1,226 @@
-[
-    {
-      "type": "paintings",
-      "name": "Greenhouse",
-      "description": "Among fast developing cities and towns, it’s easy to lose your touch with nature. We live in the age where greenhouse effect is no longer a word from a science fiction, but a reality. Let’s reconnect with the nature and contribute to the conservation of the Mother Earth.",
-      "url": "Greenhouse.jpg",
-      "specs": "20x24inches, acrylic on wood, 2021"
-    },
-    {
-      "type": "paintings",
-      "name": "Leleka",
-      "description": "Storks. Symbol of new beginnings, renewal, and faithfulness. To me - it’s also a symbol of Ukraine. I grew up in Lviv, Ukraine and spent most of my childhood summers at my grandparent’s house in the small village Dunaiv, two hours from the city. What a contrast it was! A rural scenery of vast green lands, pine forests and river, cutting the village in half. Poppy flowers, among endless fields of wheat, bathing in the sun. Storks were always out in the fields. Distinct, noble, - they’d walk around green patches of grass in search of food. They’d leave every fall to migrate to Africa, and I’d leave the village to come back to my city. They would always return in spring. Faithful, strong and free. We are all birds, always flying around the world in search of a better patch of grass. But we all belong to just one place of heritage, one place we call home.",
-      "url": "stork.jpg",
-      "specs": "24x30inches, acrylic on wood, 2021"
-    },
-    {
-      "type": "paintings",
-      "name": "Home",
-      "description": "We all have a home in our hearts, a special place we remember from our childhood, when we used to be carefree and untroubled. For some - it is a small village where they spent summers with their grandparents, for another - it is a buzzing megalopolis of thousands of skyscrapers. No matter what that place is, it’s nice to return to it in our memories from time to time, and remind ourselves where we came from.",
-      "url": "heart.jpg",
-      "specs": "24x36inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "Colibri",
-      "description": "Small but spectacular, humming bird is an example of determination and symbolizes the enjoyment of life and lightness of being.",
-      "url": "colibri.jpg",
-      "specs": "18x24inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "kingfisher",
-      "description": "Kingfisher is considered a symbol of peace, something we all need in our external and internal lives. Let’s focus your attention on those things you can control.",
-      "url": "kingsfisher.jpg",
-      "specs": "24x18inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "World Bearing",
-      "description": "A famous Hindu myth about the World Turtle carrying four elephants carrying the Earth is widely known among us. But it's nice sometimes to step back and let go the imagination. Just let the turtle flow in the blue abyss of playful colors, carrying our lives on the top of her back. Tortoise carries its millennial wisdom, and we might want to learn a trick or two from her.",
-      "url": "TurtleVille.jpg",
-      "specs": "36x24inches, oil on canvas, 1016"
-    },
-    {
-      "type": "paintings",
-      "name": "Chamille",
-      "description": "Ability to adapt and change belongs to both chameleons and humans. But don’t forget, that with change of color - we should stay true to our beliefs and values.",
-      "url": "Chamille.jpg",
-      "specs": "16x20inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Colony",
-      "description": "We often destroy nature in order to build new cities, factories and other man-made structures. But can we live in sync with nature? Can we co-exist and be a part of it as opposed to its destroyer? When we see ourselves as a part of nature – we can make an impactful positive change.",
-      "url": "MushTown.jpg",
-      "specs": "24x30inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "Macaw",
-      "description": "Macaw was seen as a guardian and a symbol of healing. They are bold, loud and beautiful, just like every one of us.",
-      "url": "macaw.jpg",
-      "specs": "24x36inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "Cicada",
-      "description": "Cicadas signify resurrection, and celebrates the unique life cycles that the nature has to offer. We can learn resilience and flexibility from them.",
-      "url": "Cicada.jpg",
-      "specs": "18x24inches, acrylic and golden leaf on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "City on clouds",
-      "description": "We build our own houses and cities, - ideal and perfect in our head. Its up to us to decide to see in color or in grey tones. My perfect city is full of shades of blue and green, on a cloud where no negativity and rain can reach me and other city’s inhabitants. Going places, guided by wind and sunny weather. Maybe too romantic and too perfect, but its mine. To each its own.",
-      "url": "City-on-clouds.jpg",
-      "sold": true,
-      "specs": "10x16inches, acrylic on paper, 2014"
-    },
-    {
-      "type": "paintings",
-      "name": "Head Up",
-      "description": "It doesn’t matter if you stand on one leg or both. It doesn’t matter if you wear pink, blue or black. Just be yourself, and you’ll always stand out as long as you keep your head up.",
-      "url": "Flamity.jpg",
-      "specs": "18x18inches, acrylic on wood, 2017"
-    },
-    {
-      "type": "paintings",
-      "name": "Glow",
-      "description": "",
-      "url": "Glow.jpg",
-      "specs": "24x30inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "Tribe",
-      "description": "Dare to be different, exciting and bold! This will add more color to your life.",
-      "url": "tucan.jpg",
-      "specs": "24x36inches, acrylic on wood, 2020"
-    },
-    {
-      "type": "paintings",
-      "name": "Rebirth",
-      "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.",
-      "url": "Snaility.jpg",
-      "specs": "20x20inches, acrylic on wood, 2017"
-    },
-    {
-      "type": "paintings",
-      "name": "duo color Abstract",
-      "description": "Two color study created during undergrad in fine arts. It means nothing more than shapes and colors, open to all interpretations.",
-      "url": "dou-color-Abstract.jpg",
-      "sold": true,
-      "specs": "oil on cotton canvas, 2015"
-    },
-    {
-      "type": "paintings",
-      "name": "Dreamworld",
-      "description": "Each of us has a perfect world inside of our heads. Free of fear, lies and pain. Let this world be not only inside you, but outside. Live. Dream.",
-      "url": "Dreamworld.jpg",
-      "specs": "24x30, oil on cotton canvas, 2015"
-    },
-    {
-      "type": "paintings",
-      "name": "Full Glass",
-      "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. The bottle symbolizes the principles of containing and enclosure of life. The left side of the bottle portrays houses from Wolinsky's father's family side -  Long Island and Janow. Houses from Janow are painted them from old archive photos. There is a watch tower, synagogue and few Jewish residential buildings. Flowers and trees are also native to Poland and NY region. The right side of the bottle - buildings and plants from Hong Kong, Wolinsky mother's side of the family. The bottle itself and the houses on the label - symbolizes New York. The decorations on the bottle are inspired by the few of Wolinsky's favorite wines - 1952 Cheval blanc, 1974 Contratto Barolo Riserva and1982 Montrose.",
-      "url": "FullGlass.jpg",
-      "sold": true,
-      "specs": "24x36inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Octoville",
-      "description": "Adapting to the environment is not the easiest thing. Fitting into something new, changing shapes and colors quickly, like octopus do, is a great skill to have. While doing so, lets be smart about staying true to ourselves. Don’t let any enemy of the world-sea scare us. But if someone do - spray some ink on them and move on. ",
-      "url": "Octo.png",
-      "specs": "30x30inches, acrylic on wood, 2018"
-    },
-    {
-      "type": "paintings",
-      "name": "Tail",
-      "description": "A gift, I painted for an amazing photographer, ocean ambassador and a mermaid Kristin Hettermann. Kristin strives to share positive stories, document the earth and its cultures, inspire people to explore, encourage the balance of mind-body-spirit through holistic life practices, and raise awareness for important causes, particularly the protection and restoration of the world’s oceans.",
-      "url": "Tail.jpg",
-      "sold": true,
-      "specs": "10x16inches, acrylic on canvas, 2018"
-    },
-    {
-      "type": "paintings",
-      "name": "World's Energy",
-      "description": "We are often caught in the whirl of life, forgetting about the colorful beauty of small details that surround us. Be grateful for what you have - your health, your loved ones and yourself. Spreading energy from my atomic world to yours.",
-      "url": "WorldsEnergy.jpg",
-      "specs": "18x18inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Master Copy of Louisa Matthiasdottir's work",
-      "description": "A study of Louisa Matthiasdottir's painting. Bright and vivid colors, typical for Matthiasdottir's artworks served as inspiration for some of Yuliya's early works.",
-      "url": "Master-copy-of-Louisa-Matthiasdottirs-work.jpg",
-      "sold": true,
-      "specs": "oil on cotton canvas, 2016"
-    },
-    {
-      "type": "paintings",
-      "name": "Tree",
-      "description": "Yuliya's first oil artworks, painted when she just moved to New York in 2012.",
-      "url": "Tree1.jpg",
-      "specs": "oil on cotton canvas, 2012"
-    },
-    {
-      "type": "paintings",
-      "name": "Anomaly",
-      "description": "Two color study created during undergrad in fine arts.",
-      "url": "Abstract-Anomaly.jpg",
-      "sold": true,
-      "specs": "oil on cotton canvas, 2015"
-    },
-    {
-      "type": "paintings",
-      "name": "Grace",
-      "description": "‘Grace comes into the soul, as the morning sun into the world; first a dawning, then a light; and at last the sun in his full and excellent brightness.’ - Thomas Adams",
-      "url": "Grace.jpg",
-      "specs": "11x14inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Growth",
-      "description": "Growth only occurs in the state of discomfort. Keep on growing.",
-      "url": "Growth.jpg",
-      "specs": "11x14inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Hope",
-      "description": "We didn’t get to choose where life planted us. It is our choice, however, how well we bloom.",
-      "url": "Hope.jpg",
-      "sold": " (Sold to a private collector)",
-      "specs": "11x14inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Up",
-      "description": "The only way is up.",
-      "url": "Up.jpg",
-      "specs": "11x14inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Saturn",
-      "description": "Saturn is the slowest planet (in orbit around the Sun), but also in Roman mythology - Saturn was a god of time. Time is our most precious thing. Use it wisely, as it won’t stop, but will only keep spinning round and round. To spend time with people with whom we don't see a long-term potential is to invest in a person who will not be there for you tomorrow.",
-      "url": "Saturn.jpg",
-      "specs": "20x24inches, acrylic on wood, 2019"
-    },
-    {
-      "type": "paintings",
-      "name": "Sun Earth",
-      "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
-      "url": "Sun-Earth.jpg",
-      "specs": "16x16inches, acrylic on wood, 2019"
-    }
-  ]
+[    
+  {
+    "type": "paintings",
+    "name": "Peacock",
+    "description": "Nature never seise to amaze us. Every feather, every shade of color paints a picture of the grace and royalty.",
+    "url": "peacock.jpg",
+    "specs": "24x36inches, acrylic and 24k gold leaf on wood, 2022"
+  },
+  {
+    "type": "paintings",
+    "name": "Greenhouse",
+    "description": "Among fast developing cities and towns, it’s easy to lose your touch with nature. We live in the age where greenhouse effect is no longer a word from a science fiction, but a reality. Let’s reconnect with the nature and contribute to the conservation of the Mother Earth.",
+    "url": "Greenhouse.jpg",
+    "specs": "20x24inches, acrylic on wood, 2021"
+  },
+  {
+    "type": "paintings",
+    "name": "Leleka",
+    "description": "Storks. Symbol of new beginnings, renewal, and faithfulness. To me - it’s also a symbol of Ukraine. I grew up in Lviv, Ukraine and spent most of my childhood summers at my grandparent’s house in the small village Dunaiv, two hours from the city. What a contrast it was! A rural scenery of vast green lands, pine forests and river, cutting the village in half. Poppy flowers, among endless fields of wheat, bathing in the sun. Storks were always out in the fields. Distinct, noble, - they’d walk around green patches of grass in search of food. They’d leave every fall to migrate to Africa, and I’d leave the village to come back to my city. They would always return in spring. Faithful, strong and free. We are all birds, always flying around the world in search of a better patch of grass. But we all belong to just one place of heritage, one place we call home.",
+    "url": "stork.jpg",
+    "specs": "24x30inches, acrylic on wood, 2021"
+  },
+  {
+    "type": "paintings",
+    "name": "Home",
+    "description": "We all have a home in our hearts, a special place we remember from our childhood, when we used to be carefree and untroubled. For some - it is a small village where they spent summers with their grandparents, for another - it is a buzzing megalopolis of thousands of skyscrapers. No matter what that place is, it’s nice to return to it in our memories from time to time, and remind ourselves where we came from.",
+    "url": "heart.jpg",
+    "specs": "24x36inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "Colibri",
+    "description": "Small but spectacular, humming bird is an example of determination and symbolizes the enjoyment of life and lightness of being.",
+    "url": "colibri.jpg",
+    "specs": "18x24inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "kingfisher",
+    "description": "Kingfisher is considered a symbol of peace, something we all need in our external and internal lives. Let’s focus your attention on those things you can control.",
+    "url": "kingsfisher.jpg",
+    "specs": "24x18inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "World Bearing",
+    "description": "A famous Hindu myth about the World Turtle carrying four elephants carrying the Earth is widely known among us. But it's nice sometimes to step back and let go the imagination. Just let the turtle flow in the blue abyss of playful colors, carrying our lives on the top of her back. Tortoise carries its millennial wisdom, and we might want to learn a trick or two from her.",
+    "url": "TurtleVille.jpg",
+    "specs": "36x24inches, oil on canvas, 1016"
+  },
+  {
+    "type": "paintings",
+    "name": "Chamille",
+    "description": "Ability to adapt and change belongs to both chameleons and humans. But don’t forget, that with change of color - we should stay true to our beliefs and values.",
+    "url": "Chamille.jpg",
+    "specs": "16x20inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Colony",
+    "description": "We often destroy nature in order to build new cities, factories and other man-made structures. But can we live in sync with nature? Can we co-exist and be a part of it as opposed to its destroyer? When we see ourselves as a part of nature – we can make an impactful positive change.",
+    "url": "MushTown.jpg",
+    "specs": "24x30inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "Macaw",
+    "description": "Macaw was seen as a guardian and a symbol of healing. They are bold, loud and beautiful, just like every one of us.",
+    "url": "macaw.jpg",
+    "specs": "24x36inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "Cicada",
+    "description": "Cicadas signify resurrection, and celebrates the unique life cycles that the nature has to offer. We can learn resilience and flexibility from them.",
+    "url": "Cicada.jpg",
+    "specs": "18x24inches, acrylic and golden leaf on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "City on clouds",
+    "description": "We build our own houses and cities, - ideal and perfect in our head. Its up to us to decide to see in color or in grey tones. My perfect city is full of shades of blue and green, on a cloud where no negativity and rain can reach me and other city’s inhabitants. Going places, guided by wind and sunny weather. Maybe too romantic and too perfect, but its mine. To each its own.",
+    "url": "City-on-clouds.jpg",
+    "sold": true,
+    "specs": "10x16inches, acrylic on paper, 2014"
+  },
+  {
+    "type": "paintings",
+    "name": "Head Up",
+    "description": "It doesn’t matter if you stand on one leg or both. It doesn’t matter if you wear pink, blue or black. Just be yourself, and you’ll always stand out as long as you keep your head up.",
+    "url": "Flamity.jpg",
+    "specs": "18x18inches, acrylic on wood, 2017"
+  },
+  {
+    "type": "paintings",
+    "name": "Glow",
+    "description": "",
+    "url": "Glow.jpg",
+    "specs": "24x30inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "Tribe",
+    "description": "Dare to be different, exciting and bold! This will add more color to your life.",
+    "url": "tucan.jpg",
+    "specs": "24x36inches, acrylic on wood, 2020"
+  },
+  {
+    "type": "paintings",
+    "name": "Rebirth",
+    "description": "The Greek poet Hesiod wrote that snails signified the time to harvest by climbing up the stems. This symbolized growth and rebirth. As women, we lead new innovations and ideas, we build new generations. We constantly grow and climb up the social ladder. Slowly but steady, small but many – may we rise up and carry our future to the brightest point.",
+    "url": "Snaility.jpg",
+    "specs": "20x20inches, acrylic on wood, 2017"
+  },
+  {
+    "type": "paintings",
+    "name": "duo color Abstract",
+    "description": "Two color study created during undergrad in fine arts. It means nothing more than shapes and colors, open to all interpretations.",
+    "url": "dou-color-Abstract.jpg",
+    "sold": true,
+    "specs": "oil on cotton canvas, 2015"
+  },
+  {
+    "type": "paintings",
+    "name": "Dreamworld",
+    "description": "Each of us has a perfect world inside of our heads. Free of fear, lies and pain. Let this world be not only inside you, but outside. Live. Dream.",
+    "url": "Dreamworld.jpg",
+    "specs": "24x30, oil on cotton canvas, 2015"
+  },
+  {
+    "type": "paintings",
+    "name": "Full Glass",
+    "description": "See a glass as half full, not half empty. Positive outlook makes people do greater things in life. Strive for more and you will achieve your full greatness. The bottle symbolizes the principles of containing and enclosure of life. The left side of the bottle portrays houses from Wolinsky's father's family side -  Long Island and Janow. Houses from Janow are painted them from old archive photos. There is a watch tower, synagogue and few Jewish residential buildings. Flowers and trees are also native to Poland and NY region. The right side of the bottle - buildings and plants from Hong Kong, Wolinsky mother's side of the family. The bottle itself and the houses on the label - symbolizes New York. The decorations on the bottle are inspired by the few of Wolinsky's favorite wines - 1952 Cheval blanc, 1974 Contratto Barolo Riserva and1982 Montrose.",
+    "url": "FullGlass.jpg",
+    "sold": true,
+    "specs": "24x36inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Octoville",
+    "description": "Adapting to the environment is not the easiest thing. Fitting into something new, changing shapes and colors quickly, like octopus do, is a great skill to have. While doing so, lets be smart about staying true to ourselves. Don’t let any enemy of the world-sea scare us. But if someone do - spray some ink on them and move on. ",
+    "url": "Octo.png",
+    "specs": "30x30inches, acrylic on wood, 2018"
+  },
+  {
+    "type": "paintings",
+    "name": "Tail",
+    "description": "A gift, I painted for an amazing photographer, ocean ambassador and a mermaid Kristin Hettermann. Kristin strives to share positive stories, document the earth and its cultures, inspire people to explore, encourage the balance of mind-body-spirit through holistic life practices, and raise awareness for important causes, particularly the protection and restoration of the world’s oceans.",
+    "url": "Tail.jpg",
+    "sold": true,
+    "specs": "10x16inches, acrylic on canvas, 2018"
+  },
+  {
+    "type": "paintings",
+    "name": "World's Energy",
+    "description": "We are often caught in the whirl of life, forgetting about the colorful beauty of small details that surround us. Be grateful for what you have - your health, your loved ones and yourself. Spreading energy from my atomic world to yours.",
+    "url": "WorldsEnergy.jpg",
+    "specs": "18x18inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Master Copy of Louisa Matthiasdottir's work",
+    "description": "A study of Louisa Matthiasdottir's painting. Bright and vivid colors, typical for Matthiasdottir's artworks served as inspiration for some of Yuliya's early works.",
+    "url": "Master-copy-of-Louisa-Matthiasdottirs-work.jpg",
+    "sold": true,
+    "specs": "oil on cotton canvas, 2016"
+  },
+  {
+    "type": "paintings",
+    "name": "Tree",
+    "description": "Yuliya's first oil artworks, painted when she just moved to New York in 2012.",
+    "url": "Tree1.jpg",
+    "specs": "oil on cotton canvas, 2012"
+  },
+  {
+    "type": "paintings",
+    "name": "Anomaly",
+    "description": "Two color study created during undergrad in fine arts.",
+    "url": "Abstract-Anomaly.jpg",
+    "sold": true,
+    "specs": "oil on cotton canvas, 2015"
+  },
+  {
+    "type": "paintings",
+    "name": "Grace",
+    "description": "‘Grace comes into the soul, as the morning sun into the world; first a dawning, then a light; and at last the sun in his full and excellent brightness.’ - Thomas Adams",
+    "url": "Grace.jpg",
+    "specs": "11x14inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Growth",
+    "description": "Growth only occurs in the state of discomfort. Keep on growing.",
+    "url": "Growth.jpg",
+    "specs": "11x14inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Hope",
+    "description": "We didn’t get to choose where life planted us. It is our choice, however, how well we bloom.",
+    "url": "Hope.jpg",
+    "sold": " (Sold to a private collector)",
+    "specs": "11x14inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Up",
+    "description": "The only way is up.",
+    "url": "Up.jpg",
+    "specs": "11x14inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Saturn",
+    "description": "Saturn is the slowest planet (in orbit around the Sun), but also in Roman mythology - Saturn was a god of time. Time is our most precious thing. Use it wisely, as it won’t stop, but will only keep spinning round and round. To spend time with people with whom we don't see a long-term potential is to invest in a person who will not be there for you tomorrow.",
+    "url": "Saturn.jpg",
+    "specs": "20x24inches, acrylic on wood, 2019"
+  },
+  {
+    "type": "paintings",
+    "name": "Sun Earth",
+    "description": "The universe is within us and around us. We can find the whole new galaxy in ourselves. To look at the sky full of stars can be enough for some people to be happy, but sometimes you need to find one star inside you. Not the kind of star that will make you famous, but the one that will shine bright in the darkest night.",
+    "url": "Sun-Earth.jpg",
+    "specs": "16x16inches, acrylic on wood, 2019"
+  }
+]

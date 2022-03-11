@@ -11,7 +11,7 @@ const CV = () =>  {
           <h3>Exhibition History: </h3>
           <div className="cv-section">
             <i>04/09-05/27, 2022</i><p> Fe Gallery, "Verdant Heart" <span>Sacramento, CA, USA</span></p>
-            <i>04/07-05/15, 2022</i><p> Haggin Museum, The 61st Stockton Art League Exhibition, <span>Stockton, CA, USA</span></p>
+            <i>04/07-05/15, 2022</i><p> Haggin Museum, "The 61st Stockton Art League Exhibition", <span>Stockton, CA, USA</span></p>
             <i>10/1-10/24, 2021</i><p> Gallerie Valerie, Solo Art Show, <span>Crockett, CA, USA</span></p>
             <i>6/23 - 7/23, 2021</i><p>Artness Contemporary, “Catastrophes: Postmodern mental disaster”, <span>Barcelona, Spain</span></p>
             <i>1/23-12/25, 2020</i><p>La Fenice Gallery, <span>Hong Kong</span></p>

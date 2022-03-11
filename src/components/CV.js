@@ -10,10 +10,12 @@ const CV = () =>  {
         <div className="cv">
           <h3>Exhibition History: </h3>
           <div className="cv-section">
-            <i>10/1-10/24, 2021</i><p> Gallerie Valerie, Solo Art Show, <span>Crockett, CA</span></p>
+            <i>04/09-05/27, 2022</i><p> Fe Gallery, "Verdant Heart" <span>Sacramento, CA, USA</span></p>
+            <i>04/07-05/15, 2022</i><p> Haggin Museum, The 61st Stockton Art League Exhibition, <span>Stockton, CA, USA</span></p>
+            <i>10/1-10/24, 2021</i><p> Gallerie Valerie, Solo Art Show, <span>Crockett, CA, USA</span></p>
             <i>6/23 - 7/23, 2021</i><p>Artness Contemporary, “Catastrophes: Postmodern mental disaster”, <span>Barcelona, Spain</span></p>
             <i>1/23-12/25, 2020</i><p>La Fenice Gallery, <span>Hong Kong</span></p>
-            <i>10/16-11/13, 2020</i><p>Oxford Arts Alliance, “6th Annual National Juried Exhibition, <span>Oxford, PA,USA</span></p>
+            <i>10/16-11/13, 2020</i><p>Oxford Arts Alliance, “6th Annual National Juried Exhibition, <span>Oxford, PA, USA</span></p>
             <i>9/30 - 10/29, 2020</i><p>Jones Gallery, “October Group Art Show”, <span>Kansas City, MO, USA</span></p>
             <i>9/15 - 12/14, 2020</i><p> Fusion Art, “3rd Annual Women Artists International Juried Art Exhibition”, <span>Palm Spring, CA, USA</span></p>
             <i>9/11 - 27/11, 2020</i><p> Core New Art Space, “The Aqua Show”, <span>Denver, CO, USA</span> </p>

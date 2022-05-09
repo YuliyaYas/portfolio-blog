@@ -19,6 +19,36 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
 
       <div className="featured"> 
         <h2>Latest Works</h2>
+
+        <div className="featured-img">
+          <div className="block-img">
+          <img  src={require("../imgs/paintings/rooster.jpg")} alt="Rooster"
+            onClick={handleImageClick}/>
+          </div>
+          <div className="block-desc">
+            <h3>Resistance (sold)</h3>            
+            <div className="info-desc"> 24x20inches, acrylic, 2022</div>
+            <br/>
+            <p>
+            The ceramic rooster has become a symbol of resistance for the Ukrainian people. A ceramic rooster was miraculously still attached on top of a kitchen cabinet, in an apartment building that was destroyed by Russian invaders in the village of Borodyanka, near Kyiv. This rooster is a symbol of the invincible Ukrainian people, holding on to their lives and beliefs, despite the destruction around them.
+            </p>
+          </div>
+        </div>
+
+        <div className="featured-img">
+        <div className="block-desc">
+            <h3>Kharkiv (sold)</h3>
+            <div className="info-desc"> 11x14inches, acrylic on wood, 2022 </div>
+            <br/>
+            <p>
+              Kharkiv Regional State Administration was one of the many buildings destroyed in Ukraine. It will be rebuilt, but we have to aim to help people currently in need.
+            </p>
+          </div>
+          <div className="block-img"  style={{textAlign: 'end'}}>
+          <img  src={require("../imgs/paintings/kharkiv.jpg")} alt="Kharkiv Ukraine" onClick={handleImageClick}/>
+          </div>
+        </div>
+
         <div className="featured-img">
           <div className="block-img">
           <img  src={require("../imgs/paintings/peacock.jpg")} alt="Peacock"
@@ -48,19 +78,6 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
           </div>
         </div>
 
-        <div className="featured-img">
-          <div className="block-img">
-          <img  src={require("../imgs/paintings/Greenhouse.jpg")} alt="Greenhouse"
-            onClick={handleImageClick}/>
-          </div>
-          <div className="block-desc">
-            <h3>Greenhouse</h3>            
-            <div className="info-desc"> 20x24inches, acrylic on wood, 2021 </div>
-            <br/>
-            <p>Among fast developing cities and towns, it’s easy to lose your touch with nature. We live in the age where greenhouse effect is no longer a word from a science fiction, but a reality. Let’s reconnect with the nature and contribute to the conservation of the Mother Earth.
-            </p>
-          </div>
-        </div>
 
         <a href ='/paintings' className="general-btn"><span>View More Paintings</span></a>
       </div>

@@ -84,8 +84,12 @@ const App = () => {
       setInfo(info)
     }
 
-    if(e.target.alt === 'Greenhouse'){
-      const info={type: "paintings", name: "", description: "", url: "greenhouse.jpg", specs: ""}
+    if(e.target.alt === 'Rooster'){
+      const info={type: "paintings", name: "", description: "", url: "rooster.jpg", specs: ""}
+      setInfo(info)
+    }
+    if(e.target.alt === 'Kharkiv Ukraine'){
+      const info={type: "paintings", name: "", description: "", url: "kharkiv.jpg", specs: ""}
       setInfo(info)
     }
 

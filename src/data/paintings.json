@@ -1,4 +1,27 @@
-[    
+[ 
+  {
+    "type": "paintings",
+    "name": "Snowy egret",
+    "description": "",
+    "url": "snowy_egret.jpg",
+    "specs": "14x11inches, acrylic, 2022"
+  }, 
+  {
+    "type": "paintings",
+    "name": "Kharkiv",
+    "description": "Kharkiv Regional State Administration was one of the many buildings destroyed in Ukraine. It will be rebuilt, but we have to aim to help people currently in need.",
+    "url": "kharkiv.jpg",
+    "specs": "14x11inches, acrylic, 2022",
+    "sold": true
+  },  
+  {
+    "type": "paintings",
+    "name": "Resistance",
+    "description": "The ceramic rooster has become a symbol of resistance for the Ukrainian people. A ceramic rooster was miraculously still attached on top of a kitchen cabinet, in an apartment building that was destroyed by Russian invaders in the village of Borodyanka, near Kyiv. This rooster is a symbol of the invincible Ukrainian people, holding on to their lives and beliefs, despite the destruction around them.",
+    "url": "rooster.jpg",
+    "specs": "24x20inches, acrylic, 2022",
+    "sold": true
+  },    
   {
     "type": "paintings",
     "name": "Peacock",

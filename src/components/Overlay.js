@@ -11,7 +11,7 @@ const Overlay = ({
       <div id="right-arrow" onClick={handleArrowClick} style={{ visibility: rightArrow ? 'visible' : 'hidden'}}/>
 
       <p className="close" onClick={handleCloseClick}/>
-        <center> <p className="all-caps">{overlayImg.name}{overlayImg.sold && <span style={{textTransform: 'lowercase'}}> {overlayImg.sold}</span>}</p></center> 
+        <center> <p className="all-caps">{overlayImg.name}{overlayImg.sold && <span style={{textTransform: 'lowercase'}}> (sold)</span>}</p></center> 
       <i><p className="title">{overlayImg.specs}</p></i>
       <p className="desc">{overlayImg.description}</p>
     </div>

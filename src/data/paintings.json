@@ -1,6 +1,13 @@
 [ 
   {
     "type": "paintings",
+    "name": "Rushnyk",
+    "description": "This painting is a partial recreation of the XIX century Ukrainian embroidered towel of the the Poltava region. Embroidered towels have multiple purposes and meanings, and each of its ornament has certain purpose and significance. It was believed that women who embroidered towels in good thoughts and intentions would bring luck and happiness to the towel’s owner. Each region had its own style and color pallet that was influenced by the way of their living. ",
+    "url": "rushnyk.jpg",
+    "specs": "14x11inches, acrylic, 2022"
+  }, 
+  {
+    "type": "paintings",
     "name": "Snowy egret",
     "description": "",
     "url": "snowy_egret.jpg",

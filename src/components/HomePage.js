@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Form from '../components/FormContactUs';
 import Carousel from '../components/Carousel';
 import Overlay from './Overlay';
@@ -19,6 +19,20 @@ const HomePage = ({closed, handleImageClick, handleCloseClick, info}) => {
 
       <div className="featured"> 
         <h2>Latest Works</h2>
+
+        <div className="featured-img">
+        <div className="block-desc">
+            <h3>Kharkiv (sold)</h3>
+            <div className="info-desc"> 11x14inches, acrylic on wood, 2022 </div>
+            <br/>
+            <p>
+              Kharkiv Regional State Administration was one of the many buildings destroyed in Ukraine. It will be rebuilt, but we have to aim to help people currently in need.
+            </p>
+          </div>
+          <div className="block-img"  style={{textAlign: 'end'}}>
+          <img  src={require("../imgs/paintings/rushnyk.jpg")} alt="rushnyk" onClick={handleImageClick}/>
+          </div>
+        </div>
 
         <div className="featured-img">
           <div className="block-img">

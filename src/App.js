@@ -74,6 +74,11 @@ const App = () => {
       setInfo(info);
     }
     //for featured on homepage
+    if(e.target.alt === 'rushnyk'){
+      const info={type: "paintings", name: "", description: "", url: "rushnyk.jpg", specs: ""}
+      setInfo(info)
+    }
+
     if(e.target.alt === 'Peacock'){
       const info={type: "paintings", name: "", description: "", url: "peacock.jpg", specs: ""}
       setInfo(info)

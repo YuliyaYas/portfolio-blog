@@ -7,7 +7,7 @@ import About from '../src/components/About';
 import Artworks from '../src/components/Artworks';
 import Contact from '../src/components/FormContactUs';
 import paintingsData from '../src/data/paintings.json';
-import paintings2022Data from '../src/data/paintings-2022.json';
+import paintings2022Data from '../src/data/paintings-ethno.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
@@ -21,7 +21,7 @@ const slugify = require('slugify');
 const allData = [
   {type: 'illustrations', data: illustrationsData},
   {type: 'paintings', data: paintingsData},
-  {type: 'paintings-2022', data: paintings2022Data},
+  {type: 'paintings-ethno', data: paintings2022Data},
   {type: 'drawings', data: drawingsData},
   {type: 'printmaking', data: printmakingData},
   {type: 'sculptures', data: sculpturesData},
@@ -81,22 +81,8 @@ const App = () => {
       setInfo(info)
     }
 
-    if(e.target.alt === 'Peacock'){
-      const info={type: "paintings", name: "", description: "", url: "peacock.jpg", specs: ""}
-      setInfo(info)
-    }
-
-    if(e.target.alt === 'Leleka'){
-      const info={type: "paintings", name: "", description: "", url: "stork.jpg", specs: ""}
-      setInfo(info)
-    }
-
     if(e.target.alt === 'Rooster'){
       const info={type: "paintings", name: "", description: "", url: "rooster.jpg", specs: ""}
-      setInfo(info)
-    }
-    if(e.target.alt === 'Kharkiv Ukraine'){
-      const info={type: "paintings", name: "", description: "", url: "kharkiv.jpg", specs: ""}
       setInfo(info)
     }
 

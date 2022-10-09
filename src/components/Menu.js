@@ -12,14 +12,11 @@ const Menu = (props) => {
           <li>
             <a href="/">HOME</a>
           </li>
-          <li>
-            <a href="/paintings">PAINTINGS</a>
-          </li>
           <li className="dropdown">
             PAINTINGS
             <ul>
               <li>
-                <a href="/paintings-2022">ETHNO</a>
+                <a href="/paintings-ethno">ETHNO</a>
               </li>
 
               <li>

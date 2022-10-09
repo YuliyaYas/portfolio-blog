@@ -1,6 +1,13 @@
 [ 
   {
     "type": "paintings",
+    "name": "Podilia Vyshyvka",
+    "description": "This painting is a partial recreation of the XX-century Ukrainian embroidered towel of the ethnographic region of Podilia.",
+    "url": "Podilia.jpg",
+    "specs": "6x6inches, acrylic, 2022"
+  },
+  {
+    "type": "paintings",
     "name": "Vyshyvka",
     "description": "This painting is a partial recreation of the XIX-century Ukrainian embroidered towel of the ethnographic region of Eastern Polissia.",
     "url": "vyshyvka.jpg",

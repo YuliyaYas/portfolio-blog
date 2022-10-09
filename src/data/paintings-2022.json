@@ -1,0 +1,32 @@
+[ 
+  {
+    "type": "paintings-2022",
+    "name": "Vyshyvka",
+    "description": "This painting is a partial recreation of the XIX-century Ukrainian embroidered towel of the ethnographic region of Eastern Polissia.",
+    "url": "vyshyvka.jpg",
+    "specs": "8inches, acrylic, 2022"
+  },
+  {
+    "type": "paintings-2022",
+    "name": "Rushnyk",
+    "description": "This painting is a partial recreation of the XIX-century Ukrainian embroidered towel of the Poltava region. Embroidered towels have multiple purposes and meanings, and each of its ornament has a certain purpose and significance. It was believed that women who embroidered towels with good thoughts and intentions would bring luck and happiness to the towel’s owner. Each region had its own style and color pallet that was influenced by the way of their living.",
+    "url": "rushnyk.jpg",
+    "specs": "14x11inches, acrylic, 2022"
+  }, 
+  {
+    "type": "paintings-2022",
+    "name": "Kharkiv",
+    "description": "Kharkiv Regional State Administration was one of the many buildings destroyed in Ukraine. It will be rebuilt, but we have to aim to help people currently in need.",
+    "url": "kharkiv.jpg",
+    "specs": "14x11inches, acrylic, 2022",
+    "sold": true
+  },  
+  {
+    "type": "paintings-2022",
+    "name": "Resistance",
+    "description": "The ceramic rooster has become a symbol of resistance for the Ukrainian people. A ceramic rooster was miraculously still attached on top of a kitchen cabinet, in an apartment building that was destroyed by Russian invaders in the village of Borodyanka, near Kyiv. This rooster is a symbol of the invincible Ukrainian people, holding on to their lives and beliefs, despite the destruction around them.",
+    "url": "rooster.jpg",
+    "specs": "24x20inches, acrylic, 2022",
+    "sold": true
+  }
+]

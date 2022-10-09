@@ -33,7 +33,7 @@ const HomePage = ({ closed, handleImageClick, handleCloseClick, info }) => {
             </div>
             <br />
             <p>
-            This painting is a partial recreation of the XIX century Ukrainian embroidered towel of the Poltava region. Embroidered towels have multiple purposes and meanings, and each of its ornament has a certain purpose and significance. It was believed that women who embroidered towels with good thoughts and intentions would bring luck and happiness to the towel’s owner. Each region had its own style and color pallet that was influenced by the way of their living.
+            This painting is a partial recreation of the XIX-century Ukrainian embroidered towel of the Poltava region. Embroidered towels have multiple purposes and meanings, and each of its ornament has a certain purpose and significance. It was believed that women who embroidered towels with good thoughts and intentions would bring luck and happiness to the towel’s owner. Each region had its own style and color pallet that was influenced by the way of their living.
             </p>
           </div>
           <div className="block-img" style={{ textAlign: "end" }}>

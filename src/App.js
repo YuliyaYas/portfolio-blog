@@ -7,6 +7,7 @@ import About from '../src/components/About';
 import Artworks from '../src/components/Artworks';
 import Contact from '../src/components/FormContactUs';
 import paintingsData from '../src/data/paintings.json';
+import paintings2022Data from '../src/data/paintings-2022.json';
 import drawingsData from '../src/data/drawings.json';
 import illustrationsData from '../src/data/illustrations.json';
 import printmakingData from '../src/data/printmaking.json';
@@ -20,6 +21,7 @@ const slugify = require('slugify');
 const allData = [
   {type: 'illustrations', data: illustrationsData},
   {type: 'paintings', data: paintingsData},
+  {type: 'paintings-2022', data: paintings2022Data},
   {type: 'drawings', data: drawingsData},
   {type: 'printmaking', data: printmakingData},
   {type: 'sculptures', data: sculpturesData},

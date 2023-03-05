@@ -2,6 +2,20 @@
   {
     "type": "paintings-ethno",
     "name": "Podilia Vyshyvka",
+    "description": "",
+    "url": "pattern.jpg",
+    "specs": "9x12inches, acrylic, 2023"
+  },
+  {
+    "type": "paintings-ethno",
+    "name": "Rooster",
+    "description": "",
+    "url": "rooster1.jpg",
+    "specs": "14x11inches, acrylic, 2022"
+  },
+  {
+    "type": "paintings-ethno",
+    "name": "Podilia Vyshyvka",
     "description": "This painting is a partial recreation of the XX-century Ukrainian embroidered towel of the ethnographic region of Podilia.",
     "url": "Podilia.jpg",
     "specs": "6x6inches, acrylic, 2022"

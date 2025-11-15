@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Switch} from 'react-router-dom';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import './App.css';
 import HomePage from '../src/components/HomePage';
 import Menu from '../src/components/Menu';
@@ -14,7 +14,6 @@ import printmakingData from '../src/data/printmaking.json';
 import sculpturesData from '../src/data/sculptures.json';
 import photographyData from '../src/data/photography.json';
 import CV from '../src/components/CV';
-import { useHistory } from "react-router-dom";
 
 const slugify = require('slugify');
 
@@ -35,14 +34,15 @@ const App = () => {
   const [name, setName] = useState('')
   const [rightArrow, setRightArrow] = useState(true)
   const [leftArrow, setLeftArrow] = useState(true)
-  let history = useHistory();
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
-    const hash = history.location.hash;
+    const hash = location.hash;
     if( hash){
       const artName = hash.substring(1).replace(/-/g, " ");
       setName(artName);
-      const gallery = history.location.pathname.substring(1);
+      const gallery = location.pathname.substring(1);
       const currentGallery = allData.filter(data => data.type === gallery)[0].data;
       const info = currentGallery.filter(data => data.name === artName)[0];
       setInfo(info);
@@ -51,7 +51,7 @@ const App = () => {
     }
     window.scrollTo(0, 0);
 
-  }, [history.location.hash, history.location.pathname]);
+  }, [location.hash, location.pathname]);
 
   useEffect(() => {
     const id = currentGallery.findIndex(art => art.name === name);
@@ -97,14 +97,14 @@ const App = () => {
       const newName = currentGallery[id+1].name;
       setName(newName)
       setInfo(currentGallery[id+1]);
-      history.push(`#${slugify(newName)}`)
+      navigate(`#${slugify(newName)}`)
 
     }
     if (arrow === "left-arrow") {
       const newName = currentGallery[id-1].name;
       setName(newName)
       setInfo(currentGallery[id-1]);
-      history.push(`#${slugify(newName)}`)
+      navigate(`#${slugify(newName)}`)
     }
   }
 
@@ -116,15 +116,15 @@ const App = () => {
     <div>
       <Menu /> 
     <div className="content">
-        <Switch>
-          <Route path={`/contact`} component={ () => <Contact/>} />
+        <Routes>
+          <Route path="/contact" element={<Contact/>} />
           {allData.map(art => {
-            return  <Route key={art.type} path={`/${art.type}/`} component={ () => <Artworks closed={closed} rightArrow={rightArrow} info={info} data={art.data} leftArrow={leftArrow} handleArrowClick={handleArrowClick} handleImageClick={handleImageClick} handleCloseClick={handleCloseClick}/>} />
+            return  <Route key={art.type} path={`/${art.type}/`} element={<Artworks closed={closed} rightArrow={rightArrow} info={info} data={art.data} leftArrow={leftArrow} handleArrowClick={handleArrowClick} handleImageClick={handleImageClick} handleCloseClick={handleCloseClick}/>} />
           })}
-          <Route path={`/about-bio`} component={ () => <About/>} />
-          <Route path={`/about-cv`} component={ () => <CV/>} />
-          <Route path={`/`} component={ () => <HomePage info={info} closed={closed} handleCloseClick={handleCloseClick} handleImageClick={handleImageClick}/>} /> 
-        </Switch>
+          <Route path="/about-bio" element={<About/>} />
+          <Route path="/about-cv" element={<CV/>} />
+          <Route path="/" element={<HomePage info={info} closed={closed} handleCloseClick={handleCloseClick} handleImageClick={handleImageClick}/>} /> 
+        </Routes>
     </div>
   </div>
   );

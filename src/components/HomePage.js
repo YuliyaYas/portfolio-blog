@@ -3,6 +3,7 @@ import Form from "../components/FormContactUs";
 import Carousel from "../components/Carousel";
 import Overlay from "./Overlay";
 import FromEmailSubscription from "../components/FormEmailSubscription";
+import Book from "./Book";
 // import GalleryShow from '../components/GalleryShow';
 import "../stylesheet/Homepage.scss";
 
@@ -73,6 +74,7 @@ const HomePage = ({ closed, handleImageClick, handleCloseClick, info }) => {
           <span>View New Collection</span>
         </a>
       </div>
+      <Book/>
       <h2>Selected Works</h2>
       <div style={{ width: "100%", display: "block", marginBottom: "60px" }}>
         <Carousel />
@@ -86,14 +88,11 @@ const HomePage = ({ closed, handleImageClick, handleCloseClick, info }) => {
           id="portrait"
         />
         <p>
-          Yuliya Yasenetska is a Ukrainian born artist and currently works in
-          New York. Yuliya is a multidisciplinary artist, focused primarily on
-          painting. She enjoys experimenting with different mediums. Humans
-          constantly change, and as an artist, Yuliya continuously seeks
-          improvement and varied methods to express herself. She focuses on how
-          her artwork looks and feels, not on ingraining hidden meanings into
-          the art. Through the light and colorful depictions of her artwork she
-          tries to awaken forgotten joy....
+          Yuliya Yasenetska is a Ukrainian-born multidisciplinary artist based in Ann Arbor, MI, 
+          working primarily in painting while exploring diverse mediums. As both artist and 
+          human evolve, she continuously seeks new methods of expression. Her work prioritizes 
+          aesthetic and emotional experience over hidden meanings, using light and vibrant 
+          colors to awaken forgotten joy....
           <a href="/about-bio" className="general-btn">
             <span>Read More</span>
           </a>

@@ -4,12 +4,13 @@ import { useForm } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
 function Form(){
-  const { register, handleSubmit, errors } = useForm(); 
+  const { register, handleSubmit, formState: { errors } } = useForm(); 
   const location = useLocation();
   const [formSubmitted, setformSubmitted] = useState(false);
 
-  Object.keys(errors).map(key => {
-    document.getElementById(key).style.borderColor='red';
+  Object.keys(errors).forEach(key => {
+    const element = document.getElementById(key);
+    if (element) element.style.borderColor='red';
   })
 
 
@@ -55,13 +56,13 @@ function Form(){
         {!formSubmitted ? 
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="span-half">
-              <input type="text" id="firstname" name="firstname" style={{width: '95%', float: 'left'}} placeholder='Your Name*' ref={register({ required: true })}/>
+              <input type="text" id="firstname" name="firstname" style={{width: '95%', float: 'left'}} placeholder='Your Name*' {...register('firstname', { required: true })}/>
           </div>
           <div className="span-half">
-              <input type="text" id="email" name="email" className="span-half" style={{width: '100%'}} placeholder="Email*" ref={register({ required: true })}/> 
+              <input type="text" id="email" name="email" className="span-half" style={{width: '100%'}} placeholder="Email*" {...register('email', { required: true })}/> 
           </div>
-          <input type="text" id="email_subject" name="email_subject" className="span-full" placeholder="Subject" ref={register}/>
-          <textarea rows="8" type="text" id="message" name="message" className="span-full" placeholder='Message*' ref={register({ required: true })}/>
+          <input type="text" id="email_subject" name="email_subject" className="span-full" placeholder="Subject" {...register('email_subject')}/>
+          <textarea rows="8" type="text" id="message" name="message" className="span-full" placeholder='Message*' {...register('message', { required: true })}/>
           <button type="submit" className="submit-btn"><span>Submit</span></button>
       </form> 
     : 

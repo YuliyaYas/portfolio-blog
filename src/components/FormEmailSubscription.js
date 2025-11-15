@@ -4,12 +4,13 @@ import { useForm } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
 function FormEmailSubscription(){
-  const { register, handleSubmit, errors } = useForm(); 
+  const { register, handleSubmit, formState: { errors } } = useForm(); 
   const location = useLocation();
   const [formSubmitted, setformSubmitted] = useState(false);
 
-  Object.keys(errors).map(key => {
-    document.getElementById(key).style.borderColor='red';
+  Object.keys(errors).forEach(key => {
+    const element = document.getElementById(key);
+    if (element) element.style.borderColor='red';
   })
 
 
@@ -51,7 +52,7 @@ function FormEmailSubscription(){
         {Object.keys(errors).length > 0 && <p style={{color: 'red', fontSize: '14px'}}>Please provide your email :)</p> }
         {!formSubmitted ? 
         <form onSubmit={handleSubmit(onSubmit)} id="subscribe-form">
-            <input type="text" id="email-subscription" name="email" placeholder="Email*" ref={register({ required: true })}/> 
+            <input type="text" id="email-subscription" name="email" placeholder="Email*" {...register('email', { required: true })}/> 
           <button type="submit" className="subscribe-btn"><span>Submit</span></button>
       </form> 
     : 

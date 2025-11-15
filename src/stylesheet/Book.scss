@@ -1,0 +1,79 @@
+.row{
+    // @media (min-width: 600px) {
+    //     width: 90%;
+    //     margin: 0 auto;
+    // }
+    
+    .column-img{
+        float: left;
+        width: 35%;
+        margin-top: 5px;
+        img{
+            width: 90%;
+            border: 1px solid;
+        }
+
+        @media (max-width: 768px) {
+            float: none;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+            img {
+                width: 60%;
+                max-width: 300px;
+            }
+        }
+    }
+    .column-desc{
+        float: left;
+        width: 65%;
+        img {
+            max-width: 150px;
+        }
+
+        @media (max-width: 768px) {
+            float: none;
+            width: 100%;
+        }
+
+        .amz-description{
+            font-family: Arial; 
+            font-size: 14px;
+            #title, #paperback{
+                color: #1111d2;
+                
+            }
+
+            #amz-about{
+                margin: 15px 0;
+            }
+
+            #author{
+                font-size: 12px;
+                font-style: italic;
+                margin-top: -15px;
+            }
+
+            #paperback{
+                font-size: 12px;
+            }
+            em {
+                margin-left: 15px;
+                color: #06862c;
+            }
+            span{
+                font-size: 12px;
+                vertical-align: middle;
+            }
+            ul {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

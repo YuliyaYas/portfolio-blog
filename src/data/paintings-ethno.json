@@ -1,6 +1,13 @@
 [ 
   {
     "type": "paintings-ethno",
+    "name": "Kurka",
+    "description": "",
+    "url": "kurka.jpg",
+    "specs": "24x18inches, acrylic, 2025"
+  },
+  {
+    "type": "paintings-ethno",
     "name": "Podilia Vyshyvka",
     "description": "",
     "url": "pattern.jpg",

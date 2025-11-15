@@ -1,6 +1,20 @@
 [ 
   {
     "type": "paintings",
+    "name": "No Judgment",
+    "description": "",
+    "url": "chicken.jpg",
+    "specs": "11x14inches, acrylic, 2023"
+  },
+  {
+    "type": "paintings",
+    "name": "Kurka",
+    "description": "",
+    "url": "kurka.jpg",
+    "specs": "24x18inches, acrylic, 2025"
+  },
+  {
+    "type": "paintings",
     "name": "Podilia Vyshyvka",
     "description": "",
     "url": "pattern.jpg",

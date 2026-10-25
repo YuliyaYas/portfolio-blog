@@ -10,6 +10,11 @@ const CV = () =>  {
         <div className="cv">
           <h3>Exhibition History: </h3>
           <div className="cv-section">
+            <i>03/08-04/12, 2026</i><p> Outré, Solo Art Show, <span>Kalamazoo, MI, USA</span></p>
+            <i>03/06-03/26, 2026</i><p> Dzanchouse, "Frosted & Fabulous" <span>Ypsilanti, MI, USA</span></p>
+            <i>02/06-02/27, 2026</i><p> Dzanchouse, "Matters of the HeART" <span>Ypsilanti, MI, USA</span></p>
+            <i>01/31-03/07, 2026</i><p> Gutman Gallery, "We Are The Guild" <span>Ann Arbor, MI, USA</span></p>
+            <i>04/04-05/17, 2025</i><p> Gutman Gallery, "In Style: Fashion + Wearables" <span>Ann Arbor, MI, USA</span></p>
             <i>04/09-05/27, 2022</i><p> Fe Gallery, "Verdant Heart" <span>Sacramento, CA, USA</span></p>
             <i>04/07-05/15, 2022</i><p> Haggin Museum, "The 61st Stockton Art League Exhibition", <span>Stockton, CA, USA</span></p>
             <i>10/1-10/24, 2021</i><p> Gallerie Valerie, Solo Art Show, <span>Crockett, CA, USA</span></p>

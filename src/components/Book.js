@@ -1,12 +1,15 @@
 import React from 'react';
 import '../stylesheet/Book.scss'
+import amazonImage from '../imgs/amazon.png';
+import amzImage from '../imgs/amz.png';
+
 const Book = () =>  {
     return (
         <div><hr></hr>
             <div className="row">
             <a href="https://www.amazon.com/dp/1673973914?ref_=pe_3052080_397514860" target="_blank" rel="noopener noreferrer">
                 <div className="column-img">
-                     <img src={require('../imgs/amz.png')} alt="Coloring book"/>
+                     <img src={amzImage} alt="Coloring book"/>
     
                 </div>
                 <div className="column-desc">
@@ -25,7 +28,7 @@ const Book = () =>  {
                         </ul>
                         {/* <div id="paperback">Paperback</div> */}
                        
-                    <div><span> <img src={require('../imgs/amazon.png')} alt="Coloring book"/></span><em>$9.99</em> <span>to buy</span></div>
+                    <div><span> <img src={amazonImage} alt="Coloring book"/></span><em>$9.99</em> <span>to buy</span></div>
                    
                 </div>
                 </div>

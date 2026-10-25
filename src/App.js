@@ -39,7 +39,7 @@ const App = () => {
 
   useEffect(() => {
     const hash = location.hash;
-    if( hash){
+    if (hash) {
       const artName = hash.substring(1).replace(/-/g, " ");
       setName(artName);
       const gallery = location.pathname.substring(1);
@@ -47,10 +47,8 @@ const App = () => {
       const info = currentGallery.filter(data => data.name === artName)[0];
       setInfo(info);
       setClosed(false);
-      setCurrentGallery(currentGallery)
+      setCurrentGallery(currentGallery);
     }
-    window.scrollTo(0, 0);
-
   }, [location.hash, location.pathname]);
 
   useEffect(() => {

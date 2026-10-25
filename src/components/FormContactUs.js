@@ -8,9 +8,13 @@ function Form(){
   const location = useLocation();
   const [formSubmitted, setformSubmitted] = useState(false);
 
+  const errorStyles = {
+    borderColor: 'red',
+  };
+
   Object.keys(errors).forEach(key => {
     const element = document.getElementById(key);
-    if (element) element.style.borderColor='red';
+    if (element) element.style = errorStyles; 
   })
 
 
